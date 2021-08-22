@@ -1,0 +1,10 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                     TYPE  NGENES         BETA     BETA_STD           SE            P
+epidermal_cell              COVAR   14058     0.010009     0.021165     0.016927      0.27716
+keratinocyte_stem_cell      COVAR   14058    -0.040218    -0.069551     0.016771      0.99175
+basal_cell_of_epidermis     COVAR   14058    -0.022135    -0.043146     0.021962      0.84324
+stem_cell_of_epidermis      COVAR   14058  -0.00029557  -0.00068455     0.012032       0.5098
+leukocyte                   COVAR   14058     0.022803     0.045693     0.012085     0.029599

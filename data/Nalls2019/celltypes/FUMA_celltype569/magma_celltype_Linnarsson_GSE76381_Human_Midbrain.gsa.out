@@ -1,0 +1,31 @@
+# MEAN_SAMPLE_SIZE = 47577
+# TOTAL_GENES = 15054
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE      TYPE  NGENES         BETA     BETA_STD           SE            P
+DA0          COVAR   15054      0.23766     0.056663     0.098934    0.0081551
+DA1          COVAR   15054      0.23127     0.078712     0.061462   8.4345e-05
+DA2          COVAR   15054      0.19329     0.055851     0.073606    0.0043245
+Endo         COVAR   15054    -0.083352    -0.031525     0.041476      0.97776
+Gaba         COVAR   15054      0.29759      0.07453     0.070715   1.2941e-05
+Mgl          COVAR   15054     0.031953    0.0098357     0.048459      0.25483
+NbGaba       COVAR   15054      0.25039     0.069136     0.060131   1.5724e-05
+NbM          COVAR   15054  -0.00045209  -0.00013126      0.10213      0.50177
+NbML1        COVAR   15054       0.2429     0.075369      0.09495    0.0052666
+NbML5        COVAR   15054      0.34061     0.088419     0.090635    8.597e-05
+NProg        COVAR   15054     -0.40073     -0.10411      0.11043      0.99986
+OMTN         COVAR   15054      0.22164      0.08315     0.081057    0.0031292
+OPC          COVAR   15054    -0.074905    -0.024483     0.068189        0.864
+Peric        COVAR   15054      -0.1104    -0.038013     0.050146      0.98614
+ProgBP       COVAR   15054     -0.26245    -0.080013     0.088564      0.99848
+ProgFPL      COVAR   15054     -0.17049    -0.069152     0.060509      0.99758
+ProgFPM      COVAR   15054      -0.1689    -0.053293     0.072409      0.99016
+ProgM        COVAR   15054     -0.28567    -0.095193     0.079552      0.99983
+Rgl1         COVAR   15054    -0.056398    -0.019085     0.074123      0.77663
+Rgl2a        COVAR   15054     -0.22022    -0.081096     0.068564      0.99934
+Rgl2b        COVAR   15054     -0.26799     -0.07504     0.089263      0.99866
+Rgl2c        COVAR   15054     -0.18895    -0.065805     0.064252      0.99836
+Rgl3         COVAR   15054     -0.10018     -0.03799     0.055999      0.96317
+RN           COVAR   15054      0.22403     0.063224     0.084042     0.003846
+Sert         COVAR   15054     0.078127     0.032969     0.042041      0.03157

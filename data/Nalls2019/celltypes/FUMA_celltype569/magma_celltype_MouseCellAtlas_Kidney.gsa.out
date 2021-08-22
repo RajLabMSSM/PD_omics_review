@@ -1,0 +1,35 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                              TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+B_cell                               COVAR   14594    -0.051011   -0.0081719     0.078296      0.74264 B_cell
+Dendritic_cell_Ccr7_high             COVAR   14594     0.021926    0.0027595      0.09866      0.41207 Dendritic_cell_Ccr7_high
+Dendritic_cell_Cst3_high             COVAR   14594     0.031936    0.0035253       0.1108      0.38659 Dendritic_cell_Cst3_high
+Distal_collecting_duct_princ...1     COVAR   14594      0.15853     0.019357      0.13889      0.12687 Distal_collecting_duct_principal_cell_Cldn4_high
+Distal_collecting_duct_princ...2     COVAR   14594    -0.027055    -0.002939      0.16647      0.56455 Distal_collecting_duct_principal_cell_Hsd11b2_high
+Distal_convoluted_tubule_Pva...      COVAR   14594      0.17296     0.019812      0.16124       0.1417 Distal_convoluted_tubule_Pvalb_high
+Distal_convoluted_tubule_S10...      COVAR   14594    -0.084449   -0.0092476      0.16934        0.691 Distal_convoluted_tubule_S100g_high
+Endothelial_cell                     COVAR   14594    -0.081033    -0.012087      0.12868      0.73556 Endothelial_cell
+Epithelial_cell_Cryab_high           COVAR   14594     0.019004    0.0023395        0.127      0.44053 Epithelial_cell_Cryab_high
+Fenestrated_endothelial_cell...1     COVAR   14594     0.013382     0.001556      0.16189      0.46706 Fenestrated_endothelial_cell_Plvap_high
+Fenestrated_endothelial_cell...2     COVAR   14594     -0.28218    -0.027918      0.14262      0.97606 Fenestrated_endothelial_cell_Tm4sf1_high
+Intercalated_cells_of_collec...1     COVAR   14594     -0.17235     -0.02026      0.17072      0.84364 Intercalated_cells_of_collecting_duct_Aqp6_high
+Intercalated_cells_of_collec...2     COVAR   14594     -0.16086    -0.018728      0.16833      0.83037 Intercalated_cells_of_collecting_duct_Slc26a4_high
+Macrophage_Ccl4_high_                COVAR   14594      0.12786     0.015883      0.17016      0.22621 Macrophage_Ccl4_high_
+Macrophage_Lyz2_high                 COVAR   14594     0.041635      0.00752     0.074396      0.28787 Macrophage_Lyz2_high
+Neutrophil_progenitor_S100a8...      COVAR   14594     0.015988    0.0029216     0.053097      0.38167 Neutrophil_progenitor_S100a8_high
+Proximal_tubule_brush_border...      COVAR   14594    -0.061078   -0.0084495      0.12437      0.68831 Proximal_tubule_brush_border_cell
+Proximal_tubule_cell_Cyp4a14...      COVAR   14594    -0.016509   -0.0020481      0.13784      0.54766 Proximal_tubule_cell_Cyp4a14_high
+Proximal_tubule_cell_Osgin1_...      COVAR   14594     -0.23195     -0.03068      0.14794      0.94154 Proximal_tubule_cell_Osgin1_high
+S1_proximal_tubule_cells             COVAR   14594     0.033055    0.0043877        0.134      0.40258 S1_proximal_tubule_cells
+S3_proximal_tubule_cells             COVAR   14594     0.011354    0.0017893       0.1112      0.45934 S3_proximal_tubule_cells
+Stromal_cell_Ankrd1_high             COVAR   14594     0.025064     0.002611      0.11526      0.41393 Stromal_cell_Ankrd1_high
+Stromal_cell_Cxcl10_high             COVAR   14594     0.041667    0.0056234      0.10921      0.35141 Stromal_cell_Cxcl10_high
+Stromal_cell_Dcn_high                COVAR   14594       -0.195     -0.02706      0.10664      0.96625 Stromal_cell_Dcn_high
+Stromal_cell_Mgp_high                COVAR   14594    -0.056404   -0.0081282     0.080287      0.75882 Stromal_cell_Mgp_high
+Stromal_cell_Ptgds_high              COVAR   14594     0.022855    0.0026622      0.16499      0.44491 Stromal_cell_Ptgds_high
+T_cell                               COVAR   14594     -0.14073    -0.015676      0.16101      0.80894 T_cell
+Thick_ascending_limb_of_the_...      COVAR   14594   -0.0067302  -0.00071019      0.18397      0.51459 Thick_ascending_limb_of_the_loop_of_Henle
+Ureteric_epithelium                  COVAR   14594     0.011014    0.0016293     0.096498      0.45457 Ureteric_epithelium

@@ -1,0 +1,12 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                  TYPE  NGENES         BETA     BETA_STD           SE            P
+Dendritic_cell           COVAR   14594     -0.13871   -0.0090118      0.28657      0.68581
+Epithelial_cell          COVAR   14594     -0.50349    -0.034238      0.36439      0.91646
+Glandular_epithelium     COVAR   14594      0.59874     0.037228      0.42887     0.081355
+Prostate_gland_cell      COVAR   14594     -0.46977    -0.028099        0.675      0.75677
+Stromal_cell             COVAR   14594     -0.16797    -0.010032      0.36714      0.67634
+T_cell                   COVAR   14594      0.18852     0.012939      0.32009      0.27795

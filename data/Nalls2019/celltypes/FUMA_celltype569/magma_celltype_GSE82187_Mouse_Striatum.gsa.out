@@ -1,0 +1,15 @@
+# TOTAL_GENES = 13240
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE        TYPE  NGENES         BETA     BETA_STD           SE            P
+Astro          COVAR   13240    0.0045603    0.0018189     0.040454      0.45512
+Ependy_C       COVAR   13240    -0.057411    -0.028056     0.030489      0.97014
+Ependy_Sec     COVAR   13240    -0.011837    -0.007127      0.02986       0.6541
+Macrophage     COVAR   13240     0.018331    0.0079202     0.034631       0.2983
+Microglia      COVAR   13240    -0.057868    -0.024438     0.035991      0.94605
+Neuron         COVAR   13240     0.046727     0.032026     0.022993     0.021076
+NSC            COVAR   13240   -0.0069185   -0.0030731     0.033708      0.58131
+Oligo          COVAR   13240     0.078619      0.04754     0.028584    0.0029795
+OPC            COVAR   13240    -0.037566    -0.022246     0.029003      0.90237
+Vascular       COVAR   13240    -0.088562     -0.03673     0.040598      0.98541

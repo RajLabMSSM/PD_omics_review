@@ -1,0 +1,17 @@
+# MEAN_SAMPLE_SIZE = 54038
+# TOTAL_GENES = 18147
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                          TYPE  NGENES         BETA     BETA_STD           SE            P
+CD14+_Monocyte                   COVAR   18147      0.17568      0.01784      0.18141      0.16643
+CD19+_B                          COVAR   18147     -0.12657    -0.013026      0.25874      0.68763
+CD34+                            COVAR   18147      0.30821     0.031616       0.1357     0.011573
+CD4+.CD25_T_Reg                  COVAR   18147     -0.81925    -0.098249      0.31369      0.99549
+CD4+.CD45RA+.CD25._Naive_T       COVAR   18147      -0.4967    -0.057886      0.25826      0.97277
+CD4+.CD45RO+_Memory              COVAR   18147     -0.77319    -0.095631      0.30889      0.99384
+CD4+_T_Helper2                   COVAR   18147    -0.093479    -0.011506      0.34113      0.60797
+CD56+_NK                         COVAR   18147    -0.082363   -0.0083609      0.24143       0.6335
+CD8+.CD45RA+_Naive_Cytotoxic     COVAR   18147     -0.45329    -0.050358      0.26052      0.95906
+CD8+_Cytotoxic_T                 COVAR   18147     -0.57097    -0.063001      0.32096      0.96237
+Dendritic                        COVAR   18147     0.078753     0.011619      0.14365      0.29177

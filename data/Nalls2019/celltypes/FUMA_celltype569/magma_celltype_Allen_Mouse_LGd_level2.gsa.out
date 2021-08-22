@@ -1,0 +1,19 @@
+# MEAN_SAMPLE_SIZE = 15010
+# TOTAL_GENES = 14718
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE            TYPE  NGENES         BETA     BETA_STD           SE            P
+Chrna6_Dscaml1     COVAR   14718   -0.0037346   -0.0083519      0.01621       0.5911
+Chrna6_Pax7        COVAR   14718   -0.0086755    -0.019403     0.016957      0.69553
+Chrna6_Plac9a      COVAR   14718   -0.0054636    -0.012447     0.016063      0.63312
+Dlx5_Cbln2         COVAR   14718   -0.0077371    -0.017207     0.017316      0.67249
+Gad2_Pvalb         COVAR   14718   -0.0021126   -0.0047162     0.014068      0.55968
+Gad2_Rspo2         COVAR   14718    0.0020372    0.0047209      0.01247      0.43512
+Gad2_Shox2         COVAR   14718   -0.0034693   -0.0077263     0.019275      0.57142
+Gad2_Spata20       COVAR   14718  -0.00014695  -0.00033678     0.015331      0.50382
+Micro_Ctss         COVAR   14718   -0.0048046   -0.0081189    0.0068145       0.7596
+Olig1_Opalin       COVAR   14718    0.0047496    0.0092011      0.00792      0.27436
+Olig1_Rassf10      COVAR   14718   -0.0071418    -0.015605    0.0077786      0.82072
+OPC_Pdgfra         COVAR   14718    0.0016905    0.0030626    0.0096801      0.43068
+Slc17a6            COVAR   14718      0.02767     0.062581     0.011182    0.0066774

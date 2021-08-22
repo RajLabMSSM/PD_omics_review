@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                           TYPE  NGENES         BETA     BETA_STD           SE            P
+Acinar_cell                       COVAR   14594      -0.1366    -0.016605     0.098994      0.91617
+B_cell                            COVAR   14594    -0.024739   -0.0032691     0.083108      0.61702
+Dendrtic_cell                     COVAR   14594      0.13039     0.015006      0.12028      0.13919
+Dividing_cell                     COVAR   14594      0.04063    0.0077065     0.077142      0.29921
+Ductal_cell                       COVAR   14594      0.25497     0.029181      0.14689     0.041314
+Endocrine_cell                    COVAR   14594    -0.052017   -0.0052495      0.15265      0.63336
+Endothelial_cell_Fabp4_high       COVAR   14594      0.21246     0.020564      0.18427      0.12446
+Endothelial_cell_Lrg1_high        COVAR   14594       -0.124    -0.017263      0.10638       0.8781
+Endothelial_cell_Tm4sf1_high      COVAR   14594     0.098006    0.0096647      0.16218      0.27283
+Erythroblast_Hbb.bt_high          COVAR   14594     0.047829    0.0071199     0.088965      0.29542
+Erythroblast_Igkc_high            COVAR   14594     -0.05472   -0.0052059      0.13954      0.65252
+Granulocyte                       COVAR   14594    0.0084398    0.0014818         0.06      0.44407
+Macrophage                        COVAR   14594      0.55091     0.049439      0.17817    0.0009956
+Macrophage_Ly6c2_high             COVAR   14594     0.086382    0.0098107      0.10713      0.21004
+Smooth_muscle_cell_Acta2_high     COVAR   14594     0.043452    0.0048413      0.12315      0.36211
+Smooth_muscle_cell_Rgs5_high      COVAR   14594     0.050435    0.0051486      0.12027      0.33749
+Stromal_cell_Fn1_high             COVAR   14594     -0.23678    -0.029119       0.1448      0.94898
+Stromal_cell_Mfap4_high           COVAR   14594     -0.19486    -0.028023       0.1231      0.94328
+Stromal_cell_Smoc2_high           COVAR   14594     -0.18655    -0.021333       0.1634       0.8732
+T_cell                            COVAR   14594     0.005729   0.00063721      0.10189      0.47758
+β.cell                           COVAR   14594      0.10855     0.015427      0.10638      0.15379

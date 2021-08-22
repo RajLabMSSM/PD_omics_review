@@ -1,0 +1,33 @@
+# TOTAL_GENES = 13445
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE           TYPE  NGENES         BETA     BETA_STD           SE            P
+Agrp_Gm8773       COVAR   13445     -0.16103    -0.069241      0.10712       0.9336
+Agrp_Sst          COVAR   13445     -0.12518    -0.052797       0.1248      0.84207
+Fam19a2           COVAR   13445     0.031661     0.012559      0.12292      0.39837
+Ghrh              COVAR   13445     -0.13607    -0.054081      0.11004      0.89187
+Gm8773_Tac1       COVAR   13445       0.1405     0.064713     0.099071      0.07808
+Gpr50             COVAR   13445    -0.079179    -0.031144       0.1022      0.78076
+Hdc               COVAR   13445      0.16554     0.081515      0.05956    0.0027273
+Htr3b             COVAR   13445     -0.01752   -0.0068657      0.14265      0.54887
+Kiss1_Tac2        COVAR   13445     -0.27013     -0.10221      0.11607      0.99002
+Nfix_Htr2c        COVAR   13445      0.08879     0.042558     0.072288      0.10968
+Nr5a1_Adcyap1     COVAR   13445     0.080426     0.029911     0.095556          0.2
+Nr5a1_Nfib        COVAR   13445    -0.052911    -0.017336      0.12798      0.66035
+Oxt               COVAR   13445    -0.019622    -0.010351     0.056552      0.63569
+Pomc_Anxa2        COVAR   13445      0.27248      0.12068      0.11652    0.0096885
+Pomc_Glipr1       COVAR   13445     -0.33152     -0.13791      0.13365      0.99343
+Pomc_Ttr          COVAR   13445           NA           NA           NA           NA
+Qrfp              COVAR   13445    -0.056559    -0.021677     0.090595      0.73378
+Rgs16_Dlx1        COVAR   13445     -0.12554    -0.043167      0.10877      0.87577
+Rgs16_Slc17a6     COVAR   13445      -0.1603    -0.051147      0.11642      0.91572
+Rgs16_Vip         COVAR   13445      0.11104      0.03343      0.10567      0.14667
+Slc17a6_Trhr      COVAR   13445     -0.30283     -0.12083      0.14201      0.98351
+Sst_Nts           COVAR   13445     0.025727      0.01362     0.078381      0.37137
+Sst_Pthlh         COVAR   13445    -0.049425    -0.020473      0.12654      0.65195
+Sst_Unc13c        COVAR   13445     -0.30455     -0.11122      0.15561      0.97482
+Th_Cxcl12         COVAR   13445     0.027035     0.010278      0.13038      0.41787
+Th_Lef1           COVAR   13445     0.062466     0.023195      0.13335      0.31973
+Th_Slc6a3         COVAR   13445      0.31802      0.11322      0.11672    0.0032226
+Tmem215           COVAR   13445           NA           NA           NA           NA

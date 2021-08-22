@@ -1,0 +1,17 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                      TYPE  NGENES         BETA     BETA_STD           SE            P
+B_cell                       COVAR   14594      0.12149     0.020378      0.10773      0.12974
+Dendritic_cell               COVAR   14594    -0.023637   -0.0032884      0.19442      0.54838
+Erythroblast_Hba.a2_high     COVAR   14594     0.055842    0.0071125      0.12185      0.32338
+Erythroblast_Klf1_high       COVAR   14594    -0.025736   -0.0039444      0.15322      0.56669
+Hepatocyte_Afp_high          COVAR   14594     -0.13643    -0.019263      0.10234      0.90872
+Macrophage                   COVAR   14594        0.244     0.033827      0.12712     0.027477
+Mast_cell_Mcpt8_high         COVAR   14594     -0.14013    -0.019398      0.14718      0.82946
+Megakaryocyte                COVAR   14594     0.034446    0.0052344      0.12702      0.39312
+Neutrophil_Elane_high        COVAR   14594     -0.27757    -0.039499      0.19319       0.9246
+Neutrophil_Ngp_high          COVAR   14594    -0.069367    -0.011383      0.11295      0.73043
+Stem_and_progenitor_cell     COVAR   14594     -0.38543    -0.054721      0.20246      0.97152

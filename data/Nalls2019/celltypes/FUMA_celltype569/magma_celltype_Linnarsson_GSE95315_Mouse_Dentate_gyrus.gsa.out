@@ -1,0 +1,28 @@
+# MEAN_SAMPLE_SIZE = 31259
+# TOTAL_GENES = 11907
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE              TYPE  NGENES         BETA     BETA_STD           SE            P
+Astrocytes           COVAR   11907    -0.023361   -0.0038502     0.092836      0.59934
+Cajal_Retzius        COVAR   11907     -0.22136    -0.041308      0.11542      0.97242
+Cck_Tox              COVAR   11907    -0.060711    -0.014711     0.089228      0.75187
+Endothelial          COVAR   11907     -0.11454    -0.032541     0.056726      0.97826
+GABA_Cnr             COVAR   11907     0.099606     0.039148     0.061407     0.052409
+GABA_Lhx             COVAR   11907       0.1652     0.068642     0.060425    0.0031338
+Granule_immature     COVAR   11907    -0.035238   -0.0091684      0.10674      0.62934
+Granule_mature       COVAR   11907     -0.17003     -0.03367      0.12762       0.9086
+Microglia            COVAR   11907     -0.11478    -0.018632     0.083518      0.91531
+Mossy_Adcyap         COVAR   11907      0.11014     0.062552      0.04067    0.0033884
+Mossy_Cyp26b         COVAR   11907      0.10737     0.065843     0.034428   0.00091043
+Mossy_Klk            COVAR   11907    -0.051272   -0.0089322      0.11699      0.66939
+Neuroblast           COVAR   11907       -0.282     -0.07791     0.098496       0.9979
+Neuroblast2          COVAR   11907     -0.23398    -0.057988       0.1044      0.98748
+NFOL                 COVAR   11907     0.042761     0.010447     0.074192      0.28219
+nIPC                 COVAR   11907     -0.16601    -0.044897     0.066209      0.99391
+OL                   COVAR   11907     0.049254     0.011792     0.063774      0.21997
+OPC                  COVAR   11907     -0.07794    -0.011855      0.11983      0.74228
+Pericytes            COVAR   11907     -0.14987    -0.028361     0.079672         0.97
+PVM                  COVAR   11907    -0.033689   -0.0066073      0.06865      0.68819
+Radial               COVAR   11907     -0.12105    -0.017663      0.12174      0.83996
+VLMC                 COVAR   11907     -0.20819    -0.051333     0.062543      0.99956

@@ -1,0 +1,24 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Atrial_cardiomyocyte                COVAR   14594      0.11875     0.014898      0.13425      0.18821 Atrial_cardiomyocyte
+Atrial_cardiomyocyte_Acta2_h...     COVAR   14594    -0.060122   -0.0055342      0.22529      0.60521 Atrial_cardiomyocyte_Acta2_high
+Cardiac_muscle_cell                 COVAR   14594    -0.089442    -0.010491      0.11739      0.77694 Cardiac_muscle_cell
+Dendritic_cell                      COVAR   14594    -0.068845    -0.007628      0.13866      0.69023 Dendritic_cell
+Dividing_cell                       COVAR   14594    -0.062134   -0.0066893      0.18312      0.63281 Dividing_cell
+Endothelial_cell_Eln_high           COVAR   14594    -0.069873    -0.010747     0.094738       0.7696 Endothelial_cell_Eln_high
+Endothelial_cell_Enpp2_high         COVAR   14594      0.04175    0.0050981      0.13046      0.37448 Endothelial_cell_Enpp2_high
+Endothelial_cell_Igfbp5_high        COVAR   14594     -0.17681    -0.017771      0.22703      0.78194 Endothelial_cell_Igfbp5_high
+Epithelial_cell                     COVAR   14594     0.067826    0.0082652      0.12429      0.29264 Epithelial_cell
+Left_ventricle_cardiomyocyte...     COVAR   14594   -0.0024218  -0.00028266      0.15517      0.50623 Left_ventricle_cardiomyocyte_Myl2_high
+Macrophage                          COVAR   14594      0.22636     0.023926      0.15568     0.072977 Macrophage
+Neutrophil_Ngp_high                 COVAR   14594     -0.12142    -0.014675      0.11378      0.85704 Neutrophil_Ngp_high
+Neutrophil_Retnlg_high              COVAR   14594    -0.051597    -0.006487      0.10729      0.68471 Neutrophil_Retnlg_high
+Smooth_muscle_cell                  COVAR   14594    -0.042146   -0.0043893      0.19007      0.58774 Smooth_muscle_cell
+Stromal_cell_Col3a1_high            COVAR   14594     -0.38472    -0.034753      0.27489      0.91916 Stromal_cell_Col3a1_high
+Stromal_cell_Fmod_high              COVAR   14594     -0.58727    -0.057731      0.21751      0.99653 Stromal_cell_Fmod_high
+Vascular_endothelial_cell           COVAR   14594    -0.048846   -0.0054224      0.17108      0.61237 Vascular_endothelial_cell
+Ventricle_cardiomyocyte_Kcnj...     COVAR   14594     0.044575    0.0043822      0.18188       0.4032 Ventricle_cardiomyocyte_Kcnj8_high

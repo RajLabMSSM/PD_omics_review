@@ -1,0 +1,25 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Elongating_spermatid                COVAR   14594     -0.11479    -0.012542      0.45374      0.59986 Elongating_spermatid
+Erythroblast_Hbb.bs_high            COVAR   14594    -0.037426   -0.0039127      0.12849      0.61458 Erythroblast_Hbb.bs_high
+Leydig_cell                         COVAR   14594     0.084018     0.010365      0.16256      0.30263 Leydig_cell
+Macrophage_Lyz2_high                COVAR   14594      0.26125     0.033456      0.14097     0.031934 Macrophage_Lyz2_high
+Pre.Sertoli_cell_Cst9_high          COVAR   14594     -0.15836     -0.01789      0.27487      0.71773 Pre.Sertoli_cell_Cst9_high
+Pre.Sertoli_cell_Ctsl_high          COVAR   14594     0.086825     0.012978      0.11928      0.23333 Pre.Sertoli_cell_Ctsl_high
+Preleptotene_spermatogonia          COVAR   14594      0.10203     0.013325      0.20784      0.31176 Preleptotene_spermatogonia
+Sertoli_cell                        COVAR   14594     -0.12996    -0.016821      0.14596      0.81336 Sertoli_cell
+Spermatids_1700016P04Rik_high       COVAR   14594      0.12907     0.013448      0.30212      0.33461 Spermatids_1700016P04Rik_high
+Spermatids_Cst13_high               COVAR   14594     0.021857     0.003958       0.1241       0.4301 Spermatids_Cst13_high
+Spermatids_Hmgb4_high               COVAR   14594     0.066254     0.011592     0.079873      0.20342 Spermatids_Hmgb4_high
+Spermatids_Tnp1_high                COVAR   14594      0.11628      0.01632      0.17669      0.25523 Spermatids_Tnp1_high
+Spermatocyte_1700001F09Rik_h...     COVAR   14594    -0.083209    -0.025351      0.07252      0.87438 Spermatocyte_1700001F09Rik_high
+Spermatocyte_Cabs1_high             COVAR   14594    0.0021277   0.00028165      0.15403      0.49449 Spermatocyte_Cabs1_high
+Spermatocyte_Calm2_high             COVAR   14594     0.051272     0.008307      0.13946      0.35657 Spermatocyte_Calm2_high
+Spermatocyte_Mesp1_high             COVAR   14594     -0.14736    -0.019776      0.15954      0.82216 Spermatocyte_Mesp1_high
+Spermatocyte_Slc2a3_high            COVAR   14594    -0.010824   -0.0028614     0.062109      0.56917 Spermatocyte_Slc2a3_high
+Spermatogonia_1700001P01Rik_...     COVAR   14594     0.045798    0.0064059       0.2257       0.4196 Spermatogonia_1700001P01Rik_high
+Spermatogonia_Tbc1d23_high          COVAR   14594    -0.064746    -0.020344     0.066347      0.83543 Spermatogonia_Tbc1d23_high

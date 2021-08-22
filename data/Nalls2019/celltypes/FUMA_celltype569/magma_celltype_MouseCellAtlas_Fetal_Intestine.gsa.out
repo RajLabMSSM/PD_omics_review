@@ -1,0 +1,26 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Acinar_cell                         COVAR   14594    -0.049476   -0.0081392       0.1291      0.64923 Acinar_cell
+Endothelial_cell                    COVAR   14594     -0.26085     -0.03084      0.13864      0.97004 Endothelial_cell
+Enteric_muscle_cell                 COVAR   14594     -0.48904    -0.051067        0.269      0.96546 Enteric_muscle_cell
+Enterocyte_progenitor               COVAR   14594     -0.53592     -0.05406      0.38563      0.91768 Enterocyte_progenitor
+Enterocyte_progenitor_late_C...     COVAR   14594     -0.08241   -0.0089736      0.21856      0.64693 Enterocyte_progenitor_late_Ccnb1_high
+Enterocyte_progenitor_late_U...     COVAR   14594     -0.49203    -0.057326      0.27131      0.96512 Enterocyte_progenitor_late_Ube2c_high
+Enteroendocrine                     COVAR   14594      0.13892     0.016992      0.11873      0.12101 Enteroendocrine
+Epithelial_cell_Bex1_high           COVAR   14594      0.19503     0.023776      0.21403       0.1811 Epithelial_cell_Bex1_high
+Epithelial_cell_Lgals2_high         COVAR   14594     0.094354     0.012094      0.19967      0.31827 Epithelial_cell_Lgals2_high
+Erythroblast_Car2_high              COVAR   14594    -0.034484   -0.0053451     0.090548      0.64834 Erythroblast_Car2_high
+Erythroblast_Hbb.bs_high            COVAR   14594     -0.27003    -0.031395      0.24422      0.86556 Erythroblast_Hbb.bs_high
+Erythroblast_Hbb.y_high             COVAR   14594     -0.34567    -0.042805      0.18135      0.97167 Erythroblast_Hbb.y_high
+Macrophage_Lyz2_high                COVAR   14594       0.1253     0.015606      0.16173      0.21925 Macrophage_Lyz2_high
+Macrophage_Pf4_high                 COVAR   14594      0.35991     0.040932      0.17069     0.017502 Macrophage_Pf4_high
+Neuronal_cell_Fabp7_high            COVAR   14594     -0.19105    -0.021624       0.2617       0.7673 Neuronal_cell_Fabp7_high
+Neuronal_Cells_Rtn1_high            COVAR   14594     0.044763    0.0052825      0.17504      0.39908 Neuronal_Cells_Rtn1_high
+Stromal_cell_Adamdec1_high          COVAR   14594     -0.86257    -0.089026      0.36913      0.99027 Stromal_cell_Adamdec1_high
+Stromal_cell_Stmn2_high_            COVAR   14594     -0.20021    -0.021808      0.25896      0.78027 Stromal_cell_Stmn2_high_
+Stromal_cell_Upk3b_high             COVAR   14594     -0.25893    -0.025613      0.23647      0.86322 Stromal_cell_Upk3b_high
+T_cell                              COVAR   14594    -0.082802    -0.010769       0.1573      0.70068 T_cell

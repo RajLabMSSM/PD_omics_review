@@ -1,0 +1,290 @@
+---
+title: "metaanalysis_merge" 
+author: "<h3>Author</h3>Brian M. Schilder"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document: 
+    theme: spacelab
+    highlight: zenburn 
+    code_folding: show 
+    toc: true 
+    toc_float: true
+    smooth_scroll: true
+    number_sections: false 
+    self_contained: true 
+---
+
+```{r setup, include=TRUE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = T, root.dir = here::here())
+# knitr::opts_knit$set(echo = T, root.dir = here::here())
+
+library(dplyr)
+library(ggplot2)
+library(googledrive)
+library(patchwork)
+set.seed(2019)
+```
+
+
+Merge all cell-type and tissue enrichment datasets for meta-analysis.
+
+
+# Merge cell-types   
+
+
+## Download 
+
+```{r} 
+# Table 1
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = T)
+# Table 2
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=314686952", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = T)
+
+
+sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS1.xlsx")) 
+```
+
+ 
+```{r}
+celltype_sheets <- sheets[endsWith(sheets,"celltypes")]
+ 
+celltype_data <- lapply(celltype_sheets, function(sheet){
+  print(sheet)
+  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
+  if(sheet=="Nalls2019_celltypes") dat <- subset(dat, Source!="step1_2_summary.txt" ) # & step3==1
+  dat$Sheet <- gsub("_celltypes","",sheet)
+  cols <- c("Cell_Type","Sig","Reference","Source","Dataset")  
+  cols <- cols[cols %in% colnames(dat)]
+  return(dplyr::relocate(dat, all_of(cols), .before = 1))
+}) %>% `names<-`(celltype_sheets) %>%
+  data.table::rbindlist(fill = T)
+```
+
+## Preprocess  
+
+### FDR plots
+
+```{r}
+plot_fdr <- function(dat,
+                     x="Score",
+                     y="-log10(FDR)",
+                     color="Sheet",
+                     size=y,
+                     label=NULL,
+                     show_plot=FALSE){
+  gg <- ggplot(dat, 
+              aes_string(x=x, y=y, color=color, size=size, 
+                  label=label)) + 
+  geom_point(alpha=.5) + 
+  theme_bw()
+  if(show_plot) print(gg)
+  return(gg)
+}
+```
+
+
+```{r}
+plot_celltypes <- celltype_data %>%    
+  subset(!is.na(Sig) & !is.na(Cell_Type) & !( Cell_Type %in% c("brain"))) %>%
+  dplyr::mutate( Sig_neglog =  -log1p(Sig)) %>% 
+  dplyr::group_by(Reference, .drop = F) %>%
+  dplyr::mutate(Cell_Type= paste0(Cell_Type,"@",group_indices())) %>%
+  ##  Calculate zscore for fine-mapping overlap   
+  dplyr::summarise(Cell_Type,Source,Sheet,Dataset,Sig,Count, 
+                   FDR = p.adjust(p = Sig, method = "fdr"),
+                   bonf = p.adjust(p = Sig, method = "bonf"),
+                   n_tests = n()) %>% 
+  dplyr::mutate(Score = ifelse(Reference=="Schilder et al, 2020 (bioRxiv)", 
+                               as.numeric(cut(Count, 10))/10, 
+                               scales::rescale(-log10(FDR), c(0.0000000001,1))) ) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(FDR_all = p.adjust(p = Sig, method = "fdr")) %>%
+  subset(FDR_all<.05 & FDR<.05 & Sig < 0.05  & (!is.infinite(Score)))   
+# Sort by medians 
+plot_celltypes <- plot_celltypes %>% 
+  dplyr::group_by(Reference, Cell_Type) %>%
+  dplyr::summarise(mean_Score = mean(Score, na.rm=T),
+                   median_Score = median(Score, na.rm=T),
+                   .groups = "keep") %>%
+  merge(plot_celltypes, by=c("Reference","Cell_Type"))  %>%
+  dplyr::arrange(Reference, desc(median_Score), bonf) 
+plot_celltypes$Cell_Type <- factor(plot_celltypes$Cell_Type, 
+                                   levels = rev(unique(plot_celltypes$Cell_Type)), ordered = T)
+                 
+gg_FDR1 <- gg_FDR2 <- plot_fdr(dat = plot_celltypes, y="FDR", label = "Cell_Type")
+plotly::ggplotly(gg_FDR1)
+
+gg_FDR2 <- plot_fdr(dat = plot_celltypes, label = "Cell_Type")
+plotly::ggplotly(gg_FDR2)
+```
+
+### Celltype counts
+
+```{r}
+celltype_counts <- plot_celltypes %>% dplyr::group_by(Reference) %>% 
+  dplyr::summarise(n_celltypes=dplyr::n_distinct(Cell_Type)) %>%
+  dplyr::arrange(desc(n_celltypes))
+knitr::kable(celltype_counts)
+```
+
+
+## Summary plot
+
+Summarise the top celltypes/tissues per study according to abstracted "Score" value (computed here).
+
+```{r, fig.height=10}  
+### Limit the number of celltypes/study for visualization purposes
+max_celltypes <- 25
+
+celltype_plot <- ggplot(plot_celltypes %>% 
+                          dplyr::group_by(Reference) %>% 
+                          dplyr::slice_max(order_by = median_Score, n = max_celltypes),
+       aes(x=Score, y=Cell_Type, fill=Reference)) + 
+  # geom_bar(show.legend = F, stat="identity") +
+  geom_boxplot(show.legend = F) +
+  # geom_violin(show.legend = F) +
+  geom_point(show.legend = F, alpha=.2) + 
+  # Create a dicionary mapping the new labels
+  scale_y_discrete(labels = setNames(gsub("@.*","",levels(plot_celltypes$Cell_Type )),
+                                     levels(plot_celltypes$Cell_Type) ) ) + 
+  # facet_wrap(facets = .~paste(gsub("[(]","\n(",Reference),"\n\n n tests =",n_tests),
+  #          scales = "free", drop = F, nrow = 1) +  
+  facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),"\n (tests = ",n_tests,")")~.,
+           scales = "free", space="free", drop = F) + 
+  theme_bw() +
+  theme(strip.background = element_rect(fill = "black"), 
+        strip.text = element_text(color = "white", angle = 0),
+        strip.text.y = element_text(color = "white", angle = 0),
+         panel.grid.minor.x = element_blank())
+
+print(celltype_plot)
+ 
+# ggsave(here::here("plots/metaanalysis/celltype_metaanalysis.pdf"),celltype_plot, dpi = 300, height = 15)
+```
+
+
+
+
+
+# Merge tissues 
+
+## Download 
+
+```{r}
+tissue_sheets <- sheets[endsWith(sheets,"tissues")]
+ 
+tissue_data <- lapply(tissue_sheets, function(sheet){
+  print(sheet)
+  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
+  dat$Sheet <- gsub("_tissues","",sheet)
+  cols <- c("Tissue","Sig","Reference","Source","Dataset")  
+  cols <- cols[cols %in% colnames(dat)]
+  return(dplyr::relocate(dat, all_of(cols), .before = 1))
+}) %>% `names<-`(tissue_sheets) %>%
+  data.table::rbindlist(fill = T)
+```
+
+## Preprocess  
+
+### FDR plots
+
+```{r}
+plot_tissues <- tissue_data %>%   
+  subset(!(Tissue %in% c(NA,"NA")) & (!is.na(Sig))) %>%
+  dplyr::mutate( Sig_neglog =  -log1p(Sig)) %>% 
+  ##  Calculate zscore for fine-mapping overlap  
+  dplyr::group_by(Reference, .drop = F) %>%
+  dplyr::mutate(Tissue= paste0(Tissue,"@",group_indices())) %>%
+  dplyr::summarise(Tissue,Source,Sheet,Dataset,Sig,PP.H4,  
+                   FDR = p.adjust(p = Sig, method = "fdr"),  
+                   bonf = p.adjust(p = Sig, method = "bonf"), 
+                   n_tests = n(),
+                   .groups = "keep") %>% 
+  # dplyr::ungroup() %>%
+  dplyr::mutate(Score = ifelse(Reference=="Schilder et al, 2020 (bioRxiv)", 
+                               as.numeric(cut(PP.H4, 10))/10, 
+                               scales::rescale(-log(FDR), c(0.0000000001,1))) ) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(FDR_all = p.adjust(p = Sig, method = "fdr")) %>%
+  subset((FDR_all<.05 & FDR<.05 & Sig < 0.05) | (PP.H4>.8)) 
+# Sort by medians 
+plot_tissues <- plot_tissues %>%  
+  dplyr::group_by(Reference, Tissue, .drop = F) %>% 
+  dplyr::summarise(mean_Score = mean(Score, na.rm=T),
+                   median_Score = median(Score, na.rm=T),
+                   n_tissues = n_distinct(Tissue),
+                   .groups = "keep") %>%
+  merge(plot_tissues, by=c("Reference","Tissue"), all.y = T)  %>%
+  dplyr::arrange(Reference, desc(median_Score), bonf) 
+plot_tissues$Tissue <- factor(plot_tissues$Tissue, 
+                                   levels = rev(unique(plot_tissues$Tissue)), ordered = T)
+  
+ 
+gg_FDR1 <- plot_fdr(dat = plot_tissues, y="FDR", label = "Tissue")
+plotly::ggplotly(gg_FDR1)
+
+gg_FDR2 <- plot_fdr(dat = plot_tissues, label = "Tissue")
+plotly::ggplotly(gg_FDR2) 
+```
+
+
+### Tissue counts
+
+```{r}
+plot_tissues %>% dplyr::group_by(Reference) %>% 
+  dplyr::summarise(n_tissues=dplyr::n_distinct(Tissue)) %>%
+  dplyr::arrange(desc(n_tissues))
+```
+
+
+## Summary plot
+
+```{r, fig.height=10, dpi=300, warning=FALSE}
+# plot_tissues[is.na(plot_tissues$Dataset),"Dataset"] <- plot_tissues[is.na(plot_tissues$Dataset),"Sheet"]
+tissue_plot <- ggplot(plot_tissues, 
+       aes(x=Score, y=Tissue, fill=Reference)) + 
+  # geom_bar(show.legend = F, stat="identity") +
+  geom_boxplot(show.legend = F) +
+  # geom_violin(show.legend = F) +
+  geom_point(show.legend = F, alpha=.2) +
+  # facet_wrap(facets = .~paste(gsub("[(]","\n(",Reference),"\n\n n tests =",n_tests),
+  #          scales = "free", drop = F, nrow = 1) +  
+  facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),"\n (tests = ",n_tests,")")~.,
+           scales = "free", space="free", drop = F) + 
+  scale_x_continuous(limits = c(0,1)) +
+  # Create a dicionary mapping the new labels
+  scale_y_discrete(labels = setNames(gsub("@.*","",levels(plot_tissues$Tissue)),
+                                     levels(plot_tissues$Tissue) ) ) + 
+  theme_bw() +
+  theme(strip.background = element_rect(fill = "black"), 
+        strip.text = element_text(color = "white", angle = 0),
+        strip.text.y = element_text(color = "white", angle = 0), 
+        panel.grid.minor.x = element_blank())
+
+print(tissue_plot)
+
+# ggsave("plots/metaanalysis/tissue_metaanalysis.pdf",tissue_plot, dpi = 300, height = 15)
+```
+
+# Fuse plots
+
+```{r, fig.height=12, fig.width=15, dpi=300}
+fused_plot <- (celltype_plot + labs(title="Cell-types") + 
+                 tissue_plot + labs(title="Tissues")) +
+  patchwork::plot_annotation(tag_levels = letters)
+print(fused_plot)
+
+# ggsave(here::here("plots/metaanalysis/metaanalysis.pdf"),fused_plot, height = 14, width = 15, dpi = 300)
+# ggsave(here::here("plots/metaanalysis/metaanalysis.jpg"),fused_plot, height = 14, width = 15, dpi = 300)
+```
+
+
+# Session Info
+
+<details> 
+
+```{r}
+utils::sessionInfo()
+```
+
+</details>

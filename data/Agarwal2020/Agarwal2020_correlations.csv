@@ -1,0 +1,901 @@
+Trait1,Trait2,corr
+ADHD,ADHD,1
+ADHD,BMI,0.784862836216398
+ADHD,Educations Years,0.7590650291381
+ADHD,Ulcerative colitis,0.684264969225422
+ADHD,Intelligence,0.665529185537457
+ADHD,Tourette Syndrome,0.613754065731276
+ADHD,Epilepsy (General),0.515849358839993
+ADHD,Amyotrophic Lateral Sclerosis,0.515144460591559
+ADHD,Neuroticism,0.447333371791036
+ADHD,Bipolar,0.441102230941741
+ADHD,Major Depression,0.426773651529182
+ADHD,Autism disorder,0.415319918767683
+ADHD,Depressive Symptoms,0.394575397683278
+ADHD,Parkinson disease,0.38518218841762
+ADHD,Epilepsy (All forms),0.352186120977352
+ADHD,Schizophrenia (2018),0.279773667567133
+ADHD,Coronary Artery Disease,0.251755199003921
+ADHD,Anxiety,0.212288093125486
+ADHD,Anorexia,0.162240563081836
+ADHD,Type 2 diabetes (Gaulton),0.160898042540686
+ADHD,Epilepsy (Focal),0.101523309820808
+ADHD,Lipid LDL,-0.070672035151082
+ADHD,Alzheimer's disease(Jansenetal),-0.0832138702455799
+ADHD,Rheumatoid Arthritis,-0.106393433253021
+ADHD,Crohn Disease,-0.122668720050801
+ADHD,Insomnia,-0.20002519058059
+ADHD,Fasting Glucose,-0.24480256549056
+ADHD,Lipid TG,-0.521236618876087
+ADHD,Lipid TC,-0.531526187921286
+ADHD,Lipid HDL,-0.822337737608381
+Alzheimer's disease(Jansenetal),Alzheimer's disease(Jansenetal),1
+Alzheimer's disease(Jansenetal),Lipid TC,0.798480018439293
+Alzheimer's disease(Jansenetal),Lipid LDL,0.715845778548039
+Alzheimer's disease(Jansenetal),Type 2 diabetes (Gaulton),0.634219573793982
+Alzheimer's disease(Jansenetal),Anxiety,0.602796458519743
+Alzheimer's disease(Jansenetal),Crohn Disease,0.365985647039619
+Alzheimer's disease(Jansenetal),Lipid TG,0.351611060842874
+Alzheimer's disease(Jansenetal),Educations Years,0.212080411035567
+Alzheimer's disease(Jansenetal),Lipid HDL,0.119065764314533
+Alzheimer's disease(Jansenetal),Rheumatoid Arthritis,0.117136724444617
+Alzheimer's disease(Jansenetal),Autism disorder,0.0598939359178161
+Alzheimer's disease(Jansenetal),Parkinson disease,-0.0347981717620862
+Alzheimer's disease(Jansenetal),Tourette Syndrome,-0.0482222992162931
+Alzheimer's disease(Jansenetal),ADHD,-0.0832138702455799
+Alzheimer's disease(Jansenetal),Intelligence,-0.0925543382410521
+Alzheimer's disease(Jansenetal),Epilepsy (All forms),-0.282437216208412
+Alzheimer's disease(Jansenetal),BMI,-0.324156797781334
+Alzheimer's disease(Jansenetal),Insomnia,-0.339863985796115
+Alzheimer's disease(Jansenetal),Epilepsy (General),-0.363733695251823
+Alzheimer's disease(Jansenetal),Fasting Glucose,-0.367509663749596
+Alzheimer's disease(Jansenetal),Amyotrophic Lateral Sclerosis,-0.39831108189446
+Alzheimer's disease(Jansenetal),Coronary Artery Disease,-0.446075165659894
+Alzheimer's disease(Jansenetal),Ulcerative colitis,-0.505584395780594
+Alzheimer's disease(Jansenetal),Anorexia,-0.532711064134685
+Alzheimer's disease(Jansenetal),Major Depression,-0.545483259609599
+Alzheimer's disease(Jansenetal),Depressive Symptoms,-0.563663502131398
+Alzheimer's disease(Jansenetal),Schizophrenia (2018),-0.587924488544105
+Alzheimer's disease(Jansenetal),Epilepsy (Focal),-0.588112521089831
+Alzheimer's disease(Jansenetal),Neuroticism,-0.721649281807524
+Alzheimer's disease(Jansenetal),Bipolar,-0.86056623355712
+Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1
+Amyotrophic Lateral Sclerosis,Epilepsy (General),0.845090709377078
+Amyotrophic Lateral Sclerosis,Parkinson disease,0.707038598313704
+Amyotrophic Lateral Sclerosis,Coronary Artery Disease,0.654269925449334
+Amyotrophic Lateral Sclerosis,Bipolar,0.642212535435349
+Amyotrophic Lateral Sclerosis,BMI,0.612805683091245
+Amyotrophic Lateral Sclerosis,Ulcerative colitis,0.602513577080845
+Amyotrophic Lateral Sclerosis,ADHD,0.515144460591559
+Amyotrophic Lateral Sclerosis,Anorexia,0.500388511773051
+Amyotrophic Lateral Sclerosis,Schizophrenia (2018),0.474946370932519
+Amyotrophic Lateral Sclerosis,Intelligence,0.467766800557389
+Amyotrophic Lateral Sclerosis,Tourette Syndrome,0.363813369518248
+Amyotrophic Lateral Sclerosis,Neuroticism,0.354141735840343
+Amyotrophic Lateral Sclerosis,Major Depression,0.311029329546086
+Amyotrophic Lateral Sclerosis,Epilepsy (Focal),0.240732867059077
+Amyotrophic Lateral Sclerosis,Fasting Glucose,0.230690517629423
+Amyotrophic Lateral Sclerosis,Educations Years,0.164287604658009
+Amyotrophic Lateral Sclerosis,Epilepsy (All forms),0.114353028185437
+Amyotrophic Lateral Sclerosis,Anxiety,0.0665836926874359
+Amyotrophic Lateral Sclerosis,Depressive Symptoms,0.0365769011090538
+Amyotrophic Lateral Sclerosis,Insomnia,-0.0541906242361253
+Amyotrophic Lateral Sclerosis,Autism disorder,-0.0570248451666251
+Amyotrophic Lateral Sclerosis,Type 2 diabetes (Gaulton),-0.091081386734727
+Amyotrophic Lateral Sclerosis,Rheumatoid Arthritis,-0.15641431783506
+Amyotrophic Lateral Sclerosis,Lipid LDL,-0.305212616724924
+Amyotrophic Lateral Sclerosis,Alzheimer's disease(Jansenetal),-0.39831108189446
+Amyotrophic Lateral Sclerosis,Crohn Disease,-0.545282045336783
+Amyotrophic Lateral Sclerosis,Lipid TG,-0.604889773883792
+Amyotrophic Lateral Sclerosis,Lipid TC,-0.674056214484243
+Amyotrophic Lateral Sclerosis,Lipid HDL,-0.710362738924385
+Anorexia,Anorexia,1
+Anorexia,Coronary Artery Disease,0.87836024908367
+Anorexia,Bipolar,0.709583741494147
+Anorexia,Ulcerative colitis,0.686942816938987
+Anorexia,Neuroticism,0.572069173798715
+Anorexia,Epilepsy (Focal),0.553938924925165
+Anorexia,Amyotrophic Lateral Sclerosis,0.500388511773051
+Anorexia,Depressive Symptoms,0.42214240223564
+Anorexia,Insomnia,0.277261306605945
+Anorexia,Rheumatoid Arthritis,0.254397621866891
+Anorexia,Intelligence,0.237566432168792
+Anorexia,Fasting Glucose,0.237258898332106
+Anorexia,Epilepsy (General),0.237129794353667
+Anorexia,ADHD,0.162240563081836
+Anorexia,Major Depression,0.146870840243763
+Anorexia,Epilepsy (All forms),0.112795962694576
+Anorexia,Lipid HDL,0.0371370162765215
+Anorexia,Anxiety,-0.00893690037949688
+Anorexia,Crohn Disease,-0.0316598832721119
+Anorexia,Schizophrenia (2018),-0.0416017738094573
+Anorexia,Parkinson disease,-0.0622544135886292
+Anorexia,BMI,-0.0775598308847806
+Anorexia,Type 2 diabetes (Gaulton),-0.19689417168072
+Anorexia,Educations Years,-0.206876600850372
+Anorexia,Lipid TG,-0.241248530465761
+Anorexia,Tourette Syndrome,-0.249133635932843
+Anorexia,Autism disorder,-0.292963960438779
+Anorexia,Lipid LDL,-0.49346028495312
+Anorexia,Lipid TC,-0.499847622661427
+Anorexia,Alzheimer's disease(Jansenetal),-0.532711064134685
+Anxiety,Anxiety,1
+Anxiety,Type 2 diabetes (Gaulton),0.714339065887786
+Anxiety,Alzheimer's disease(Jansenetal),0.602796458519743
+Anxiety,Crohn Disease,0.550974341205295
+Anxiety,Parkinson disease,0.373980587393584
+Anxiety,Lipid TC,0.292589260224713
+Anxiety,Lipid LDL,0.281250853591957
+Anxiety,ADHD,0.212288093125486
+Anxiety,Ulcerative colitis,0.197250764716785
+Anxiety,Coronary Artery Disease,0.175143817244851
+Anxiety,Epilepsy (General),0.129745444742416
+Anxiety,Educations Years,0.120489796295089
+Anxiety,Lipid TG,0.100826764625337
+Anxiety,Intelligence,0.0793994832466712
+Anxiety,Amyotrophic Lateral Sclerosis,0.0665836926874359
+Anxiety,Tourette Syndrome,0.0198653703163721
+Anxiety,Anorexia,-0.00893690037949688
+Anxiety,Rheumatoid Arthritis,-0.0784450090382243
+Anxiety,Epilepsy (All forms),-0.0934181822887518
+Anxiety,BMI,-0.154353266535453
+Anxiety,Autism disorder,-0.173765543533003
+Anxiety,Fasting Glucose,-0.203071807662027
+Anxiety,Neuroticism,-0.20517737917411
+Anxiety,Lipid HDL,-0.246964700833547
+Anxiety,Schizophrenia (2018),-0.266201539013897
+Anxiety,Epilepsy (Focal),-0.268144707808956
+Anxiety,Bipolar,-0.27130903360672
+Anxiety,Depressive Symptoms,-0.277045340226517
+Anxiety,Major Depression,-0.343740095759601
+Anxiety,Insomnia,-0.443928389531382
+Autism disorder,Autism disorder,1
+Autism disorder,Educations Years,0.867872802358905
+Autism disorder,Major Depression,0.667983933905079
+Autism disorder,Tourette Syndrome,0.568245730838298
+Autism disorder,Depressive Symptoms,0.51482482130225
+Autism disorder,Insomnia,0.506685431179955
+Autism disorder,BMI,0.426052074809347
+Autism disorder,Rheumatoid Arthritis,0.421018639827235
+Autism disorder,ADHD,0.415319918767683
+Autism disorder,Intelligence,0.400897693242413
+Autism disorder,Schizophrenia (2018),0.269463969118566
+Autism disorder,Neuroticism,0.199872013909666
+Autism disorder,Ulcerative colitis,0.189206677740718
+Autism disorder,Parkinson disease,0.129161474402969
+Autism disorder,Alzheimer's disease(Jansenetal),0.0598939359178161
+Autism disorder,Epilepsy (Focal),0.0031332157328159
+Autism disorder,Epilepsy (General),-0.0473223879786666
+Autism disorder,Amyotrophic Lateral Sclerosis,-0.0570248451666251
+Autism disorder,Epilepsy (All forms),-0.116336366590675
+Autism disorder,Bipolar,-0.149956009006497
+Autism disorder,Anxiety,-0.173765543533003
+Autism disorder,Lipid LDL,-0.247778538948225
+Autism disorder,Lipid TC,-0.253530812136294
+Autism disorder,Anorexia,-0.292963960438779
+Autism disorder,Coronary Artery Disease,-0.350311536784124
+Autism disorder,Lipid HDL,-0.394090370624087
+Autism disorder,Crohn Disease,-0.435826564638599
+Autism disorder,Type 2 diabetes (Gaulton),-0.447634821240365
+Autism disorder,Lipid TG,-0.452285974580086
+Autism disorder,Fasting Glucose,-0.542559469558456
+BMI,BMI,1
+BMI,Tourette Syndrome,0.844355435044139
+BMI,ADHD,0.784862836216398
+BMI,Intelligence,0.661140356673582
+BMI,Epilepsy (General),0.639336423529516
+BMI,Parkinson disease,0.624265928834263
+BMI,Amyotrophic Lateral Sclerosis,0.612805683091245
+BMI,Educations Years,0.611640792940932
+BMI,Schizophrenia (2018),0.554732898176517
+BMI,Bipolar,0.482831664247028
+BMI,Major Depression,0.472226238734694
+BMI,Autism disorder,0.426052074809347
+BMI,Ulcerative colitis,0.423141083195909
+BMI,Neuroticism,0.28946349475894
+BMI,Depressive Symptoms,0.23465403029678
+BMI,Epilepsy (All forms),0.170991607624765
+BMI,Coronary Artery Disease,0.121243037974335
+BMI,Type 2 diabetes (Gaulton),-0.0632925960854632
+BMI,Epilepsy (Focal),-0.0691762242728426
+BMI,Anorexia,-0.0775598308847806
+BMI,Lipid LDL,-0.0878339047195834
+BMI,Anxiety,-0.154353266535453
+BMI,Insomnia,-0.201449600133316
+BMI,Fasting Glucose,-0.201472930030057
+BMI,Alzheimer's disease(Jansenetal),-0.324156797781334
+BMI,Rheumatoid Arthritis,-0.353275661561857
+BMI,Lipid TG,-0.529174606756017
+BMI,Crohn Disease,-0.549647521412482
+BMI,Lipid TC,-0.624242913901722
+BMI,Lipid HDL,-0.880959642226572
+Bipolar,Bipolar,1
+Bipolar,Neuroticism,0.774543355725742
+Bipolar,Ulcerative colitis,0.75482942086947
+Bipolar,Anorexia,0.709583741494147
+Bipolar,Coronary Artery Disease,0.666862946234947
+Bipolar,Amyotrophic Lateral Sclerosis,0.642212535435349
+Bipolar,Depressive Symptoms,0.558598331091432
+Bipolar,Epilepsy (General),0.511829346491942
+Bipolar,Epilepsy (Focal),0.498094669456129
+Bipolar,BMI,0.482831664247028
+Bipolar,Schizophrenia (2018),0.455501515995593
+Bipolar,Major Depression,0.450425035248269
+Bipolar,ADHD,0.441102230941741
+Bipolar,Intelligence,0.311565149311653
+Bipolar,Epilepsy (All forms),0.311446891943036
+Bipolar,Fasting Glucose,0.263057221353953
+Bipolar,Parkinson disease,0.196552404754499
+Bipolar,Tourette Syndrome,0.156597578014224
+Bipolar,Insomnia,0.0955691567813668
+Bipolar,Educations Years,-0.0424046473092526
+Bipolar,Rheumatoid Arthritis,-0.135252057895746
+Bipolar,Autism disorder,-0.149956009006497
+Bipolar,Crohn Disease,-0.239501482888455
+Bipolar,Anxiety,-0.27130903360672
+Bipolar,Type 2 diabetes (Gaulton),-0.303321841745941
+Bipolar,Lipid HDL,-0.372804150423266
+Bipolar,Lipid TG,-0.487040372778417
+Bipolar,Lipid LDL,-0.599910628226161
+Bipolar,Alzheimer's disease(Jansenetal),-0.86056623355712
+Bipolar,Lipid TC,-0.870867024477093
+Coronary Artery Disease,Coronary Artery Disease,1
+Coronary Artery Disease,Anorexia,0.87836024908367
+Coronary Artery Disease,Bipolar,0.666862946234947
+Coronary Artery Disease,Ulcerative colitis,0.654416253369674
+Coronary Artery Disease,Amyotrophic Lateral Sclerosis,0.654269925449334
+Coronary Artery Disease,Epilepsy (General),0.49655636336373
+Coronary Artery Disease,Intelligence,0.489074396983937
+Coronary Artery Disease,Neuroticism,0.346385105914367
+Coronary Artery Disease,Epilepsy (Focal),0.327568788987953
+Coronary Artery Disease,Parkinson disease,0.290833581351485
+Coronary Artery Disease,ADHD,0.251755199003921
+Coronary Artery Disease,Anxiety,0.175143817244851
+Coronary Artery Disease,Depressive Symptoms,0.159684246543897
+Coronary Artery Disease,Fasting Glucose,0.149697980315894
+Coronary Artery Disease,BMI,0.121243037974335
+Coronary Artery Disease,Type 2 diabetes (Gaulton),0.0654584451385375
+Coronary Artery Disease,Epilepsy (All forms),0.0625979790080168
+Coronary Artery Disease,Tourette Syndrome,0.0420040718691795
+Coronary Artery Disease,Schizophrenia (2018),-0.00233217965211578
+Coronary Artery Disease,Major Depression,-0.0302535245097366
+Coronary Artery Disease,Insomnia,-0.0619412428806397
+Coronary Artery Disease,Lipid TG,-0.0773773052317791
+Coronary Artery Disease,Crohn Disease,-0.0893708670287399
+Coronary Artery Disease,Rheumatoid Arthritis,-0.116596662661036
+Coronary Artery Disease,Lipid HDL,-0.186439114781231
+Coronary Artery Disease,Educations Years,-0.195990283087608
+Coronary Artery Disease,Lipid LDL,-0.246306820214491
+Coronary Artery Disease,Autism disorder,-0.350311536784124
+Coronary Artery Disease,Lipid TC,-0.417417493300212
+Coronary Artery Disease,Alzheimer's disease(Jansenetal),-0.446075165659894
+Crohn Disease,Crohn Disease,1
+Crohn Disease,Type 2 diabetes (Gaulton),0.572465296513238
+Crohn Disease,Anxiety,0.550974341205295
+Crohn Disease,Lipid TG,0.500498573083076
+Crohn Disease,Lipid TC,0.458411175892652
+Crohn Disease,Lipid HDL,0.379885111503486
+Crohn Disease,Alzheimer's disease(Jansenetal),0.365985647039619
+Crohn Disease,Epilepsy (All forms),0.300312110140686
+Crohn Disease,Lipid LDL,0.25788773389932
+Crohn Disease,Fasting Glucose,0.110971753387417
+Crohn Disease,Epilepsy (Focal),0.0205090267439214
+Crohn Disease,Anorexia,-0.0316598832721119
+Crohn Disease,Ulcerative colitis,-0.0424519272933633
+Crohn Disease,Neuroticism,-0.0447658578398321
+Crohn Disease,Coronary Artery Disease,-0.0893708670287399
+Crohn Disease,Depressive Symptoms,-0.0963875439209027
+Crohn Disease,ADHD,-0.122668720050801
+Crohn Disease,Rheumatoid Arthritis,-0.134015081002515
+Crohn Disease,Bipolar,-0.239501482888455
+Crohn Disease,Educations Years,-0.297391048221239
+Crohn Disease,Epilepsy (General),-0.343436588845781
+Crohn Disease,Insomnia,-0.390510310733556
+Crohn Disease,Schizophrenia (2018),-0.405318961000714
+Crohn Disease,Intelligence,-0.415394333318861
+Crohn Disease,Major Depression,-0.43449808063756
+Crohn Disease,Autism disorder,-0.435826564638599
+Crohn Disease,Parkinson disease,-0.441396359318856
+Crohn Disease,Tourette Syndrome,-0.517490364546335
+Crohn Disease,Amyotrophic Lateral Sclerosis,-0.545282045336783
+Crohn Disease,BMI,-0.549647521412482
+Depressive Symptoms,Depressive Symptoms,1
+Depressive Symptoms,Neuroticism,0.829188410120042
+Depressive Symptoms,Major Depression,0.755013940256669
+Depressive Symptoms,Ulcerative colitis,0.677630510060335
+Depressive Symptoms,Insomnia,0.620532418582867
+Depressive Symptoms,Bipolar,0.558598331091432
+Depressive Symptoms,Autism disorder,0.51482482130225
+Depressive Symptoms,Epilepsy (Focal),0.480285252435535
+Depressive Symptoms,Rheumatoid Arthritis,0.476133362404735
+Depressive Symptoms,Anorexia,0.42214240223564
+Depressive Symptoms,Educations Years,0.42208459324563
+Depressive Symptoms,ADHD,0.394575397683278
+Depressive Symptoms,Schizophrenia (2018),0.280883533186245
+Depressive Symptoms,BMI,0.23465403029678
+Depressive Symptoms,Intelligence,0.22306169958661
+Depressive Symptoms,Coronary Artery Disease,0.159684246543897
+Depressive Symptoms,Tourette Syndrome,0.147706224994824
+Depressive Symptoms,Epilepsy (All forms),0.124122178896957
+Depressive Symptoms,Amyotrophic Lateral Sclerosis,0.0365769011090538
+Depressive Symptoms,Epilepsy (General),-0.083265658726239
+Depressive Symptoms,Crohn Disease,-0.0963875439209027
+Depressive Symptoms,Lipid HDL,-0.150640199896357
+Depressive Symptoms,Parkinson disease,-0.192618491461381
+Depressive Symptoms,Fasting Glucose,-0.217382701801036
+Depressive Symptoms,Anxiety,-0.277045340226517
+Depressive Symptoms,Lipid TG,-0.540093231329209
+Depressive Symptoms,Alzheimer's disease(Jansenetal),-0.563663502131398
+Depressive Symptoms,Type 2 diabetes (Gaulton),-0.578873043946044
+Depressive Symptoms,Lipid TC,-0.687273765374675
+Depressive Symptoms,Lipid LDL,-0.74728579785221
+Educations Years,Educations Years,1
+Educations Years,Autism disorder,0.867872802358905
+Educations Years,ADHD,0.7590650291381
+Educations Years,Tourette Syndrome,0.673888473984509
+Educations Years,BMI,0.611640792940932
+Educations Years,Intelligence,0.575818307861093
+Educations Years,Major Depression,0.533126612491493
+Educations Years,Depressive Symptoms,0.42208459324563
+Educations Years,Ulcerative colitis,0.359813102765854
+Educations Years,Rheumatoid Arthritis,0.290349443607474
+Educations Years,Parkinson disease,0.284357545265885
+Educations Years,Alzheimer's disease(Jansenetal),0.212080411035567
+Educations Years,Neuroticism,0.201073566568654
+Educations Years,Insomnia,0.173649258708463
+Educations Years,Schizophrenia (2018),0.172438426133116
+Educations Years,Amyotrophic Lateral Sclerosis,0.164287604658009
+Educations Years,Epilepsy (General),0.132308326511972
+Educations Years,Anxiety,0.120489796295089
+Educations Years,Epilepsy (All forms),-0.0135287720210508
+Educations Years,Bipolar,-0.0424046473092526
+Educations Years,Lipid LDL,-0.056876077672358
+Educations Years,Type 2 diabetes (Gaulton),-0.0794388635512543
+Educations Years,Epilepsy (Focal),-0.104313917626137
+Educations Years,Coronary Artery Disease,-0.195990283087608
+Educations Years,Anorexia,-0.206876600850372
+Educations Years,Lipid TC,-0.282842740560576
+Educations Years,Crohn Disease,-0.297391048221239
+Educations Years,Lipid TG,-0.531207289395318
+Educations Years,Fasting Glucose,-0.579761336484335
+Educations Years,Lipid HDL,-0.652033243692875
+Epilepsy (All forms),Epilepsy (All forms),1
+Epilepsy (All forms),Epilepsy (Focal),0.701232342051028
+Epilepsy (All forms),Fasting Glucose,0.677555072127968
+Epilepsy (All forms),Neuroticism,0.508060981314226
+Epilepsy (All forms),Schizophrenia (2018),0.474490708379022
+Epilepsy (All forms),Epilepsy (General),0.456679630076215
+Epilepsy (All forms),ADHD,0.352186120977352
+Epilepsy (All forms),Ulcerative colitis,0.351618878792842
+Epilepsy (All forms),Bipolar,0.311446891943036
+Epilepsy (All forms),Major Depression,0.30250917605183
+Epilepsy (All forms),Crohn Disease,0.300312110140686
+Epilepsy (All forms),BMI,0.170991607624765
+Epilepsy (All forms),Depressive Symptoms,0.124122178896957
+Epilepsy (All forms),Amyotrophic Lateral Sclerosis,0.114353028185437
+Epilepsy (All forms),Anorexia,0.112795962694576
+Epilepsy (All forms),Coronary Artery Disease,0.0625979790080168
+Epilepsy (All forms),Educations Years,-0.0135287720210508
+Epilepsy (All forms),Type 2 diabetes (Gaulton),-0.0513170992607265
+Epilepsy (All forms),Lipid TG,-0.0560635176954082
+Epilepsy (All forms),Anxiety,-0.0934181822887518
+Epilepsy (All forms),Autism disorder,-0.116336366590675
+Epilepsy (All forms),Insomnia,-0.161142662225141
+Epilepsy (All forms),Lipid LDL,-0.165744078711199
+Epilepsy (All forms),Intelligence,-0.18642853705575
+Epilepsy (All forms),Lipid HDL,-0.200713402832041
+Epilepsy (All forms),Parkinson disease,-0.204280143867168
+Epilepsy (All forms),Tourette Syndrome,-0.245231357184598
+Epilepsy (All forms),Lipid TC,-0.271738043675072
+Epilepsy (All forms),Alzheimer's disease(Jansenetal),-0.282437216208412
+Epilepsy (All forms),Rheumatoid Arthritis,-0.370289327797232
+Epilepsy (Focal),Epilepsy (Focal),1
+Epilepsy (Focal),Neuroticism,0.788166607502871
+Epilepsy (Focal),Epilepsy (All forms),0.701232342051028
+Epilepsy (Focal),Fasting Glucose,0.681625512237051
+Epilepsy (Focal),Major Depression,0.598599739025914
+Epilepsy (Focal),Ulcerative colitis,0.573311983320096
+Epilepsy (Focal),Anorexia,0.553938924925165
+Epilepsy (Focal),Schizophrenia (2018),0.521160372204272
+Epilepsy (Focal),Bipolar,0.498094669456129
+Epilepsy (Focal),Insomnia,0.492432573296554
+Epilepsy (Focal),Depressive Symptoms,0.480285252435535
+Epilepsy (Focal),Epilepsy (General),0.347122859987384
+Epilepsy (Focal),Coronary Artery Disease,0.327568788987953
+Epilepsy (Focal),Amyotrophic Lateral Sclerosis,0.240732867059077
+Epilepsy (Focal),Rheumatoid Arthritis,0.17314836371141
+Epilepsy (Focal),ADHD,0.101523309820808
+Epilepsy (Focal),Crohn Disease,0.0205090267439214
+Epilepsy (Focal),Autism disorder,0.0031332157328159
+Epilepsy (Focal),Lipid HDL,-0.00244014777257664
+Epilepsy (Focal),BMI,-0.0691762242728426
+Epilepsy (Focal),Educations Years,-0.104313917626137
+Epilepsy (Focal),Intelligence,-0.229794469071011
+Epilepsy (Focal),Parkinson disease,-0.256070996924398
+Epilepsy (Focal),Anxiety,-0.268144707808956
+Epilepsy (Focal),Lipid TG,-0.337884675391859
+Epilepsy (Focal),Tourette Syndrome,-0.432969100209291
+Epilepsy (Focal),Lipid TC,-0.544917278496209
+Epilepsy (Focal),Type 2 diabetes (Gaulton),-0.582741710634464
+Epilepsy (Focal),Alzheimer's disease(Jansenetal),-0.588112521089831
+Epilepsy (Focal),Lipid LDL,-0.714789311032561
+Epilepsy (General),Epilepsy (General),1
+Epilepsy (General),Amyotrophic Lateral Sclerosis,0.845090709377078
+Epilepsy (General),Parkinson disease,0.724383764972468
+Epilepsy (General),Schizophrenia (2018),0.695502183851047
+Epilepsy (General),BMI,0.639336423529516
+Epilepsy (General),Ulcerative colitis,0.544558098569942
+Epilepsy (General),ADHD,0.515849358839993
+Epilepsy (General),Bipolar,0.511829346491942
+Epilepsy (General),Coronary Artery Disease,0.49655636336373
+Epilepsy (General),Epilepsy (All forms),0.456679630076215
+Epilepsy (General),Fasting Glucose,0.412303046498723
+Epilepsy (General),Tourette Syndrome,0.36992286605793
+Epilepsy (General),Intelligence,0.357609818326017
+Epilepsy (General),Epilepsy (Focal),0.347122859987384
+Epilepsy (General),Neuroticism,0.334729058021281
+Epilepsy (General),Major Depression,0.3306319898361
+Epilepsy (General),Anorexia,0.237129794353667
+Epilepsy (General),Educations Years,0.132308326511972
+Epilepsy (General),Anxiety,0.129745444742416
+Epilepsy (General),Type 2 diabetes (Gaulton),-0.0103721859051905
+Epilepsy (General),Autism disorder,-0.0473223879786666
+Epilepsy (General),Depressive Symptoms,-0.083265658726239
+Epilepsy (General),Lipid LDL,-0.214556790406403
+Epilepsy (General),Insomnia,-0.251740569759405
+Epilepsy (General),Crohn Disease,-0.343436588845781
+Epilepsy (General),Alzheimer's disease(Jansenetal),-0.363733695251823
+Epilepsy (General),Lipid TG,-0.391684004117091
+Epilepsy (General),Rheumatoid Arthritis,-0.507299223709652
+Epilepsy (General),Lipid TC,-0.568247375107161
+Epilepsy (General),Lipid HDL,-0.772282339361503
+Fasting Glucose,Fasting Glucose,1
+Fasting Glucose,Epilepsy (Focal),0.681625512237051
+Fasting Glucose,Epilepsy (All forms),0.677555072127968
+Fasting Glucose,Schizophrenia (2018),0.443976299428034
+Fasting Glucose,Epilepsy (General),0.412303046498723
+Fasting Glucose,Neuroticism,0.29549796534357
+Fasting Glucose,Bipolar,0.263057221353953
+Fasting Glucose,Anorexia,0.237258898332106
+Fasting Glucose,Amyotrophic Lateral Sclerosis,0.230690517629423
+Fasting Glucose,Coronary Artery Disease,0.149697980315894
+Fasting Glucose,Lipid HDL,0.128860936186118
+Fasting Glucose,Crohn Disease,0.110971753387417
+Fasting Glucose,Major Depression,0.0794792598911661
+Fasting Glucose,Ulcerative colitis,0.0565396015073246
+Fasting Glucose,Insomnia,-0.00489645436312328
+Fasting Glucose,Lipid TG,-0.0236007227194382
+Fasting Glucose,Parkinson disease,-0.151786152082071
+Fasting Glucose,Lipid TC,-0.176053528598541
+Fasting Glucose,BMI,-0.201472930030057
+Fasting Glucose,Anxiety,-0.203071807662027
+Fasting Glucose,Type 2 diabetes (Gaulton),-0.21452173800743
+Fasting Glucose,Depressive Symptoms,-0.217382701801036
+Fasting Glucose,ADHD,-0.24480256549056
+Fasting Glucose,Rheumatoid Arthritis,-0.269260945195381
+Fasting Glucose,Lipid LDL,-0.273829845585821
+Fasting Glucose,Alzheimer's disease(Jansenetal),-0.367509663749596
+Fasting Glucose,Autism disorder,-0.542559469558456
+Fasting Glucose,Educations Years,-0.579761336484335
+Fasting Glucose,Intelligence,-0.580881237554381
+Fasting Glucose,Tourette Syndrome,-0.623351257541152
+Insomnia,Insomnia,1
+Insomnia,Rheumatoid Arthritis,0.808128382100071
+Insomnia,Major Depression,0.655714435035873
+Insomnia,Depressive Symptoms,0.620532418582867
+Insomnia,Autism disorder,0.506685431179955
+Insomnia,Epilepsy (Focal),0.492432573296554
+Insomnia,Neuroticism,0.460265124092054
+Insomnia,Anorexia,0.277261306605945
+Insomnia,Lipid HDL,0.213651966546776
+Insomnia,Schizophrenia (2018),0.213175228975527
+Insomnia,Ulcerative colitis,0.20585920325596
+Insomnia,Educations Years,0.173649258708463
+Insomnia,Bipolar,0.0955691567813668
+Insomnia,Fasting Glucose,-0.00489645436312328
+Insomnia,Amyotrophic Lateral Sclerosis,-0.0541906242361253
+Insomnia,Coronary Artery Disease,-0.0619412428806397
+Insomnia,Intelligence,-0.157057528940457
+Insomnia,Epilepsy (All forms),-0.161142662225141
+Insomnia,ADHD,-0.20002519058059
+Insomnia,BMI,-0.201449600133316
+Insomnia,Tourette Syndrome,-0.205218105148203
+Insomnia,Epilepsy (General),-0.251740569759405
+Insomnia,Parkinson disease,-0.277416363177411
+Insomnia,Alzheimer's disease(Jansenetal),-0.339863985796115
+Insomnia,Lipid TC,-0.366227068365203
+Insomnia,Crohn Disease,-0.390510310733556
+Insomnia,Anxiety,-0.443928389531382
+Insomnia,Lipid TG,-0.479948465254083
+Insomnia,Lipid LDL,-0.742129345872673
+Insomnia,Type 2 diabetes (Gaulton),-0.88211240014506
+Intelligence,Intelligence,1
+Intelligence,Tourette Syndrome,0.808184275748151
+Intelligence,ADHD,0.665529185537457
+Intelligence,BMI,0.661140356673582
+Intelligence,Educations Years,0.575818307861093
+Intelligence,Coronary Artery Disease,0.489074396983937
+Intelligence,Parkinson disease,0.479831899091922
+Intelligence,Amyotrophic Lateral Sclerosis,0.467766800557389
+Intelligence,Ulcerative colitis,0.435476039102231
+Intelligence,Autism disorder,0.400897693242413
+Intelligence,Epilepsy (General),0.357609818326017
+Intelligence,Bipolar,0.311565149311653
+Intelligence,Anorexia,0.237566432168792
+Intelligence,Depressive Symptoms,0.22306169958661
+Intelligence,Type 2 diabetes (Gaulton),0.146010248315487
+Intelligence,Lipid LDL,0.134353647522698
+Intelligence,Major Depression,0.112916901839589
+Intelligence,Anxiety,0.0793994832466712
+Intelligence,Neuroticism,0.0404893059654276
+Intelligence,Schizophrenia (2018),-0.0426231807871677
+Intelligence,Alzheimer's disease(Jansenetal),-0.0925543382410521
+Intelligence,Rheumatoid Arthritis,-0.130234656261523
+Intelligence,Lipid TG,-0.142030603384222
+Intelligence,Insomnia,-0.157057528940457
+Intelligence,Epilepsy (All forms),-0.18642853705575
+Intelligence,Epilepsy (Focal),-0.229794469071011
+Intelligence,Lipid TC,-0.292753338202394
+Intelligence,Crohn Disease,-0.415394333318861
+Intelligence,Lipid HDL,-0.56753827243717
+Intelligence,Fasting Glucose,-0.580881237554381
+Lipid HDL,Lipid HDL,1
+Lipid HDL,Lipid TG,0.626287386461371
+Lipid HDL,Lipid TC,0.587675717494276
+Lipid HDL,Crohn Disease,0.379885111503486
+Lipid HDL,Rheumatoid Arthritis,0.273900115878727
+Lipid HDL,Insomnia,0.213651966546776
+Lipid HDL,Lipid LDL,0.147983487277895
+Lipid HDL,Fasting Glucose,0.128860936186118
+Lipid HDL,Alzheimer's disease(Jansenetal),0.119065764314533
+Lipid HDL,Anorexia,0.0371370162765215
+Lipid HDL,Epilepsy (Focal),-0.00244014777257664
+Lipid HDL,Type 2 diabetes (Gaulton),-0.066758028118148
+Lipid HDL,Depressive Symptoms,-0.150640199896357
+Lipid HDL,Coronary Artery Disease,-0.186439114781231
+Lipid HDL,Epilepsy (All forms),-0.200713402832041
+Lipid HDL,Anxiety,-0.246964700833547
+Lipid HDL,Neuroticism,-0.311135046504285
+Lipid HDL,Bipolar,-0.372804150423266
+Lipid HDL,Autism disorder,-0.394090370624087
+Lipid HDL,Major Depression,-0.480367744630417
+Lipid HDL,Ulcerative colitis,-0.564937941987084
+Lipid HDL,Intelligence,-0.56753827243717
+Lipid HDL,Schizophrenia (2018),-0.594779243812793
+Lipid HDL,Educations Years,-0.652033243692875
+Lipid HDL,Amyotrophic Lateral Sclerosis,-0.710362738924385
+Lipid HDL,Tourette Syndrome,-0.7412737458135
+Lipid HDL,Epilepsy (General),-0.772282339361503
+Lipid HDL,Parkinson disease,-0.799317005806914
+Lipid HDL,ADHD,-0.822337737608381
+Lipid HDL,BMI,-0.880959642226572
+Lipid LDL,Lipid LDL,1
+Lipid LDL,Lipid TC,0.794770067171676
+Lipid LDL,Type 2 diabetes (Gaulton),0.788915256592108
+Lipid LDL,Alzheimer's disease(Jansenetal),0.715845778548039
+Lipid LDL,Lipid TG,0.680881379606873
+Lipid LDL,Anxiety,0.281250853591957
+Lipid LDL,Crohn Disease,0.25788773389932
+Lipid LDL,Lipid HDL,0.147983487277895
+Lipid LDL,Intelligence,0.134353647522698
+Lipid LDL,Tourette Syndrome,0.120045346980287
+Lipid LDL,Parkinson disease,-0.0382805352025026
+Lipid LDL,Educations Years,-0.056876077672358
+Lipid LDL,ADHD,-0.070672035151082
+Lipid LDL,BMI,-0.0878339047195834
+Lipid LDL,Epilepsy (All forms),-0.165744078711199
+Lipid LDL,Epilepsy (General),-0.214556790406403
+Lipid LDL,Coronary Artery Disease,-0.246306820214491
+Lipid LDL,Autism disorder,-0.247778538948225
+Lipid LDL,Fasting Glucose,-0.273829845585821
+Lipid LDL,Amyotrophic Lateral Sclerosis,-0.305212616724924
+Lipid LDL,Rheumatoid Arthritis,-0.421309627503402
+Lipid LDL,Anorexia,-0.49346028495312
+Lipid LDL,Bipolar,-0.599910628226161
+Lipid LDL,Schizophrenia (2018),-0.619884178174843
+Lipid LDL,Ulcerative colitis,-0.637145971687187
+Lipid LDL,Epilepsy (Focal),-0.714789311032561
+Lipid LDL,Insomnia,-0.742129345872673
+Lipid LDL,Depressive Symptoms,-0.74728579785221
+Lipid LDL,Major Depression,-0.817122555781785
+Lipid LDL,Neuroticism,-0.854896328929295
+Lipid TC,Lipid TC,1
+Lipid TC,Lipid TG,0.801311328489447
+Lipid TC,Alzheimer's disease(Jansenetal),0.798480018439293
+Lipid TC,Lipid LDL,0.794770067171676
+Lipid TC,Lipid HDL,0.587675717494276
+Lipid TC,Type 2 diabetes (Gaulton),0.558234549266033
+Lipid TC,Crohn Disease,0.458411175892652
+Lipid TC,Anxiety,0.292589260224713
+Lipid TC,Rheumatoid Arthritis,-0.0748043084457947
+Lipid TC,Fasting Glucose,-0.176053528598541
+Lipid TC,Autism disorder,-0.253530812136294
+Lipid TC,Epilepsy (All forms),-0.271738043675072
+Lipid TC,Educations Years,-0.282842740560576
+Lipid TC,Intelligence,-0.292753338202394
+Lipid TC,Tourette Syndrome,-0.314496628945024
+Lipid TC,Parkinson disease,-0.350551661850053
+Lipid TC,Insomnia,-0.366227068365203
+Lipid TC,Coronary Artery Disease,-0.417417493300212
+Lipid TC,Anorexia,-0.499847622661427
+Lipid TC,ADHD,-0.531526187921286
+Lipid TC,Epilepsy (Focal),-0.544917278496209
+Lipid TC,Epilepsy (General),-0.568247375107161
+Lipid TC,BMI,-0.624242913901722
+Lipid TC,Amyotrophic Lateral Sclerosis,-0.674056214484243
+Lipid TC,Depressive Symptoms,-0.687273765374675
+Lipid TC,Schizophrenia (2018),-0.719810626625536
+Lipid TC,Ulcerative colitis,-0.793845195541994
+Lipid TC,Major Depression,-0.801853967448855
+Lipid TC,Neuroticism,-0.860072784717068
+Lipid TC,Bipolar,-0.870867024477093
+Lipid TG,Lipid TG,1
+Lipid TG,Lipid TC,0.801311328489447
+Lipid TG,Lipid LDL,0.680881379606873
+Lipid TG,Lipid HDL,0.626287386461371
+Lipid TG,Type 2 diabetes (Gaulton),0.50209123477851
+Lipid TG,Crohn Disease,0.500498573083076
+Lipid TG,Alzheimer's disease(Jansenetal),0.351611060842874
+Lipid TG,Anxiety,0.100826764625337
+Lipid TG,Fasting Glucose,-0.0236007227194382
+Lipid TG,Epilepsy (All forms),-0.0560635176954082
+Lipid TG,Coronary Artery Disease,-0.0773773052317791
+Lipid TG,Intelligence,-0.142030603384222
+Lipid TG,Anorexia,-0.241248530465761
+Lipid TG,Tourette Syndrome,-0.274862547836799
+Lipid TG,Epilepsy (Focal),-0.337884675391859
+Lipid TG,Parkinson disease,-0.379374255646417
+Lipid TG,Epilepsy (General),-0.391684004117091
+Lipid TG,Rheumatoid Arthritis,-0.422069002096614
+Lipid TG,Autism disorder,-0.452285974580086
+Lipid TG,Insomnia,-0.479948465254083
+Lipid TG,Bipolar,-0.487040372778417
+Lipid TG,ADHD,-0.521236618876087
+Lipid TG,BMI,-0.529174606756017
+Lipid TG,Educations Years,-0.531207289395318
+Lipid TG,Depressive Symptoms,-0.540093231329209
+Lipid TG,Schizophrenia (2018),-0.587054300120401
+Lipid TG,Ulcerative colitis,-0.597400541304692
+Lipid TG,Amyotrophic Lateral Sclerosis,-0.604889773883792
+Lipid TG,Neuroticism,-0.646648450847771
+Lipid TG,Major Depression,-0.793642780896381
+Major Depression,Major Depression,1
+Major Depression,Neuroticism,0.791912691445858
+Major Depression,Schizophrenia (2018),0.76109781848924
+Major Depression,Depressive Symptoms,0.755013940256669
+Major Depression,Autism disorder,0.667983933905079
+Major Depression,Insomnia,0.655714435035873
+Major Depression,Ulcerative colitis,0.602835142835584
+Major Depression,Epilepsy (Focal),0.598599739025914
+Major Depression,Educations Years,0.533126612491493
+Major Depression,BMI,0.472226238734694
+Major Depression,Bipolar,0.450425035248269
+Major Depression,ADHD,0.426773651529182
+Major Depression,Rheumatoid Arthritis,0.333577556325019
+Major Depression,Epilepsy (General),0.3306319898361
+Major Depression,Amyotrophic Lateral Sclerosis,0.311029329546086
+Major Depression,Epilepsy (All forms),0.30250917605183
+Major Depression,Tourette Syndrome,0.25979089070874
+Major Depression,Parkinson disease,0.153324040950571
+Major Depression,Anorexia,0.146870840243763
+Major Depression,Intelligence,0.112916901839589
+Major Depression,Fasting Glucose,0.0794792598911661
+Major Depression,Coronary Artery Disease,-0.0302535245097366
+Major Depression,Anxiety,-0.343740095759601
+Major Depression,Crohn Disease,-0.43449808063756
+Major Depression,Lipid HDL,-0.480367744630417
+Major Depression,Alzheimer's disease(Jansenetal),-0.545483259609599
+Major Depression,Type 2 diabetes (Gaulton),-0.766631942450322
+Major Depression,Lipid TG,-0.793642780896381
+Major Depression,Lipid TC,-0.801853967448855
+Major Depression,Lipid LDL,-0.817122555781785
+Neuroticism,Neuroticism,1
+Neuroticism,Ulcerative colitis,0.836344334009766
+Neuroticism,Depressive Symptoms,0.829188410120042
+Neuroticism,Major Depression,0.791912691445858
+Neuroticism,Epilepsy (Focal),0.788166607502871
+Neuroticism,Bipolar,0.774543355725742
+Neuroticism,Schizophrenia (2018),0.582770476761862
+Neuroticism,Anorexia,0.572069173798715
+Neuroticism,Epilepsy (All forms),0.508060981314226
+Neuroticism,Insomnia,0.460265124092054
+Neuroticism,ADHD,0.447333371791036
+Neuroticism,Amyotrophic Lateral Sclerosis,0.354141735840343
+Neuroticism,Coronary Artery Disease,0.346385105914367
+Neuroticism,Epilepsy (General),0.334729058021281
+Neuroticism,Fasting Glucose,0.29549796534357
+Neuroticism,BMI,0.28946349475894
+Neuroticism,Rheumatoid Arthritis,0.22049067394479
+Neuroticism,Educations Years,0.201073566568654
+Neuroticism,Autism disorder,0.199872013909666
+Neuroticism,Intelligence,0.0404893059654276
+Neuroticism,Crohn Disease,-0.0447658578398321
+Neuroticism,Tourette Syndrome,-0.0449821933425553
+Neuroticism,Parkinson disease,-0.0465986857085252
+Neuroticism,Anxiety,-0.20517737917411
+Neuroticism,Lipid HDL,-0.311135046504285
+Neuroticism,Type 2 diabetes (Gaulton),-0.544634338583328
+Neuroticism,Lipid TG,-0.646648450847771
+Neuroticism,Alzheimer's disease(Jansenetal),-0.721649281807524
+Neuroticism,Lipid LDL,-0.854896328929295
+Neuroticism,Lipid TC,-0.860072784717068
+Parkinson disease,Parkinson disease,1
+Parkinson disease,Epilepsy (General),0.724383764972468
+Parkinson disease,Amyotrophic Lateral Sclerosis,0.707038598313704
+Parkinson disease,Tourette Syndrome,0.676642016721612
+Parkinson disease,BMI,0.624265928834263
+Parkinson disease,Intelligence,0.479831899091922
+Parkinson disease,Schizophrenia (2018),0.453454188769777
+Parkinson disease,ADHD,0.38518218841762
+Parkinson disease,Anxiety,0.373980587393584
+Parkinson disease,Ulcerative colitis,0.302202539447236
+Parkinson disease,Coronary Artery Disease,0.290833581351485
+Parkinson disease,Educations Years,0.284357545265885
+Parkinson disease,Bipolar,0.196552404754499
+Parkinson disease,Type 2 diabetes (Gaulton),0.158665196673137
+Parkinson disease,Major Depression,0.153324040950571
+Parkinson disease,Autism disorder,0.129161474402969
+Parkinson disease,Alzheimer's disease(Jansenetal),-0.0347981717620862
+Parkinson disease,Lipid LDL,-0.0382805352025026
+Parkinson disease,Neuroticism,-0.0465986857085252
+Parkinson disease,Anorexia,-0.0622544135886292
+Parkinson disease,Fasting Glucose,-0.151786152082071
+Parkinson disease,Depressive Symptoms,-0.192618491461381
+Parkinson disease,Epilepsy (All forms),-0.204280143867168
+Parkinson disease,Epilepsy (Focal),-0.256070996924398
+Parkinson disease,Insomnia,-0.277416363177411
+Parkinson disease,Lipid TC,-0.350551661850053
+Parkinson disease,Rheumatoid Arthritis,-0.357843660292336
+Parkinson disease,Lipid TG,-0.379374255646417
+Parkinson disease,Crohn Disease,-0.441396359318856
+Parkinson disease,Lipid HDL,-0.799317005806914
+Rheumatoid Arthritis,Rheumatoid Arthritis,1
+Rheumatoid Arthritis,Insomnia,0.808128382100071
+Rheumatoid Arthritis,Depressive Symptoms,0.476133362404735
+Rheumatoid Arthritis,Autism disorder,0.421018639827235
+Rheumatoid Arthritis,Major Depression,0.333577556325019
+Rheumatoid Arthritis,Educations Years,0.290349443607474
+Rheumatoid Arthritis,Lipid HDL,0.273900115878727
+Rheumatoid Arthritis,Anorexia,0.254397621866891
+Rheumatoid Arthritis,Neuroticism,0.22049067394479
+Rheumatoid Arthritis,Epilepsy (Focal),0.17314836371141
+Rheumatoid Arthritis,Alzheimer's disease(Jansenetal),0.117136724444617
+Rheumatoid Arthritis,Ulcerative colitis,0.113765361221841
+Rheumatoid Arthritis,Lipid TC,-0.0748043084457947
+Rheumatoid Arthritis,Anxiety,-0.0784450090382243
+Rheumatoid Arthritis,ADHD,-0.106393433253021
+Rheumatoid Arthritis,Coronary Artery Disease,-0.116596662661036
+Rheumatoid Arthritis,Intelligence,-0.130234656261523
+Rheumatoid Arthritis,Crohn Disease,-0.134015081002515
+Rheumatoid Arthritis,Bipolar,-0.135252057895746
+Rheumatoid Arthritis,Amyotrophic Lateral Sclerosis,-0.15641431783506
+Rheumatoid Arthritis,Schizophrenia (2018),-0.250704058538414
+Rheumatoid Arthritis,Fasting Glucose,-0.269260945195381
+Rheumatoid Arthritis,Tourette Syndrome,-0.269289585260388
+Rheumatoid Arthritis,BMI,-0.353275661561857
+Rheumatoid Arthritis,Parkinson disease,-0.357843660292336
+Rheumatoid Arthritis,Epilepsy (All forms),-0.370289327797232
+Rheumatoid Arthritis,Lipid LDL,-0.421309627503402
+Rheumatoid Arthritis,Lipid TG,-0.422069002096614
+Rheumatoid Arthritis,Type 2 diabetes (Gaulton),-0.467693142707352
+Rheumatoid Arthritis,Epilepsy (General),-0.507299223709652
+Schizophrenia (2018),Schizophrenia (2018),1
+Schizophrenia (2018),Major Depression,0.76109781848924
+Schizophrenia (2018),Epilepsy (General),0.695502183851047
+Schizophrenia (2018),Neuroticism,0.582770476761862
+Schizophrenia (2018),BMI,0.554732898176517
+Schizophrenia (2018),Epilepsy (Focal),0.521160372204272
+Schizophrenia (2018),Amyotrophic Lateral Sclerosis,0.474946370932519
+Schizophrenia (2018),Epilepsy (All forms),0.474490708379022
+Schizophrenia (2018),Bipolar,0.455501515995593
+Schizophrenia (2018),Parkinson disease,0.453454188769777
+Schizophrenia (2018),Fasting Glucose,0.443976299428034
+Schizophrenia (2018),Ulcerative colitis,0.419330909807397
+Schizophrenia (2018),Depressive Symptoms,0.280883533186245
+Schizophrenia (2018),ADHD,0.279773667567133
+Schizophrenia (2018),Autism disorder,0.269463969118566
+Schizophrenia (2018),Tourette Syndrome,0.257167127799443
+Schizophrenia (2018),Insomnia,0.213175228975527
+Schizophrenia (2018),Educations Years,0.172438426133116
+Schizophrenia (2018),Coronary Artery Disease,-0.00233217965211578
+Schizophrenia (2018),Anorexia,-0.0416017738094573
+Schizophrenia (2018),Intelligence,-0.0426231807871677
+Schizophrenia (2018),Rheumatoid Arthritis,-0.250704058538414
+Schizophrenia (2018),Anxiety,-0.266201539013897
+Schizophrenia (2018),Crohn Disease,-0.405318961000714
+Schizophrenia (2018),Type 2 diabetes (Gaulton),-0.539130539650951
+Schizophrenia (2018),Lipid TG,-0.587054300120401
+Schizophrenia (2018),Alzheimer's disease(Jansenetal),-0.587924488544105
+Schizophrenia (2018),Lipid HDL,-0.594779243812793
+Schizophrenia (2018),Lipid LDL,-0.619884178174843
+Schizophrenia (2018),Lipid TC,-0.719810626625536
+Tourette Syndrome,Tourette Syndrome,1
+Tourette Syndrome,BMI,0.844355435044139
+Tourette Syndrome,Intelligence,0.808184275748151
+Tourette Syndrome,Parkinson disease,0.676642016721612
+Tourette Syndrome,Educations Years,0.673888473984509
+Tourette Syndrome,ADHD,0.613754065731276
+Tourette Syndrome,Autism disorder,0.568245730838298
+Tourette Syndrome,Epilepsy (General),0.36992286605793
+Tourette Syndrome,Amyotrophic Lateral Sclerosis,0.363813369518248
+Tourette Syndrome,Major Depression,0.25979089070874
+Tourette Syndrome,Schizophrenia (2018),0.257167127799443
+Tourette Syndrome,Ulcerative colitis,0.22018328684589
+Tourette Syndrome,Bipolar,0.156597578014224
+Tourette Syndrome,Depressive Symptoms,0.147706224994824
+Tourette Syndrome,Lipid LDL,0.120045346980287
+Tourette Syndrome,Type 2 diabetes (Gaulton),0.0752740873028372
+Tourette Syndrome,Coronary Artery Disease,0.0420040718691795
+Tourette Syndrome,Anxiety,0.0198653703163721
+Tourette Syndrome,Neuroticism,-0.0449821933425553
+Tourette Syndrome,Alzheimer's disease(Jansenetal),-0.0482222992162931
+Tourette Syndrome,Insomnia,-0.205218105148203
+Tourette Syndrome,Epilepsy (All forms),-0.245231357184598
+Tourette Syndrome,Anorexia,-0.249133635932843
+Tourette Syndrome,Rheumatoid Arthritis,-0.269289585260388
+Tourette Syndrome,Lipid TG,-0.274862547836799
+Tourette Syndrome,Lipid TC,-0.314496628945024
+Tourette Syndrome,Epilepsy (Focal),-0.432969100209291
+Tourette Syndrome,Crohn Disease,-0.517490364546335
+Tourette Syndrome,Fasting Glucose,-0.623351257541152
+Tourette Syndrome,Lipid HDL,-0.7412737458135
+Type 2 diabetes (Gaulton),Type 2 diabetes (Gaulton),1
+Type 2 diabetes (Gaulton),Lipid LDL,0.788915256592108
+Type 2 diabetes (Gaulton),Anxiety,0.714339065887786
+Type 2 diabetes (Gaulton),Alzheimer's disease(Jansenetal),0.634219573793982
+Type 2 diabetes (Gaulton),Crohn Disease,0.572465296513238
+Type 2 diabetes (Gaulton),Lipid TC,0.558234549266033
+Type 2 diabetes (Gaulton),Lipid TG,0.50209123477851
+Type 2 diabetes (Gaulton),ADHD,0.160898042540686
+Type 2 diabetes (Gaulton),Parkinson disease,0.158665196673137
+Type 2 diabetes (Gaulton),Intelligence,0.146010248315487
+Type 2 diabetes (Gaulton),Tourette Syndrome,0.0752740873028372
+Type 2 diabetes (Gaulton),Coronary Artery Disease,0.0654584451385375
+Type 2 diabetes (Gaulton),Epilepsy (General),-0.0103721859051905
+Type 2 diabetes (Gaulton),Epilepsy (All forms),-0.0513170992607265
+Type 2 diabetes (Gaulton),BMI,-0.0632925960854632
+Type 2 diabetes (Gaulton),Lipid HDL,-0.066758028118148
+Type 2 diabetes (Gaulton),Educations Years,-0.0794388635512543
+Type 2 diabetes (Gaulton),Amyotrophic Lateral Sclerosis,-0.091081386734727
+Type 2 diabetes (Gaulton),Ulcerative colitis,-0.195904176319016
+Type 2 diabetes (Gaulton),Anorexia,-0.19689417168072
+Type 2 diabetes (Gaulton),Fasting Glucose,-0.21452173800743
+Type 2 diabetes (Gaulton),Bipolar,-0.303321841745941
+Type 2 diabetes (Gaulton),Autism disorder,-0.447634821240365
+Type 2 diabetes (Gaulton),Rheumatoid Arthritis,-0.467693142707352
+Type 2 diabetes (Gaulton),Schizophrenia (2018),-0.539130539650951
+Type 2 diabetes (Gaulton),Neuroticism,-0.544634338583328
+Type 2 diabetes (Gaulton),Depressive Symptoms,-0.578873043946044
+Type 2 diabetes (Gaulton),Epilepsy (Focal),-0.582741710634464
+Type 2 diabetes (Gaulton),Major Depression,-0.766631942450322
+Type 2 diabetes (Gaulton),Insomnia,-0.88211240014506
+Ulcerative colitis,Ulcerative colitis,1
+Ulcerative colitis,Neuroticism,0.836344334009766
+Ulcerative colitis,Bipolar,0.75482942086947
+Ulcerative colitis,Anorexia,0.686942816938987
+Ulcerative colitis,ADHD,0.684264969225422
+Ulcerative colitis,Depressive Symptoms,0.677630510060335
+Ulcerative colitis,Coronary Artery Disease,0.654416253369674
+Ulcerative colitis,Major Depression,0.602835142835584
+Ulcerative colitis,Amyotrophic Lateral Sclerosis,0.602513577080845
+Ulcerative colitis,Epilepsy (Focal),0.573311983320096
+Ulcerative colitis,Epilepsy (General),0.544558098569942
+Ulcerative colitis,Intelligence,0.435476039102231
+Ulcerative colitis,BMI,0.423141083195909
+Ulcerative colitis,Schizophrenia (2018),0.419330909807397
+Ulcerative colitis,Educations Years,0.359813102765854
+Ulcerative colitis,Epilepsy (All forms),0.351618878792842
+Ulcerative colitis,Parkinson disease,0.302202539447236
+Ulcerative colitis,Tourette Syndrome,0.22018328684589
+Ulcerative colitis,Insomnia,0.20585920325596
+Ulcerative colitis,Anxiety,0.197250764716785
+Ulcerative colitis,Autism disorder,0.189206677740718
+Ulcerative colitis,Rheumatoid Arthritis,0.113765361221841
+Ulcerative colitis,Fasting Glucose,0.0565396015073246
+Ulcerative colitis,Crohn Disease,-0.0424519272933633
+Ulcerative colitis,Type 2 diabetes (Gaulton),-0.195904176319016
+Ulcerative colitis,Alzheimer's disease(Jansenetal),-0.505584395780594
+Ulcerative colitis,Lipid HDL,-0.564937941987084
+Ulcerative colitis,Lipid TG,-0.597400541304692
+Ulcerative colitis,Lipid LDL,-0.637145971687187
+Ulcerative colitis,Lipid TC,-0.793845195541994

@@ -1,0 +1,36 @@
+# MEAN_SAMPLE_SIZE = 15506
+# TOTAL_GENES = 14723
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                TYPE  NGENES         BETA     BETA_STD           SE            P
+GABA_Calb2_Krt17       COVAR   14723    -0.045121    -0.023368     0.075478      0.72501
+GABA_Calb2_Tac1        COVAR   14723  -0.00063625  -0.00033771     0.078076      0.50325
+GABA_Cplx1_Adamts5     COVAR   14723     0.080583     0.034155     0.098671      0.20706
+GABA_Cplx1_Calb2       COVAR   14723     0.035387     0.020594     0.075607      0.31988
+GABA_Cplx1_Sorcs3      COVAR   14723     -0.05045    -0.025281     0.076532      0.74511
+GABA_Cplx1_Sst         COVAR   14723       0.1953      0.11915     0.065167     0.001366
+GABA_Crabp1            COVAR   14723    0.0043346    0.0023371     0.058545      0.47049
+GABA_Crabp1_Spp1       COVAR   14723    -0.028673    -0.015635     0.047714      0.72605
+GABA_Gal_Pnoc          COVAR   14723     0.088509     0.045133     0.098548      0.18456
+GABA_Gal_Rspo3         COVAR   14723    -0.014686   -0.0068175     0.090004      0.56481
+GABA_Npy_Crabp1        COVAR   14723     -0.10383    -0.050952     0.080625      0.90109
+GABA_Npy_only          COVAR   14723     0.043929     0.027407     0.057191      0.22122
+GABA_Npy_Qrfpr         COVAR   14723       0.0483      0.02417     0.089426      0.29457
+GABA_Tac2              COVAR   14723    -0.036911      -0.0212     0.051365       0.7638
+Glut_Cck_Cpne4         COVAR   14723      0.09177     0.039932     0.078096      0.11999
+Glut_Cck_Maf           COVAR   14723     0.074554     0.027008     0.084769      0.18957
+Glut_Cck_Trh           COVAR   14723     0.053439     0.021796      0.07582      0.24047
+Glut_Elavl4            COVAR   14723     0.015246    0.0076263     0.082419      0.42662
+Glut_Elavl4_Lypd1      COVAR   14723      0.11369     0.057322      0.05937     0.027762
+Glut_Elavl4_Meis2      COVAR   14723     0.013116    0.0067075     0.077786      0.43305
+Glut_Gal               COVAR   14723     0.074052     0.027631     0.055456     0.090896
+Glut_Nts               COVAR   14723    0.0091491    0.0033535     0.084388      0.45683
+Glut_Qrfpr             COVAR   14723     -0.28472     -0.10936      0.08644       0.9995
+Glut_Reln_Nmur2        COVAR   14723     -0.25493    -0.089135     0.096247      0.99596
+Glut_Reln_Npff         COVAR   14723     -0.14425     -0.05744     0.088596      0.94825
+Glut_Tac1_1            COVAR   14723    -0.052103    -0.023384     0.085594      0.72864
+Glut_Tac1_2            COVAR   14723    -0.067907    -0.026333     0.097649       0.7566
+Glut_Tac2_1            COVAR   14723     -0.13726    -0.048299      0.09581      0.92401
+Glut_Tac2_2            COVAR   14723    -0.086947    -0.035117     0.083153      0.85212
+Glut_Tac2_3            COVAR   14723    -0.043973    -0.016796     0.077222      0.71546

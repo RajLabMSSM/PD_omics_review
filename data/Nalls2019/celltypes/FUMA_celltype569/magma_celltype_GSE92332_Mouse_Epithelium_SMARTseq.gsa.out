@@ -1,0 +1,14 @@
+# TOTAL_GENES = 13727
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                         TYPE  NGENES         BETA     BETA_STD           SE            P
+Endocrine                       COVAR   13727     0.016651     0.033874     0.016977      0.16336
+Enterocyte                      COVAR   13727   6.5764e-06   1.5441e-05     0.012653      0.49979
+Enterocyte_Progenitor_Early     COVAR   13727    -0.031527    -0.072641     0.020075      0.94184
+Enterocyte_Progenitor_Late      COVAR   13727   -0.0092902    -0.021874      0.01776      0.69954
+Goblet                          COVAR   13727     0.011974      0.02591     0.013029      0.17906
+Paneth                          COVAR   13727   -0.0072427   -0.0089254     0.019344      0.64595
+Stem                            COVAR   13727    -0.029911    -0.066174     0.017975      0.95194
+TA                              COVAR   13727    -0.023091    -0.052925     0.019514      0.88165
+Tuft                            COVAR   13727     0.015925     0.035027    0.0096957     0.050261

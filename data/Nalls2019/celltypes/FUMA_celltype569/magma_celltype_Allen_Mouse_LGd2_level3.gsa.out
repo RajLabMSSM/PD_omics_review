@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 36692
+# TOTAL_GENES = 14940
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                    TYPE  NGENES         BETA     BETA_STD           SE            P
+Astro_Gja1                 COVAR   14940    0.0012608    0.0026227    0.0050645       0.4017
+HIP_Exc_Neurod6            COVAR   14940     0.011103     0.030588    0.0084884     0.095452
+LGN_Exc_Scn4b              COVAR   14940     0.019301     0.054409    0.0090081     0.016081
+LGN_Inh_Chrna6_Cnr1        COVAR   14940    -0.011304    -0.031125     0.011936      0.82818
+LGN_Inh_Chrna6_Dscaml1     COVAR   14940    -0.011372    -0.030814     0.012028      0.82778
+LGN_Inh_Chrna6_Pax7        COVAR   14940    -0.012436    -0.033766     0.012398      0.84209
+LP_Exc_Glra3               COVAR   14940    0.0064026     0.018094    0.0096462      0.25343
+Micro_Ctss                 COVAR   14940   -0.0021351   -0.0045244    0.0051176      0.66173
+Oligo_Opalin               COVAR   14940    0.0034812    0.0081109    0.0060088      0.28118
+Oligo_Rassf10              COVAR   14940   -0.0020812    -0.005307     0.006584      0.62404
+OPC_Pdgfra                 COVAR   14940    0.0071189     0.016406    0.0074652      0.17015
+RT_Inh_Pvalb               COVAR   14940   -0.0039967    -0.010874     0.011061      0.64107
+vLGN_Inh_Dlx5_Cbln2        COVAR   14940    -0.014949    -0.039729     0.014432      0.84984
+vLGN_Inh_Rspo2             COVAR   14940    -0.015814    -0.042698     0.011499      0.91547
+vLGN_Inh_Shox2_Htr1a       COVAR   14940    -0.010563    -0.027837       0.0124      0.80285
+vLGN_Inh_Shox2_Sox14       COVAR   14940    0.0066123     0.017866     0.014078      0.31929
+vLGN_Inh_Spata20           COVAR   14940    -0.014617    -0.040094     0.011719      0.89385

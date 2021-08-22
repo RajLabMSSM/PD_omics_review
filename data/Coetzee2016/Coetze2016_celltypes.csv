@@ -1,0 +1,1093 @@
+name,id,group,abbrev,snp,neg_nat_log,p
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs76904798,19.7016550885315,2.77766528250836e-09
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs591323,14.3019872488262,6.14788673309347e-07
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs6812193,13.2935704404103,1.6852941487398e-06
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs76904798,13.2770890812114,1.71330024225393e-06
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs76904798,11.1132327804573,1.49136630724653e-05
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs3793947,10.3560696561952,3.17991926713059e-05
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs76904798,10.293684855397,3.38461651208682e-05
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs1555399,7.9769956699653,0.000343269168765413
+H9 Cells,E008,ESC,ESC.H9,rs55785911,7.56678906347356,0.000517350965603508
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs76904798,7.13581947228263,0.000796073155631904
+iPS-18 Cells,E019,iPSC,IPSC.18,rs55785911,7.01962205379403,0.000894163374649265
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs329648,6.72178398235619,0.00120438768989112
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs14235,5.73133004203329,0.00324276135519064
+HUES64 Cells,E016,ESC,ESC.HUES64,rs14235,5.40556929811746,0.00449149667259721
+HUES48 Cells,E014,ESC,ESC.HUES48,rs329648,5.35173752820826,0.00473990811630765
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs3793947,5.07571664830798,0.00624660821395666
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs55785911,5.03522502497122,0.00650473422444171
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs329648,5.0006408500236,0.0067336303688961
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs14235,4.61521064006246,0.00990009783009678
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs14235,4.38318398958716,0.0124855414320453
+H1 Cells,E003,ESC,ESC.H1,rs55785911,4.32689655937723,0.0132084756680984
+HUES64 Cells,E016,ESC,ESC.HUES64,rs55785911,4.32250487371995,0.0132666107032074
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs1555399,4.28205347664278,0.0138142656688796
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs1555399,4.28030543129637,0.0138384347498665
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs14235,4.26764683118256,0.014014723391237
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs55785911,4.26359509234711,0.0140716225827605
+HUES48 Cells,E014,ESC,ESC.HUES48,rs55785911,4.22364840094119,0.0146451156631702
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs14235,4.1160771557865,0.0163083642960644
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs823118,3.94110100386487,0.0194268139691164
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs3793947,3.78978809938999,0.0226003903802659
+iPS-18 Cells,E019,iPSC,IPSC.18,rs14235,3.77040794781515,0.0230426611662906
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs11724635,3.71862761230555,0.0242672490771028
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs12456492,3.56143340427943,0.0283980895830676
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs823118,3.24062429587758,0.0391394528711117
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs14235,3.23251890302521,0.0394579826733706
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs3793947,3.23240139393947,0.0394626196172759
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs14235,3.19498515849736,0.0409671333853893
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs14235,3.19187342768527,0.0410948106222001
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs14235,3.19187342768527,0.0410948106222001
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs14235,3.19187342768527,0.0410948106222001
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs1955337,3.08214436732036,0.0458608087130109
+H1 Cells,E003,ESC,ESC.H1,rs14235,2.80845582079511,0.0602980315057009
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs1955337,2.78532362766767,0.0617091150220936
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs823118,2.32773213123718,0.0975166514715059
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs14235,2.25270563661759,0.105114437998632
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs55785911,2.14556311143544,0.117002133251074
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs1955337,2.13998311873748,0.117656829200836
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs14235,2.13828477802313,0.117856820362684
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs1555399,2.01001752624499,0.133986326371045
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs1555399,2.00689091533724,0.134405905068426
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs1555399,2.00689091533724,0.134405905068426
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs14235,2.00169136877484,0.13510657483406
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs1955337,1.99773293974906,0.135642444522803
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs14235,1.89785432571086,0.149889889310589
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs76904798,1.84955081559609,0.157307810661433
+HUES6 Cells,E015,ESC,ESC.HUES6,rs14235,1.73607683795559,0.176210348093667
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs55785911,1.69771370651428,0.183101670023787
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs14235,1.6067295720116,0.200542402257932
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs1955337,1.57766062065678,0.206457516154124
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs329648,1.55669717996888,0.210831260236161
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs76904798,1.55129268963099,0.211973780333504
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs823118,1.46870823480631,0.23022268684168
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs1955337,1.44783737010542,0.235078125745725
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs14235,1.38560869927832,0.250171474240346
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs1555399,1.34911168301872,0.259470650486108
+H1 Cells,E003,ESC,ESC.H1,rs329648,1.29544200460452,0.27377682696575
+iPS-18 Cells,E019,iPSC,IPSC.18,rs1955337,1.25235851238005,0.285829867976777
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs591323,1.2229191949381,0.294369589223321
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs329648,1.21303396667855,0.297293929879621
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs1955337,1.19372989059606,0.303088665582026
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs14235,1.18585241718974,0.305485667247944
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs1555399,1.17008516241065,0.310340510794038
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs199347,1.13261164068244,0.322190710320731
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs1555399,1.1238778463433,0.325016981794106
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs1555399,1.12140366506643,0.325822128353666
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs76904798,1.1067430303727,0.330634074457244
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs14235,1.10206064201713,0.332185861797712
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs14235,1.06273909194324,0.345508134489428
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs10797576,1.05755490604658,0.347303963821954
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs55785911,0.996273422525832,0.369252930026923
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs6430538,0.97750994571972,0.376246808359786
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs1555399,0.949715581528153,0.386851035389364
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs1955337,0.880410438007655,0.414612703941954
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs1955337,0.835989296607255,0.433445463128701
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs14235,0.823598287783851,0.438849702530087
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs1955337,0.774856909613886,0.460769707997521
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs1955337,0.7715579285919,0.462292288621113
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs823118,0.763824507659158,0.465881249067198
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs823118,0.694759323793457,0.499194577785672
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs823118,0.694759323793457,0.499194577785672
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs823118,0.694759323793457,0.499194577785672
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs55785911,0.686876642561517,0.503145119489439
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs55785911,0.63172956166547,0.531671446778656
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs14235,0.627776473394264,0.53377735060852
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs14235,0.621932689993471,0.536905761805557
+H9 Cells,E008,ESC,ESC.H9,rs14235,0.605956943581826,0.545552114173577
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs14235,0.605956943581826,0.545552114173577
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs1955337,0.560521020335995,0.570911529827814
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs1955337,0.560521020335995,0.570911529827814
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs1955337,0.560521020335995,0.570911529827814
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs1955337,0.560521020335995,0.570911529827814
+HUES6 Cells,E015,ESC,ESC.HUES6,rs55785911,0.551550621944033,0.57605587260279
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs14235,0.497930098453575,0.607787418698096
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs14235,0.497930098453575,0.607787418698096
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs1955337,0.487969965404687,0.613871310142315
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs823118,0.435521166850123,0.646927422078388
+H9 Cells,E008,ESC,ESC.H9,rs823118,0.435521166850123,0.646927422078388
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs199347,0.43034817956523,0.650282640175248
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs823118,0.408806231954424,0.664442967664657
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs1955337,0.403929954828541,0.667690888153755
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs1955337,0.366103070307844,0.693431325346127
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs1555399,0.35670976265593,0.699975627322277
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs14235,0.351367424858116,0.70372514023819
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs76904798,0.331586698963674,0.717783922396757
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs823118,0.324094795075113,0.72318168506829
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs1555399,0.315803716216681,0.729202566760041
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs1955337,0.309203419049666,0.734031438860658
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs55785911,0.298793966882191,0.741712210972725
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs3793947,0.292985092755447,0.746033261914608
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs10797576,0.284663304133911,0.752267497040548
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs11724635,0.278376240608767,0.757011949290802
+H9 Cells,E008,ESC,ESC.H9,rs1955337,0.226877911511142,0.797018083083722
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs10797576,0.226749081491868,0.797120769553135
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs329648,0.195947225664935,0.822055616972013
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs9275326,0.190419981122157,0.826611899639341
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs823118,0.138484872526598,0.870676422303914
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs823118,0.124549650711621,0.882894423941683
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs14235,0.112806542920072,0.893323463149103
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs14235,0.101710175600145,0.903291309596825
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs14235,0.100779764021866,0.904132133385271
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs1555399,0.0552369066521962,0.946260945884258
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs823118,0.0440199769717113,0.956934840621858
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs14235,0.0300149251051925,0.970431049654924
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs1955337,0.022890048423647,0.977369941231329
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs7155501,0.0221864043033688,0.978057903855856
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs1955337,0.0220137962262409,0.978226739120706
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs76904798,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs76904798,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs76904798,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs76904798,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs76904798,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs76904798,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs76904798,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs76904798,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs76904798,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs76904798,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs76904798,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs76904798,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs76904798,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs76904798,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs76904798,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs76904798,0,1
+H1 Cells,E003,ESC,ESC.H1,rs76904798,0,1
+H9 Cells,E008,ESC,ESC.H9,rs76904798,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs76904798,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs76904798,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs76904798,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs76904798,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs76904798,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs76904798,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs76904798,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs76904798,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs76904798,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs76904798,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs76904798,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs76904798,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs76904798,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs76904798,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs76904798,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs76904798,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs76904798,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs76904798,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs76904798,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs76904798,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs76904798,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs76904798,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs76904798,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs76904798,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs76904798,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs14235,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs14235,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs14235,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs14235,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs14235,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs14235,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs14235,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs14235,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs14235,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs14235,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs14235,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs14235,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs14235,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs14235,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs14235,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs14235,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs14235,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs1555399,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs1555399,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs1555399,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs1555399,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs1555399,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs1555399,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs1555399,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs1555399,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs1555399,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs1555399,0,1
+H1 Cells,E003,ESC,ESC.H1,rs1555399,0,1
+H9 Cells,E008,ESC,ESC.H9,rs1555399,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs1555399,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs1555399,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs1555399,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs1555399,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs1555399,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs1555399,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs1555399,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs1555399,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs1555399,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs1555399,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs1555399,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs1555399,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs1555399,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs1555399,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs1555399,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs1555399,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs1555399,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs1555399,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs1555399,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs1555399,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs1555399,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs1555399,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs1555399,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs1555399,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs1555399,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs1555399,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs6812193,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs6812193,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs6812193,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs6812193,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs6812193,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs6812193,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs6812193,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs6812193,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs6812193,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs6812193,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs6812193,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs6812193,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs6812193,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs6812193,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs6812193,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs6812193,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs6812193,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs6812193,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs6812193,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs6812193,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs6812193,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs6812193,0,1
+H1 Cells,E003,ESC,ESC.H1,rs6812193,0,1
+H9 Cells,E008,ESC,ESC.H9,rs6812193,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs6812193,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs6812193,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs6812193,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs6812193,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs6812193,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs6812193,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs6812193,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs6812193,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs6812193,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs6812193,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs6812193,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs6812193,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs6812193,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs6812193,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs6812193,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs6812193,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs6812193,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs6812193,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs6812193,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs6812193,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs6812193,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs6812193,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs6812193,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs6812193,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs6812193,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs6812193,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs6812193,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs55785911,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs55785911,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs55785911,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs55785911,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs55785911,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs55785911,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs55785911,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs55785911,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs55785911,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs55785911,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs55785911,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs55785911,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs55785911,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs55785911,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs55785911,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs55785911,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs55785911,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs55785911,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs55785911,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs55785911,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs55785911,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs55785911,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs55785911,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs55785911,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs55785911,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs55785911,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs55785911,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs55785911,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs55785911,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs55785911,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs55785911,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs55785911,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs55785911,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs55785911,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs55785911,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs55785911,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs55785911,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs55785911,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs591323,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs591323,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs591323,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs591323,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs591323,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs591323,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs591323,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs591323,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs591323,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs591323,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs591323,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs591323,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs591323,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs591323,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs591323,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs591323,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs591323,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs591323,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs591323,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs591323,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs591323,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs591323,0,1
+H1 Cells,E003,ESC,ESC.H1,rs591323,0,1
+H9 Cells,E008,ESC,ESC.H9,rs591323,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs591323,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs591323,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs591323,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs591323,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs591323,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs591323,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs591323,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs591323,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs591323,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs591323,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs591323,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs591323,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs591323,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs591323,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs591323,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs591323,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs591323,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs591323,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs591323,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs591323,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs591323,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs591323,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs591323,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs591323,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs591323,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs591323,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs3793947,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs3793947,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs3793947,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs3793947,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs3793947,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs3793947,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs3793947,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs3793947,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs3793947,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs3793947,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs3793947,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs3793947,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs3793947,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs3793947,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs3793947,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs3793947,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs3793947,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs3793947,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs3793947,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs3793947,0,1
+H1 Cells,E003,ESC,ESC.H1,rs3793947,0,1
+H9 Cells,E008,ESC,ESC.H9,rs3793947,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs3793947,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs3793947,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs3793947,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs3793947,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs3793947,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs3793947,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs3793947,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs3793947,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs3793947,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs3793947,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs3793947,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs3793947,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs3793947,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs3793947,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs3793947,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs3793947,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs3793947,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs3793947,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs3793947,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs3793947,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs3793947,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs3793947,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs3793947,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs3793947,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs3793947,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs329648,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs329648,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs329648,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs329648,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs329648,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs329648,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs329648,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs329648,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs329648,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs329648,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs329648,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs329648,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs329648,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs329648,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs329648,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs329648,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs329648,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs329648,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs329648,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs329648,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs329648,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs329648,0,1
+H9 Cells,E008,ESC,ESC.H9,rs329648,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs329648,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs329648,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs329648,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs329648,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs329648,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs329648,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs329648,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs329648,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs329648,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs329648,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs329648,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs329648,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs329648,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs329648,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs329648,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs329648,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs329648,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs329648,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs329648,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs329648,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs329648,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs329648,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs823118,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs823118,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs823118,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs823118,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs823118,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs823118,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs823118,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs823118,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs823118,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs823118,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs823118,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs823118,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs823118,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs823118,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs823118,0,1
+H1 Cells,E003,ESC,ESC.H1,rs823118,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs823118,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs823118,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs823118,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs823118,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs823118,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs823118,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs823118,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs823118,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs823118,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs823118,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs823118,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs823118,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs823118,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs823118,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs823118,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs823118,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs823118,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs823118,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs823118,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs823118,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs823118,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs1955337,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs1955337,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs1955337,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs1955337,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs1955337,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs1955337,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs1955337,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs1955337,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs1955337,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs1955337,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs1955337,0,1
+H1 Cells,E003,ESC,ESC.H1,rs1955337,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs1955337,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs1955337,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs1955337,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs1955337,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs1955337,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs1955337,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs1955337,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs1955337,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs1955337,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs1955337,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs1955337,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs1955337,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs1955337,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs1955337,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs1955337,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs1955337,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs1955337,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs11724635,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs11724635,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs11724635,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs11724635,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs11724635,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs11724635,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs11724635,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs11724635,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs11724635,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs11724635,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs11724635,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs11724635,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs11724635,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs11724635,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs11724635,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs11724635,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs11724635,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs11724635,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs11724635,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs11724635,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs11724635,0,1
+H1 Cells,E003,ESC,ESC.H1,rs11724635,0,1
+H9 Cells,E008,ESC,ESC.H9,rs11724635,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs11724635,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs11724635,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs11724635,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs11724635,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs11724635,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs11724635,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs11724635,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs11724635,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs11724635,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs11724635,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs11724635,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs11724635,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs11724635,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs11724635,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs11724635,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs11724635,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs11724635,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs11724635,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs11724635,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs11724635,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs11724635,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs11724635,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs11724635,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs11724635,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs11724635,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs11724635,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs11724635,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs12456492,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs12456492,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs12456492,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs12456492,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs12456492,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs12456492,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs12456492,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs12456492,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs12456492,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs12456492,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs12456492,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs12456492,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs12456492,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs12456492,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs12456492,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs12456492,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs12456492,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs12456492,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs12456492,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs12456492,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs12456492,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs12456492,0,1
+H1 Cells,E003,ESC,ESC.H1,rs12456492,0,1
+H9 Cells,E008,ESC,ESC.H9,rs12456492,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs12456492,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs12456492,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs12456492,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs12456492,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs12456492,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs12456492,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs12456492,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs12456492,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs12456492,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs12456492,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs12456492,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs12456492,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs12456492,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs12456492,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs12456492,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs12456492,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs12456492,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs12456492,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs12456492,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs12456492,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs12456492,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs12456492,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs12456492,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs12456492,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs12456492,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs12456492,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs12456492,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs6430538,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs6430538,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs6430538,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs6430538,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs6430538,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs6430538,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs6430538,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs6430538,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs6430538,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs6430538,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs6430538,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs6430538,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs6430538,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs6430538,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs6430538,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs6430538,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs6430538,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs6430538,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs6430538,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs6430538,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs6430538,0,1
+H1 Cells,E003,ESC,ESC.H1,rs6430538,0,1
+H9 Cells,E008,ESC,ESC.H9,rs6430538,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs6430538,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs6430538,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs6430538,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs6430538,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs6430538,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs6430538,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs6430538,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs6430538,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs6430538,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs6430538,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs6430538,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs6430538,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs6430538,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs6430538,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs6430538,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs6430538,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs6430538,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs6430538,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs6430538,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs6430538,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs6430538,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs6430538,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs6430538,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs6430538,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs6430538,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs6430538,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs6430538,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs6430538,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs9275326,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs9275326,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs9275326,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs9275326,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs9275326,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs9275326,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs9275326,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs9275326,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs9275326,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs9275326,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs9275326,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs9275326,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs9275326,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs9275326,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs9275326,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs9275326,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs9275326,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs9275326,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs9275326,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs9275326,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs9275326,0,1
+H1 Cells,E003,ESC,ESC.H1,rs9275326,0,1
+H9 Cells,E008,ESC,ESC.H9,rs9275326,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs9275326,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs9275326,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs9275326,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs9275326,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs9275326,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs9275326,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs9275326,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs9275326,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs9275326,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs9275326,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs9275326,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs9275326,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs9275326,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs9275326,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs9275326,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs9275326,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs9275326,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs9275326,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs9275326,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs9275326,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs9275326,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs9275326,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs9275326,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs9275326,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs9275326,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs9275326,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs9275326,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs9275326,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs7155501,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs7155501,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs7155501,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs7155501,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs7155501,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs7155501,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs7155501,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs7155501,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs7155501,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs7155501,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs7155501,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs7155501,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs7155501,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs7155501,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs7155501,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs7155501,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs7155501,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs7155501,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs7155501,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs7155501,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs7155501,0,1
+H1 Cells,E003,ESC,ESC.H1,rs7155501,0,1
+H9 Cells,E008,ESC,ESC.H9,rs7155501,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs7155501,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs7155501,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs7155501,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs7155501,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs7155501,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs7155501,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs7155501,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs7155501,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs7155501,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs7155501,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs7155501,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs7155501,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs7155501,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs7155501,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs7155501,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs7155501,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs7155501,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs7155501,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs7155501,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs7155501,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs7155501,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs7155501,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs7155501,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs7155501,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs7155501,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs7155501,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs7155501,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs7155501,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs71628662,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs71628662,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs71628662,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs71628662,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs71628662,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs71628662,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs71628662,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs71628662,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs71628662,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs71628662,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs71628662,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs71628662,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs71628662,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs71628662,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs71628662,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs71628662,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs71628662,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs71628662,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs71628662,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs71628662,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs71628662,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs71628662,0,1
+H1 Cells,E003,ESC,ESC.H1,rs71628662,0,1
+H9 Cells,E008,ESC,ESC.H9,rs71628662,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs71628662,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs71628662,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs71628662,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs71628662,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs71628662,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs71628662,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs71628662,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs71628662,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs71628662,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs71628662,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs71628662,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs71628662,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs71628662,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs71628662,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs71628662,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs71628662,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs71628662,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs71628662,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs71628662,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs71628662,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs71628662,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs71628662,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs71628662,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs71628662,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs71628662,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs71628662,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs71628662,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs71628662,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs2414739,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs2414739,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs2414739,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs2414739,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs2414739,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs2414739,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs2414739,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs2414739,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs2414739,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs2414739,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs2414739,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs2414739,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs2414739,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs2414739,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs2414739,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs2414739,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs2414739,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs2414739,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs2414739,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs2414739,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs2414739,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs2414739,0,1
+H1 Cells,E003,ESC,ESC.H1,rs2414739,0,1
+H9 Cells,E008,ESC,ESC.H9,rs2414739,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs2414739,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs2414739,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs2414739,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs2414739,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs2414739,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs2414739,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs2414739,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs2414739,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs2414739,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs2414739,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs2414739,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs2414739,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs2414739,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs2414739,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs2414739,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs2414739,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs2414739,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs2414739,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs2414739,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs2414739,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs2414739,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs2414739,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs2414739,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs2414739,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs2414739,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs2414739,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs2414739,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs2414739,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs117896735,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs117896735,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs117896735,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs117896735,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs117896735,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs117896735,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs117896735,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs117896735,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs117896735,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs117896735,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs117896735,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs117896735,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs117896735,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs117896735,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs117896735,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs117896735,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs117896735,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs117896735,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs117896735,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs117896735,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs117896735,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs117896735,0,1
+H1 Cells,E003,ESC,ESC.H1,rs117896735,0,1
+H9 Cells,E008,ESC,ESC.H9,rs117896735,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs117896735,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs117896735,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs117896735,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs117896735,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs117896735,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs117896735,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs117896735,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs117896735,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs117896735,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs117896735,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs117896735,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs117896735,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs117896735,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs117896735,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs117896735,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs117896735,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs117896735,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs117896735,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs117896735,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs117896735,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs117896735,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs117896735,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs117896735,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs117896735,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs117896735,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs117896735,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs117896735,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs117896735,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs12637471,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs12637471,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs12637471,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs12637471,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs12637471,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs12637471,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs12637471,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs12637471,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs12637471,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs12637471,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs12637471,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs12637471,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs12637471,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs12637471,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs12637471,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs12637471,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs12637471,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs12637471,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs12637471,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs12637471,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs12637471,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs12637471,0,1
+H1 Cells,E003,ESC,ESC.H1,rs12637471,0,1
+H9 Cells,E008,ESC,ESC.H9,rs12637471,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs12637471,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs12637471,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs12637471,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs12637471,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs12637471,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs12637471,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs12637471,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs12637471,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs12637471,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs12637471,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs12637471,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs12637471,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs12637471,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs12637471,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs12637471,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs12637471,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs12637471,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs12637471,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs12637471,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs12637471,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs12637471,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs12637471,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs12637471,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs12637471,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs12637471,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs12637471,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs12637471,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs12637471,0,1
+Monocytes-CD14+ RO01746 Primary Cells,E124,ENCODE2012,BLD.CD14.MONO,rs10797576,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs10797576,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs10797576,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs10797576,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs10797576,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs10797576,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs10797576,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs10797576,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs10797576,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs10797576,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs10797576,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs10797576,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs10797576,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs10797576,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs10797576,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs10797576,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs10797576,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs10797576,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs10797576,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs10797576,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs10797576,0,1
+H1 Cells,E003,ESC,ESC.H1,rs10797576,0,1
+H9 Cells,E008,ESC,ESC.H9,rs10797576,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs10797576,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs10797576,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs10797576,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs10797576,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs10797576,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs10797576,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs10797576,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs10797576,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs10797576,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs10797576,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs10797576,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs10797576,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs10797576,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs10797576,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs10797576,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs10797576,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs10797576,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs10797576,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs10797576,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs10797576,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs10797576,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs10797576,0,1
+Foreskin Melanocyte Primary Cells skin01,E059,Epithelial,SKIN.PEN.FRSK.MEL.01,rs10797576,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs10797576,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs10797576,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs10797576,0,1
+Primary monocytes from peripheral blood,E029,HSC & B-cell,BLD.CD14.PC,rs199347,0,1
+Primary B cells from peripheral blood,E032,HSC & B-cell,BLD.CD19.PPC,rs199347,0,1
+Primary T cells effector/memory enriched from peripheral blood,E045,Blood & T-cell,BLD.CD4.CD25I.CD127.TMEMPC,rs199347,0,1
+Primary T helper naive cells from peripheral blood,E039,Blood & T-cell,BLD.CD4.CD25M.CD45RA.NPC,rs199347,0,1
+Primary T helper cells PMA-I stimulated,E041,Blood & T-cell,BLD.CD4.CD25M.IL17M.PL.TPC,rs199347,0,1
+Primary T helper 17 cells PMA-I stimulated,E042,Blood & T-cell,BLD.CD4.CD25M.IL17P.PL.TPC,rs199347,0,1
+Primary T helper cells from peripheral blood,E043,Blood & T-cell,BLD.CD4.CD25M.TPC,rs199347,0,1
+Primary T helper memory cells from peripheral blood 2,E037,Blood & T-cell,BLD.CD4.MPC,rs199347,0,1
+Primary T helper naive cells from peripheral blood,E038,Blood & T-cell,BLD.CD4.NPC,rs199347,0,1
+Primary Natural Killer cells from peripheral blood,E046,HSC & B-cell,BLD.CD56.PC,rs199347,0,1
+Primary T CD8+ memory cells from peripheral blood,E048,Blood & T-cell,BLD.CD8.MPC,rs199347,0,1
+Primary T CD8+ naive cells from peripheral blood,E047,Blood & T-cell,BLD.CD8.NPC,rs199347,0,1
+Dnd41 TCell Leukemia Cell Line,E115,ENCODE2012,BLD.DND41.CNCR,rs199347,0,1
+GM12878 Lymphoblastoid Cells,E116,ENCODE2012,BLD.GM12878,rs199347,0,1
+K562 Leukemia Cells,E123,ENCODE2012,BLD.K562.CNCR,rs199347,0,1
+Primary hematopoietic stem cells G-CSF-mobilized Female,E050,HSC & B-cell,BLD.MOB.CD34.PC.F,rs199347,0,1
+Primary mononuclear cells from peripheral blood,E062,Blood & T-cell,BLD.PER.MONUC.PC,rs199347,0,1
+Osteoblast Primary Cells,E129,ENCODE2012,BONE.OSTEO,rs199347,0,1
+NH-A Astrocytes Primary Cells,E125,ENCODE2012,BRN.NHA,rs199347,0,1
+HMEC Mammary Epithelial Primary Cells,E119,ENCODE2012,BRST.HMEC,rs199347,0,1
+HeLa-S3 Cervical Carcinoma Cell Line,E117,ENCODE2012,CRVX.HELAS3.CNCR,rs199347,0,1
+H1 Cells,E003,ESC,ESC.H1,rs199347,0,1
+H9 Cells,E008,ESC,ESC.H9,rs199347,0,1
+HUES48 Cells,E014,ESC,ESC.HUES48,rs199347,0,1
+HUES6 Cells,E015,ESC,ESC.HUES6,rs199347,0,1
+HUES64 Cells,E016,ESC,ESC.HUES64,rs199347,0,1
+hESC Derived CD184+ Endoderm Cultured Cells,E011,ES-deriv,ESDR.CD184.ENDO,rs199347,0,1
+H1 BMP4 Derived Mesendoderm Cultured Cells,E004,ES-deriv,ESDR.H1.BMP4.MESO,rs199347,0,1
+H1 BMP4 Derived Trophoblast Cultured Cells,E005,ES-deriv,ESDR.H1.BMP4.TROP,rs199347,0,1
+H1 Derived Mesenchymal Stem Cells,E006,ES-deriv,ESDR.H1.MSC,rs199347,0,1
+H1 Derived Neuronal Progenitor Cultured Cells,E007,ES-deriv,ESDR.H1.NEUR.PROG,rs199347,0,1
+Adipose Nuclei,E063,Adipose,FAT.ADIP.NUC,rs199347,0,1
+iPS-18 Cells,E019,iPSC,IPSC.18,rs199347,0,1
+iPS-20b Cells,E020,iPSC,IPSC.20B,rs199347,0,1
+iPS DF 19.11 Cells,E022,iPSC,IPSC.DF.19.11,rs199347,0,1
+iPS DF 6.9 Cells,E021,iPSC,IPSC.DF.6.9,rs199347,0,1
+HepG2 Hepatocellular Carcinoma Cell Line,E118,ENCODE2012,LIV.HEPG2.CNCR,rs199347,0,1
+IMR90 fetal lung fibroblasts Cell Line,E017,IMR90,LNG.IMR90,rs199347,0,1
+NHLF Lung Fibroblast Primary Cells,E128,ENCODE2012,LNG.NHLF,rs199347,0,1
+HSMM Skeletal Muscle Myoblasts Cells,E120,ENCODE2012,MUS.HSMM,rs199347,0,1
+HSMM cell derived Skeletal Muscle Myotubes Cells,E121,ENCODE2012,MUS.HSMMT,rs199347,0,1
+NHDF-Ad Adult Dermal Fibroblast Primary Cells,E126,ENCODE2012,SKIN.NHDFAD,rs199347,0,1
+NHEK-Epidermal Keratinocyte Primary Cells,E127,ENCODE2012,SKIN.NHEK,rs199347,0,1
+Foreskin Fibroblast Primary Cells skin01,E055,Epithelial,SKIN.PEN.FRSK.FIB.01,rs199347,0,1
+Foreskin Fibroblast Primary Cells skin02,E056,Epithelial,SKIN.PEN.FRSK.FIB.02,rs199347,0,1
+Foreskin Keratinocyte Primary Cells skin03,E058,Epithelial,SKIN.PEN.FRSK.KER.03,rs199347,0,1
+Foreskin Melanocyte Primary Cells skin03,E061,Epithelial,SKIN.PEN.FRSK.MEL.03,rs199347,0,1
+Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells,E049,Mesench,STRM.CHON.MRW.DR.MSC,rs199347,0,1
+Bone Marrow Derived Cultured Mesenchymal Stem Cells,E026,Mesench,STRM.MRW.MSC,rs199347,0,1
+HUVEC Umbilical Vein Endothelial Primary Cells,E122,ENCODE2012,VAS.HUVEC,rs199347,0,1

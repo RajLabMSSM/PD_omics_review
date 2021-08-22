@@ -1,0 +1,34 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                              TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+B_cell_Ighd_high                     COVAR   14594     0.043737    0.0046681      0.13522      0.37318 B_cell_Ighd_high
+B_cell_Igkv12.46_high                COVAR   14594      -0.2392    -0.029913      0.12915      0.96799 B_cell_Igkv12.46_high
+B_cell_Jchain_high                   COVAR   14594     -0.22918    -0.023736       0.1437      0.94462 B_cell_Jchain_high
+B_cell_Ms4a1_high                    COVAR   14594     0.047448    0.0069741      0.10758      0.32959 B_cell_Ms4a1_high
+Columnar_epithelium                  COVAR   14594    0.0036907   0.00068544      0.10664       0.4862 Columnar_epithelium
+Dendritic_cell_Siglech_high          COVAR   14594      0.14325     0.017561      0.11289      0.10224 Dendritic_cell_Siglech_high
+Dendrtic_cell_Cst3_high              COVAR   14594      0.13153     0.017089       0.1138      0.12389 Dendrtic_cell_Cst3_high
+Epithelial_cell_Kcne3_high           COVAR   14594      -0.0645    -0.010295      0.11943      0.70542 Epithelial_cell_Kcne3_high
+Epithelial_cell_Sh2d6_high           COVAR   14594     0.056866     0.011256     0.079714      0.23781 Epithelial_cell_Sh2d6_high
+Epithelium_of_small_intestin...1     COVAR   14594    -0.057034    -0.010296     0.091557      0.73333 Epithelium_of_small_intestinal_villi_Fabp1_high
+Epithelium_of_small_intestin...2     COVAR   14594    -0.069698    -0.012688      0.09194      0.77579 Epithelium_of_small_intestinal_villi_Fabp6_high
+Epithelium_of_small_intestin...3     COVAR   14594    -0.044206   -0.0045379      0.13669       0.6268 Epithelium_of_small_intestinal_villi_Gm23935_high
+Epithelium_of_small_intestin...5     COVAR   14594     0.060439    0.0064554      0.09577        0.264 Epithelium_of_small_intestinal_villi_mt.Nd1_high
+Epithelium_of_small_intestin...4     COVAR   14594   -0.0005621  -6.6242e-05     0.096901      0.50231 Epithelium_of_small_intestinal_villi_S100g_high
+Erythroblast                         COVAR   14594    -0.046651   -0.0056759     0.089707      0.69848 Erythroblast
+Macrophage_Apoe_high                 COVAR   14594      0.23155     0.023452       0.1324     0.040169 Macrophage_Apoe_high
+Macrophage_Cxcl2_high                COVAR   14594     0.053028    0.0079268      0.06614      0.21135 Macrophage_Cxcl2_high
+Macrophage_G0s2_high                 COVAR   14594      0.11188     0.014867      0.10132      0.13477 Macrophage_G0s2_high
+Mast_cell                            COVAR   14594     0.010346     0.001696      0.06235      0.43411 Mast_cell
+Paneth_cell                          COVAR   14594    -0.021667    -0.003102      0.14172      0.56075 Paneth_cell
+S_cell_Chgb_high                     COVAR   14594     0.066813     0.014152     0.065659      0.15445 S_cell_Chgb_high
+S_cell_Gip_high                      COVAR   14594    -0.072368     -0.01218     0.079761      0.81787 S_cell_Gip_high
+Stromal_cell_Adamdec1_high           COVAR   14594   -0.0041548  -0.00079445     0.067344       0.5246 Stromal_cell_Adamdec1_high
+Stromal_cell_Dcn_high                COVAR   14594     -0.10246     -0.02125     0.061349      0.95254 Stromal_cell_Dcn_high
+T_cell_Ccl5_high                     COVAR   14594      0.11977     0.010937      0.18475       0.2584 T_cell_Ccl5_high
+T_cell_Cd7_high                      COVAR   14594     0.090055     0.010664      0.15153      0.27616 T_cell_Cd7_high
+T_cell_Icos_high                     COVAR   14594     0.016706    0.0020866      0.13965      0.45239 T_cell_Icos_high
+T_cell_Ms4a4b_high                   COVAR   14594    0.0062205   0.00085948      0.10213      0.47572 T_cell_Ms4a4b_high

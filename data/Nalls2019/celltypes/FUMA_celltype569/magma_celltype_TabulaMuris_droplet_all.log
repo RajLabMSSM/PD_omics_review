@@ -1,0 +1,39 @@
+Welcome to MAGMA v1.07 (linux/s)
+Using flags:
+	--gene-results /data/fuma/celltype/569/magma.genes.raw
+	--gene-covar /data/MAGMA/celltype/TabulaMuris_droplet_all.txt
+	--model condition-hide=Average direction=greater
+	--out /data/fuma/celltype/569/magma_celltype_TabulaMuris_droplet_all
+
+Start time is 21:46:12, Thursday 28 Feb 2019
+
+Reading file /data/fuma/celltype/569/magma.genes.raw... 
+	18147 genes read from file
+Loading gene-level covariates...
+Reading file /data/MAGMA/celltype/TabulaMuris_droplet_all.txt... 
+	detected 76 variables in file (using all)
+	found 76 valid gene covariates, for 14058 genes defined in genotype data
+Processing missing values...
+	found 4089 genes not present in all input files: removing these from analysis
+	14058 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 76 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	conditioning on input variables (no output):
+		Average (covar)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 75)
+	writing results to file /data/fuma/celltype/569/magma_celltype_TabulaMuris_droplet_all.gsa.out
+
+End time is 21:46:23, Thursday 28 Feb 2019 (elapsed: 00:00:11)

@@ -1,0 +1,10 @@
+# MEAN_SAMPLE_SIZE = 36692
+# TOTAL_GENES = 14940
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE           TYPE  NGENES         BETA     BETA_STD           SE            P
+Endothelial       COVAR   14940    -0.023964     -0.04075    0.0085416      0.99749
+GABAergic         COVAR   14940     0.017025     0.044438     0.011173     0.063787
+Glutamatergic     COVAR   14940     0.015924     0.043557    0.0094574     0.046128
+Non.Neuronal      COVAR   14940    0.0027018    0.0043922     0.010744      0.40072

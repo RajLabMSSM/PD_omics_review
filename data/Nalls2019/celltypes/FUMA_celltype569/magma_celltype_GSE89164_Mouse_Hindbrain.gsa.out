@@ -1,0 +1,18 @@
+# MEAN_SAMPLE_SIZE = 84140
+# TOTAL_GENES = 12360
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                         TYPE  NGENES         BETA     BETA_STD           SE            P
+Astrocyte_progenitors           COVAR   12360     -0.36714    -0.055737      0.17541      0.98182
+Astrocytes                      COVAR   12360     -0.10231    -0.014067      0.16041      0.73818
+Cerebellar_neurons              COVAR   12360      0.27425     0.031233      0.17995      0.06376
+Endothelial_cells               COVAR   12360     -0.14937    -0.020113      0.13784      0.86073
+Endothelial_progenitors         COVAR   12360     -0.33372    -0.046098      0.13571      0.99303
+Excitatory_neurons              COVAR   12360     0.081591    0.0085166      0.22818      0.36033
+Granule_cells                   COVAR   12360    -0.068823     -0.01258      0.11788      0.72033
+Inhibitory_neurons              COVAR   12360   -0.0019433  -0.00022314      0.23618      0.50328
+Microglia                       COVAR   12360      0.10093      0.01054      0.14608      0.24481
+Oligodendrocyte_progenitors     COVAR   12360      0.95018      0.11649      0.24918   6.8928e-05
+Oligodendrotype_myelinating     COVAR   12360      0.38196     0.071029      0.12451    0.0010812
+SC                              COVAR   12360     -0.16537    -0.019881      0.18766       0.8109

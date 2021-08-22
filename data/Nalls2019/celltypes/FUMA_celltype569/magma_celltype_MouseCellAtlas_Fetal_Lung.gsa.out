@@ -1,0 +1,19 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                          TYPE  NGENES         BETA     BETA_STD           SE            P
+Epithelial_cell_Aldh1a2_high     COVAR   14594     -0.16159    -0.019678      0.20452      0.78526
+Epithelial_cell_Sftpc_high       COVAR   14594     -0.44968     -0.05454       0.2642      0.95561
+Erythroblast_Hba.x_high          COVAR   14594     -0.51763    -0.061527      0.25948      0.97696
+Erythroblast_Hbb.bs_high         COVAR   14594     -0.15591     -0.01896      0.25548      0.72916
+Erythroblast_Mt2_high            COVAR   14594      0.19945     0.027307      0.15467     0.098612
+Erythroblast_Mt2.Mt1_high        COVAR   14594     0.074955     0.011519      0.14676      0.30477
+Macrophage_Lyz2_high             COVAR   14594      0.28179     0.036758      0.16016     0.039267
+Macrophage_Pf4high               COVAR   14594      0.36718     0.044461      0.16154     0.011519
+Neutrophil_Gm5483_high           COVAR   14594     -0.35199    -0.037939      0.22284      0.94289
+Neutrophil_S100a8_high           COVAR   14594     -0.27682    -0.040273      0.17289      0.94532
+Smooth_muscle_cell               COVAR   14594     -0.35529    -0.040901      0.24941      0.92284
+Stromal_cell_Ankfy1_high         COVAR   14594     -0.83888    -0.092376      0.36476      0.98926
+Stromal_cell_Ptn_high            COVAR   14594     -0.41539    -0.045439      0.32938      0.89635

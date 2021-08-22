@@ -1,0 +1,10 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+macrophage                          COVAR   14058     0.018542     0.026577     0.012873     0.074895 macrophage
+endothelial_cell                    COVAR   14058     0.001235    0.0015635     0.013472      0.46348 endothelial_cell
+kidney_collecting_duct_epith...     COVAR   14058    0.0099725     0.009213     0.017239      0.28148 kidney_collecting_duct_epithelial_cell
+epithelial_cell_of_proximal_...     COVAR   14058   -0.0073581   -0.0079173     0.013564      0.70625 epithelial_cell_of_proximal_tubule
+natural_killer_cell                 COVAR   14058    -0.016583    -0.020285     0.013846      0.88446 natural_killer_cell

@@ -1,0 +1,17 @@
+# MEAN_SAMPLE_SIZE = 39955
+# TOTAL_GENES = 14974
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE               TYPE  NGENES         BETA     BETA_STD           SE            P
+Neuron                COVAR   14974     0.032995     0.086687    0.0065275    2.182e-07
+Oligodendrocyte       COVAR   14974     0.018561     0.048854    0.0086313     0.015769
+Microglia             COVAR   14974   -0.0014513     -0.00406    0.0060491       0.5948
+Macrophage            COVAR   14974    0.0015427    0.0043523    0.0059089      0.39702
+Polydendrocyte        COVAR   14974     0.021858     0.054322    0.0094975      0.01069
+Mitotic               COVAR   14974   0.00023618   0.00076893    0.0038301      0.47542
+Astrocyte             COVAR   14974     0.012408     0.032383    0.0085679     0.073786
+Ependymal             COVAR   14974   -0.0069824    -0.020464      0.00476      0.92879
+Endothelial_stalk     COVAR   14974    -0.012583    -0.034179    0.0075038      0.95321
+Mural                 COVAR   14974    -0.021594    -0.056726    0.0072411      0.99857
+Endothelial_tip       COVAR   14974    -0.026638    -0.072163    0.0072182      0.99989

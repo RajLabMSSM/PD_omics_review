@@ -1,0 +1,19 @@
+# TOTAL_GENES = 17343
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                TYPE  NGENES         BETA     BETA_STD           SE            P
+acinar                 COVAR   17343    -0.084469    -0.029015     0.047955      0.96091
+activated_stellate     COVAR   17343     -0.16899    -0.055577      0.05507      0.99892
+alpha                  COVAR   17343      0.17586     0.044452     0.084226     0.018408
+beta                   COVAR   17343      0.19963     0.052988     0.072702     0.003021
+delta                  COVAR   17343       0.2226     0.052532     0.086976    0.0052476
+ductal                 COVAR   17343     0.019063    0.0058745     0.064302      0.38344
+endothelial            COVAR   17343    -0.027191   -0.0064717      0.06964       0.6519
+epsilon                COVAR   17343     0.074178      0.01802     0.065129      0.12737
+gamma                  COVAR   17343      0.32286     0.073345     0.087209   0.00010725
+macrophage             COVAR   17343    -0.023328   -0.0062885     0.052805      0.67067
+mast                   COVAR   17343     -0.10458    -0.016816     0.079536      0.90571
+quiescent_stellate     COVAR   17343     -0.25478    -0.058637     0.080705       0.9992
+schwann                COVAR   17343    -0.037662   -0.0094879     0.059879      0.73531
+t_cell                 COVAR   17343     -0.13654    -0.023904     0.064344      0.98308

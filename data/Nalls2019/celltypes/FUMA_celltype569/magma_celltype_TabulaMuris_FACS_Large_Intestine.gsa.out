@@ -1,0 +1,10 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+epithelial_cell_of_large_int...     COVAR   14058    -0.030799    -0.059158     0.016568      0.96847 epithelial_cell_of_large_intestine
+large_intestine_goblet_cell         COVAR   14058   -0.0040846   -0.0086067     0.013992      0.61482 large_intestine_goblet_cell
+Brush_cell_of_epithelium_pro...     COVAR   14058      0.01186     0.015461     0.013511      0.19004 Brush_cell_of_epithelium_proper_of_large_intestine
+enterocyte_of_epithelium_of_...     COVAR   14058    -0.017117    -0.029968     0.012494      0.91465 enterocyte_of_epithelium_of_large_intestine
+enteroendocrine_cell                COVAR   14058     0.046391     0.064503     0.015991    0.0018629 enteroendocrine_cell

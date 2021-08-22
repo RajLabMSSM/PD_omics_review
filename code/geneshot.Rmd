@@ -1,0 +1,275 @@
+---
+title: "geneshot"
+author: "<h3>Author</h3>Brian M. Schilder"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document: 
+    theme: spacelab
+    highlight: zenburn 
+    code_folding: show 
+    toc: true 
+    toc_float: true
+    smooth_scroll: true
+    number_sections: false 
+    self_contained: true 
+---
+
+```{r setup, include=T, warning=F, message=F}
+knitr::opts_chunk$set(echo = TRUE, root.dir=here::here("/Desktop/PD_omics"))
+# knitr::opts_knit$set(echo = TRUE, root.dir=here::here("/Desktop/PD_omics"))
+
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+set.seed(2019)
+```
+
+# Geneshot
+
+Plot genes that come from entering "Parkinson's" into [Geneshot](https://amp.pharm.mssm.edu/geneshot/index.html?searchin=Parkinson's&searchnot=&rif=autorif), which gathers associated gene names from PubMed literature.  
+
+```{r}
+replace_ENSP <- function(PD_genes,
+                         gene_col="Gene"){ 
+  inds <- which(startsWith(PD_genes[[gene_col]], "ENSP"))
+  if(length(inds)>0){
+    ensembl_ids <- PD_genes[[gene_col]][inds]
+    conversion <- AnnotationDbi::mapIds(EnsDb.Hsapiens.v75::EnsDb.Hsapiens.v75,
+                                        keys = ensembl_ids,
+                                        keytype = "PROTEINID",
+                                        column = "SYMBOL")
+    PD_genes[inds,gene_col] <- unname(conversion)
+    PD_genes <- PD_genes[!is.na(PD_genes[[gene_col]]),]
+  } 
+  return(PD_genes)
+}
+```
+
+## Associated genes  
+
+```{r Associated genes }
+PD_genes <- data.table::fread(here::here("data/Geneshot/geneshot.parkinsons_disease.tsv")) %>% 
+  dplyr::mutate(Zscore=scales::rescale(`Fraction of publications from total gene publication`)) %>%
+  dplyr::select(Rank, Gene, Zscore) 
+PD_genes <- replace_ENSP(PD_genes)
+```
+
+
+## Predicted genes 
+
+```{r}
+gene_counts <- data.table::fread(here::here("data/Geneshot/geneshot.parkinsons_disease.tsv"))
+PD_pred_genes <- data.table::fread(here::here("data/Geneshot/geneshot_predictions_AutoRIF.parkinsons_disease.tsv")) %>%
+  dplyr::mutate(Zscore=scales::rescale(Score),
+                Type="Geneshot") %>%  
+  dplyr::select(ID=Rank,Name=Gene,Zscore,
+                Genes="Genes contributing most to score:similarity score",
+                Type) %>%
+  dplyr::mutate(Type_ID=paste(Type,ID,sep="_")) %>% 
+  merge(gene_counts, all.x = T, by.x = "Name", by.y = "Gene")
+
+PD_pred_genes <- replace_ENSP(PD_pred_genes, gene_col = "Name")
+  
+PD_pred_genes_melt <- PD_pred_genes %>%
+  tidyr::separate(col="Genes", 
+                  sep = ";",
+                  into = paste0("gene",1:9)) %>% 
+  data.table::melt.data.table(id.vars = c("ID","Name","Zscore","Type","Type_ID","Rank","Publication count",
+                                          "Fraction of publications from total gene publication")) %>% 
+  tidyr::separate(col="value",sep = ":", into=c("gene2","similarity")) %>%
+  subset(!is.na(gene2))
+
+
+saveRDS(PD_pred_genes_melt,here::here("data/Geneshot/PD_pred_genes_melt.rds"))
+```
+
+# Geneshot UMAP
+
+[Density plots tutorial](https://www.r-graph-gallery.com/2d-density-plot-with-ggplot2.html)
+
+## Constuct matrix 
+
+```{r}
+
+EXP <- reshape2::dcast(PD_pred_genes_melt,
+                       formula = Name ~ gene2, 
+                       value.var = "similarity", 
+                       fill = 0) %>%
+  tibble::column_to_rownames("Name")  %>%
+  as.matrix() %>%
+  as("sparseMatrix")
+```
+
+
+
+## Run UMAP
+
+```{r Geneshot UMAP}
+library(network)
+library(ggnetwork)
+library(knn.covertree)
+ 
+
+# seurat <- Seurat::CreateSeuratObject(as(t(EXP), "sparseMatrix"), 
+#                                      meta.data = data.frame(PD_pred_genes,
+#                                                             row.names = PD_pred_genes$Name))
+# seurat <- Seurat::NormalizeData(seurat)
+# seurat <- Seurat::FindVariableFeatures(seurat)
+# seurat <- Seurat::ScaleData(seurat)
+# seurat <- Seurat::RunPCA(seurat, npcs=50)
+# seurat <- Seurat::FindNeighbors(seurat, force.recalc = T)
+# seurat <- Seurat::RunUMAP(seurat, dims=1:20)
+# seurat <- Seurat::FindClusters(seurat)
+# Seurat::DimPlot(seurat, group.by = "Zscore") + Seurat::NoLegend()
+
+#### UMAP ####
+umap_res <- uwot::umap(X = as.matrix(EXP), n_components = 2,
+                       ret_extra = c("model","nn","fgraph"))# %>% data.frame() 
+umap_df <- umap_res$embedding %>% 
+  `colnames<-`(paste0("UMAP",1:ncol(umap_res$embedding)))
+
+#### KNN ####
+knn_res <- knn.covertree::find_knn(umap_df, k=3)
+# dim(knn_res$dist_mat)
+adjGraph <- igraph::graph_from_adjacency_matrix(knn_res$dist_mat,#umap_res$fgraph, 
+                                                mode = "undirected", 
+                                                weighted = T)
+clust <- igraph::cluster_louvain(adjGraph)
+
+
+```
+## Plot UMAP
+
+### 2D
+
+```{r} 
+#### Annotated UMAP ####
+umap_dat <- merge(PD_pred_genes, 
+                  cbind(data.frame(umap_df),
+                        Name = row.names(EXP),
+                        cluster=clust$membership),
+                  by="Name") %>% 
+  dplyr::arrange(desc(Zscore)) 
+
+ 
+label_genes <- umap_dat %>% 
+  dplyr::group_by(cluster) %>%
+  dplyr::slice_head(n = 5)
+
+#### plot ####
+gg_umap <- ggplot(umap_dat, aes(x=UMAP1, y=UMAP2, color=Zscore, 
+                                # size=`Publication count`, 
+                                size=Zscore*2,
+                                label=Name)) +   
+  stat_density_2d(aes(fill = ..level..), geom = "polygon",adjust = .2, contour_var = "ndensity") +
+   scale_fill_distiller(palette=4, direction=-1) +
+  scale_x_continuous(expand = c(0.1, 0.1)) +
+  scale_y_continuous(expand = c(0.1, 0.1)) + 
+   # stat_density_2d_filled(show.cegend = F, contour_var = "ndensity",
+   #                       # linejoin = "bevel",
+   #                       # alpha=.8,
+   #                       breaks = seq(0.1, 1.0, length.out = 19)) +
+    # scale_fill_manual(values = c("black",pals::inferno(n = 18))) +
+   geom_point(alpha=.8) + 
+  scale_color_gradientn(colours = c("magenta","blue")) +
+  ggrepel::geom_label_repel(data = label_genes, max.overlaps = 20,na.rm = T,
+                            aes(x=UMAP1, y=UMAP2, label=Name),
+                            fill = alpha(c("white"),0.9),
+                            show.legend = F) +
+  theme_void() + 
+   theme(plot.background = element_rect(fill = "black"),
+         panel.background = element_rect(fill = "black"),
+         legend.text = element_text(color="white"),
+         legend.title = element_text(color="white"))  
+print(gg_umap)
+ 
+#### Save ####
+# ggsave(here::here("plots/geneshot_UMAP.jpg"), gg_umap, dpi = 300, height = 8, width = 10)
+# ggsave(here::here("plots/geneshot_UMAP.pdf"),gg_umap, dpi = 300, height = 8, width = 10)
+
+```
+### 2D interactive
+
+```{r}
+plotly::ggplotly(gg_umap)
+```
+
+
+### 3D
+
+Except this is like the one case where [Rayshader doesn't work...](https://github.com/tylermorganwall/rayshader/issues/148)
+
+```{r 3D, eval=FALSE}
+library(rayshader) 
+
+rgl::clear3d()
+plot_gg(gg_umap, width = 5, height = 5,
+        multicore = TRUE, scale = 250, 
+        zoom = 0.7, theta = 10, phi = 30, windowsize = c(800, 800))
+```
+
+## Similarity networks 
+
+Experimented with similarity networks of gene-gene data. A bit unncessary since UMAP constructs networks anyways.
+
+```{r, eval=FALSE}
+library(BUS)
+
+#### Construct similarity matrix using correlation (corr) or mutual information (MI)
+sM <- BUS::gene.similarity(EXP, measure="corr",net.trim="none")
+pM <- BUS::gene.pvalue(EXP, measure="corr",net.trim="none") 
+netM <- BUS::pred.network(pM, sM)
+netM[netM==0] <- NA
+
+#### Alternative plotting method with iGraph ####
+# adjGraph <- igraph::graph_from_adjacency_matrix(sM, weighted = T, mode = "undirected")
+# clusts <- igraph::cluster_fast_greedy(adjGraph)
+# plot(adjGraph)
+
+#### Construct network object ####
+edges <- reshape2::melt(netM) %>% `colnames<-`(c("from","to","weight"))
+nodes <- predictions[,c("Gene","Rank","Score")]
+net <- network(edges, vertex.attr = nodes, matrix.type = "edgelist", ignore.eval = F) 
+# help(layout)
+
+netF <- ggnetwork(net,  
+                  layout = "fruchtermanreingold",
+                  cell.jitter = 0)
+netF <- netF[!is.na(netF$weight),]
+netF <- netF[netF$weight>.005,]
+
+ggplot(netF, 
+       aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_edges(aes(alpha=weight), color = "black", na.rm = T) +
+  geom_nodes(aes(size=Score), color = "grey") +
+  geom_nodetext(aes(color = Score, label = Gene, size=Score),
+                fontface = "bold", nudge_y = .05) +
+  theme_blank()
+```
+
+# Wordcloud
+
+Turn genes into word cloud.
+
+[`ggwordcloud` tutorial](https://cran.r-project.org/web/packages/ggwordcloud/vignettes/ggwordcloud.html)
+
+```{r Wordcloud}
+library(ggwordcloud) 
+
+ggplot(PD_genes[1:100,], aes(label = Gene, size = Zscore, color=Zscore)) +
+  geom_text_wordcloud_area() + 
+  theme_minimal()
+```
+
+  
+
+# Session info 
+ 
+<details>
+
+```{r}
+utils::sessionInfo()
+```
+
+</details> 
+

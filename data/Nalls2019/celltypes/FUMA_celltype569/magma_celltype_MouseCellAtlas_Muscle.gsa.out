@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+B_cell_Jchain_high                  COVAR   14594     0.047306    0.0065336      0.10086      0.31952 B_cell_Jchain_high
+B_cell_Vpreb3_high                  COVAR   14594      0.12321     0.015741       0.1314      0.17421 B_cell_Vpreb3_high
+Dendritic_cell                      COVAR   14594    0.0037358   0.00044768     0.091401       0.4837 Dendritic_cell
+Endothelial_cell                    COVAR   14594      -0.1546     -0.01615      0.10977      0.92049 Endothelial_cell
+Erythroblast_Car1_high              COVAR   14594     0.014413     0.004178     0.055605      0.39774 Erythroblast_Car1_high
+Erythroblast_Car2_high              COVAR   14594      0.15704     0.020628      0.10794     0.072862 Erythroblast_Car2_high
+Granulocyte_monocyte_progeni...     COVAR   14594    -0.023219   -0.0039067      0.11818      0.57788 Granulocyte_monocyte_progenitor_cell
+Macrophage_Ms4a6c_high              COVAR   14594      0.26499     0.037578      0.14888     0.037564 Macrophage_Ms4a6c_high
+Macrophage_Retnla_high              COVAR   14594      0.14778     0.019936      0.10045     0.070625 Macrophage_Retnla_high
+Muscle_cell_Tnnc1_high              COVAR   14594    -0.039996   -0.0067086      0.05975      0.74837 Muscle_cell_Tnnc1_high
+Muscle_cell_Tnnc2_high              COVAR   14594    -0.064087   -0.0096595     0.074311      0.80576 Muscle_cell_Tnnc2_high
+Muscle_progenitor_cell              COVAR   14594   -0.0041191  -0.00044098      0.13109      0.51253 Muscle_progenitor_cell
+Neutrophil_Camp_high                COVAR   14594    0.0069397   0.00086086      0.12269      0.47745 Neutrophil_Camp_high
+Neutrophil_Prg2_high                COVAR   14594    0.0096735    0.0017147     0.051901      0.42607 Neutrophil_Prg2_high
+Neutrophil_Retnlg_high              COVAR   14594    -0.071393   -0.0095819     0.084218       0.8017 Neutrophil_Retnlg_high
+Stromal_cell                        COVAR   14594     -0.18279    -0.021344      0.10588      0.95785 Stromal_cell
+T_cell                              COVAR   14594    -0.033825   -0.0046007     0.074762      0.67452 T_cell

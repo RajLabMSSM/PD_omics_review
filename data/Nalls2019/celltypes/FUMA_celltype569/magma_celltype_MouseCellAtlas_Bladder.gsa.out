@@ -1,0 +1,22 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Basal_epithelial_cell               COVAR   14594     0.035049    0.0075002      0.11445      0.37971 Basal_epithelial_cell
+Dendritic_cell_Cd74_high            COVAR   14594     0.084364     0.010483      0.10846      0.21834 Dendritic_cell_Cd74_high
+Dendritic_cell_Lyz2_high            COVAR   14594      0.16725     0.024747       0.1154     0.073633 Dendritic_cell_Lyz2_high
+Endothelial_cell_Ly6c1_high         COVAR   14594    -0.016633   -0.0024195     0.098973      0.56673 Endothelial_cell_Ly6c1_high
+Epithelial_cell_Gm23935_high        COVAR   14594      0.36675     0.045276      0.14446    0.0055682 Epithelial_cell_Gm23935_high
+Epithelial_cell_Upk3a_high          COVAR   14594   -0.0075002    -0.001138      0.14304      0.52091 Epithelial_cell_Upk3a_high
+Macrophage_Pf4_high                 COVAR   14594      0.11494     0.015292     0.094185      0.11117 Macrophage_Pf4_high
+Mesenchymal_stromal_cell            COVAR   14594     -0.27548    -0.037415      0.12541      0.98597 Mesenchymal_stromal_cell
+NK_cell                             COVAR   14594     -0.15994    -0.021548      0.11366       0.9203 NK_cell
+Smooth_muscle_cell                  COVAR   14594     -0.10159    -0.012854       0.1174      0.80656 Smooth_muscle_cell
+Stromal_cell_Car3_high              COVAR   14594     -0.22535    -0.035325      0.10418      0.98472 Stromal_cell_Car3_high
+Stromal_cell_Dpt_high               COVAR   14594     -0.23249    -0.035949      0.10208      0.98861 Stromal_cell_Dpt_high
+Umbrella_cell                       COVAR   14594      0.05102     0.024602     0.047838       0.1431 Umbrella_cell
+Urothelium                          COVAR   14594     0.061949     0.019344     0.077441      0.21188 Urothelium
+Vascular_endothelial_cell           COVAR   14594     -0.12363    -0.016981      0.11821      0.85219 Vascular_endothelial_cell
+Vascular_smooth_muscle_proge...     COVAR   14594     -0.10487    -0.015413     0.081025       0.9022 Vascular_smooth_muscle_progenitor_cell

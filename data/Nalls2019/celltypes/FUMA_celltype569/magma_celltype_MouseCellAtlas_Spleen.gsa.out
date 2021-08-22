@@ -1,0 +1,17 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                         TYPE  NGENES         BETA     BETA_STD           SE            P
+Dendritic_cell_S100a4_high      COVAR   14594    -0.067272   -0.0069356      0.19845      0.63269
+Dendritic_cell_Siglech_high     COVAR   14594    -0.059381   -0.0069661      0.13676      0.66792
+Erythroblast                    COVAR   14594    0.0046679    0.0019036     0.041166      0.45486
+Granulocyte                     COVAR   14594    -0.044254   -0.0043749      0.14493      0.61994
+Macrophage                      COVAR   14594      0.11578     0.014651      0.11888      0.16506
+Marginal_zone_B_cell            COVAR   14594    -0.096868   -0.0091208      0.24773       0.6521
+Monocyte                        COVAR   14594      0.17959     0.020096      0.17418      0.15127
+Neutrophil                      COVAR   14594    -0.053668   -0.0092191     0.084643      0.73697
+NK_cell                         COVAR   14594      0.02359    0.0020453      0.20846      0.45495
+Plasma_cell                     COVAR   14594    -0.073312    -0.011115      0.11081      0.74587
+T_cell                          COVAR   14594     -0.32011    -0.029187      0.23701      0.91158

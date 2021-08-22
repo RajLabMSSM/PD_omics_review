@@ -1,0 +1,366 @@
+---
+title: "multimodal_networks"
+author: "<h3>Author</h3>Brian M. Schilder"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document: 
+    theme: spacelab
+    highlight: zenburn 
+    code_folding: show 
+    toc: true 
+    toc_float: true
+    smooth_scroll: true
+    number_sections: false 
+    self_contained: true 
+---
+
+```{r setup, include=T, warning=F, message=F}
+knitr::opts_chunk$set(echo = TRUE, root.dir=here::here("/Desktop/PD_omics"))
+# knitr::opts_knit$set(echo = TRUE, root.dir=here::here("/Desktop/PD_omics"))
+
+library(dplyr)
+library(ggplot2)
+library(orthogene)
+set.seed(2019)
+```
+
+ 
+# Cell-types / Tissues/ Pathways 
+
+Use the genes from GeneShot to then check for similarity with other term-associated gene sets.
+
+## [CellMeSH](https://uncurl.cs.washington.edu/db_query) 
+
+### Preprocess data
+
+```{r CellMeSH}
+cellmarker <- data.table::fread(here::here("data/UNCURL/PD_terms/cellmarker.csv"), select = 1:4) %>% 
+  dplyr::mutate(Zscore=scales::rescale(-log(`P-value`),c(0,1))) %>%
+  dplyr::select(ID=`Cell Ontology ID`, Name=`Cell`, Zscore, Genes=`Overlapping Genes`)%>%
+  dplyr::mutate(Type="CellMarker")
+
+
+cellmesh <- data.table::fread(here::here("data/UNCURL/PD_terms/cellmesh.csv"), select = 1:4) %>% 
+  dplyr::mutate(Zscore=scales::rescale(`Log-likelihood`,c(0,1))) %>%
+  dplyr::select(ID=`MeSH ID`, Name=`Cell Name`, Zscore, Genes=`Overlapping Genes`)%>%
+  dplyr::mutate(Type="CellMeSH")
+
+cellmesh_anatomy <- data.table::fread(here::here("data/UNCURL/PD_terms/cellmesh-anatomy.csv"), select = 1:4) %>%
+  dplyr::mutate(Zscore=scales::rescale(`Log-likelihood`,c(0,1))) %>%
+  dplyr::select(ID=`MeSH ID`, Name=`Cell Name`, Zscore, Genes=`Overlapping Genes`) %>%
+  # Lots of celltypes in the "anatomy" section
+  subset(!grepl("neuron|astrocyte|fibroblast|epithelial|endothelial|macrophages|monocytes|lymphocytes|leukocytes",
+                tolower(Name))) %>%
+  dplyr::mutate(Type="Anatomy")
+
+GO <- data.table::fread(here::here("data/UNCURL/PD_terms/geneontology.csv"), select = 1:4) %>%
+  dplyr::mutate(Zscore=scales::rescale(-log10(FDR),c(0,1))) %>%
+  subset(FDR<.05) %>%
+  dplyr::select(ID=`GO ID`, Name, Zscore, Genes=`Overlapping Genes`) %>%
+  subset(!grepl("neuron|dendrite|axon",tolower(Name))) %>%
+  dplyr::mutate(Type="GO")
+
+annot <- rbind(cellmarker, cellmesh, cellmesh_anatomy, GO) %>% 
+   dplyr::mutate(Type_ID=paste(Type, ID, sep="_"))%>% 
+   dplyr::arrange(desc(Zscore)) %>% 
+   dplyr::group_by(Type) %>%  
+   dplyr::slice_head(n = 20) %>%
+  data.table::data.table()
+annot %>% dplyr::group_by(Type) %>% count()
+
+{
+  annot_genes <- tidyr::separate(annot,col = "Genes", sep = ", ", 
+                               into=paste0("gene",1:100)) %>%
+  data.table::melt.data.table(id.vars = c("Type_ID","Type","ID","Name","Zscore"), 
+                              value.name = "Gene")  %>%
+    subset(Type=="GO" & !is.na(Gene)) %>%
+    dplyr::select(-variable)
+    
+  gene_map <- orthogene::map_genes(genes = annot_genes$Gene, 
+                                   mthreshold = 1,
+                                   drop_na = TRUE) 
+  gene_dict <- setNames(gene_map$name, gene_map$input)
+  annot_genes$Gene <- gene_dict[annot_genes$Gene] 
+} 
+```
+### Import Geneshot data
+
+Import data produced in `geneshot.Rmd`.
+
+```{r}
+PD_pred_genes_melt <- readRDS(here::here("data/Geneshot/PD_pred_genes_melt.rds"))
+```
+
+
+
+### Integrate all levels 
+
+```{r Integrate all levels }
+#### Merge with gene-level data ####
+annot_fused <- rbind(annot_genes, 
+                     PD_pred_genes_melt[1:100,] %>% 
+                       dplyr::mutate(Type="Geneshot",) %>%
+                       dplyr::select(Type, ID, Name, Zscore, Gene=gene2, Type_ID)
+                     ) %>% 
+  dplyr::mutate(Type_ID=paste(Type,ID,sep="_"),
+                pseudo=1) %>% 
+  # subset(Type!="Geneshot") %>%
+  subset(!is.na(Gene))
+data.table::fwrite(annot_fused, here::here("data/UNCURL/PD_terms/annot_fused.csv"))
+
+### 
+annot_unique <- annot_fused %>% 
+  dplyr::select(-Gene) %>% unique() 
+  
+annot_mat <- data.table::dcast(data = annot_fused, 
+                               formula = Type_ID  ~ Gene, 
+                               value.var = "Zscore", 
+                               fun.aggregate = mean,
+                               fill = 0) %>% 
+  tibble::column_to_rownames("Type_ID") 
+
+data.table::fwrite(annot_mat, here::here("data/UNCURL/PD_terms/annot_fused.mat.csv"), row.names = TRUE)
+```
+
+
+## Multi-modal network
+
+Now let's connect these terms at multiple levels using the gene names.
+
+[Various network plotting methods](https://www.jessesadler.com/post/network-analysis-with-r).
+
+
+# Multimodal wordcloud
+
+```{r Multimodal wordcloud}
+library(ggwordcloud)
+
+annot <- rbind(cellmarker, cellmesh, cellmesh_anatomy, GO[1:20,] )
+annot$Type <- factor(annot$Type, levels = c("CellMarker","CellMeSH","Anatomy","GO","Geneshot"),
+                     ordered = T)
+
+gg_annot <- ggplot(annot, aes(label = Name, size = Zscore, color=Type,  x=Type)) +
+  geom_text_wordcloud_area() + 
+  theme_minimal()
+print(gg_annot)
+```
+
+# Plot PD annotations
+
+Plot the PD annotations (Tissues, celltypes, GO). 
+
+## Run UMAP
+
+```{r}
+umap_res <- uwot::umap(X = annot_mat, 
+                       n_components = 5, 
+                       ret_extra = c("model","nn","fgraph"))
+##### high dimensional fuzzy graph ####
+umap_dist <- as.matrix(umap_res$fgraph) %>% 
+  `row.names<-`(row.names(annot_mat)) %>%
+  `colnames<-`(row.names(annot_mat))
+```
+
+## Plot UMAP
+
+```{r} 
+#### Embeddings  ####
+umap_df <- data.frame(umap_res$embedding,  
+                      row.names = row.names(annot_mat) ) %>%
+  `colnames<-`(paste0("UMAP",1:ncol(umap_res$embedding))) %>%
+  tibble::rownames_to_column("Type_ID") %>%
+  merge(annot_unique, by="Type_ID")
+
+
+## Labels 
+umap_labels <- umap_df %>% 
+  # dplyr::select(-Gene, -variable) %>% unique() %>%
+  dplyr::group_by(Type) %>%
+  dplyr::slice_max(order_by = Zscore, n = 10, with_ties = F) %>%
+  data.frame()
+  
+gg_umap <- ggplot(umap_df, aes(x=UMAP1, y=UMAP2, shape=Type, color=Type)) +
+  geom_point(aes(size=Zscore), alpha=.5) +
+  # geom_text(data = umap_labels, aes(x = UMAP1, y=UMAP2, label=Name))
+  ggrepel::geom_label_repel(data = umap_labels,
+                            aes(x=UMAP1, y=UMAP2, size=Zscore, color=Type, label=Name)) +
+  theme_bw()
+
+print(gg_umap)
+```
+
+## Construct similarity matrix
+
+```{r Plot PD annotations, eval=FALSE} 
+library(minet)# BiocManager::install("minet")  
+#### Construct similarity matrix using mutual information #### 
+# miM <- minet::build.mim(t(annot_mat))
+miM <- minet::build.mim(t(umap_dist))
+# Prune edges
+# miM <- minet::aracne(as.matrix(umap_dist))
+miM <- minet::clr(miM)
+# sM <- BUS::gene.similarity(umap_res, measure="corr", net.trim = "none")
+# pM <- BUS::gene.pvalue(umap_res, measure="MI", net.trim = "none")
+# netM <- BUS::pred.network(pM$multi.perm.p.value, sM)
+ 
+edges <- reshape2::melt(miM) %>% `colnames<-`(c("from","to","weight"))
+edges <- edges[!is.na(edges$weight),]
+edges <- edges[edges$weight>0,]
+hist(edges$weight, 50) 
+```
+
+## Construct network
+
+```{r, eval=FALSE} 
+# %>% tibble::column_to_rownames("Type_ID")
+net <- network::network(edges,  
+                        # vertex.attr = data.frame(umap_df[!duplicated(umap_df$Type_ID),],  row.names = umap_df[!duplicated(umap_df$Type_ID),]$Type_ID)[unique(edges$from),],
+                        matrix.type = "edgelist", 
+                        layout = "fruchtermanreingold",
+                        ignore.eval = F) 
+# net.sum <- network::summary.network(net)
+# ?gplot.layout {sna}	
+netF <- ggnetwork::ggnetwork(net, 
+                  # layout="circle",
+                  layout = "fruchtermanreingold"
+                  # cell.jitter = 0.75
+                  )  %>%
+  merge(umap_df, by.x = "vertex.names", by.y = "Type_ID")
+
+# netF <- dplyr::group_by(netF, Type) %>% 
+#   dplyr::slice_max(order_by = Zscore, n = 100, with_ties = F)
+# dplyr::group_by(netF, Type) %>% count()
+hubs <-  netF %>%  
+  dplyr::mutate(Type_ID=paste(Type,ID,sep="_")) %>% 
+  dplyr::group_by(Type, vertex.names, Name) %>% 
+  dplyr::summarise(Type_ID, n=n(), x=max(x), y=max(y), Zscore=mean(Zscore)) %>%
+  dplyr::group_by(Type) %>%
+  dplyr::arrange(desc(n), desc(Zscore))  %>%
+  dplyr::slice_max(order_by = n, n = 20, with_ties = F) %>%
+    dplyr::relocate(Type_ID, 1) 
+hubs%>% group_by(Type) %>% count() 
+```
+
+## Plot network 
+
+### ggnetwork 
+
+```{r, eval=FALSE} 
+library(ggnetwork)
+gg_net <- ggplot(netF, 
+       aes(x = x, y = y, xend = xend, yend = yend, label=Name)) +
+  geom_edges(aes(alpha=weight),# curvature = .3,
+             # curvature = .3, ncp = 100
+             color = "black"
+             ) +
+  geom_nodes(aes(size=Zscore, shape=Type, fill=Type, color=Type), alpha=.8) +
+  # geom_nodetext(aes(color = Type, label = Name, size=Zscore),
+                # fontface = "bold", nudge_y = .02, show.legend = F) +
+  ggrepel::geom_label_repel(data = hubs, 
+                           aes(x=x, y=y, label=Name, size=Zscore, color=Type), 
+                           inherit.aes = F, alpha=.8, max.overlaps = 20) +
+  theme_blank() 
+print(gg_net)
+```
+
+
+### [ggraph](https://github.com/thomasp85/ggraph)
+
+Has [edge bundling](https://www.r-graph-gallery.com/311-add-labels-to-hierarchical-edge-bundling.html)!....But can be quite slow with medium-large networks.
+
+[Converting between hclust/networks.](https://www.gastonsanchez.com/visually-enforced/how-to/2014/06/29/Graph-from-dendrogram/)
+
+```{r, eval=FALSE}
+library(ggraph)
+library(igraph)
+
+hist(edges$weight)
+edges <- subset(edges, from %in% hubs$vertex.names | to %in% hubs$vertex.names)
+nodes <- annot_unique %>% dplyr::relocate(Type_ID, 1) %>% unique()
+graph <- graph_from_data_frame(netF, 
+                               directed = T,
+                               # vertices = nodes[!duplicated(nodes$Type_ID),]
+                               )
+# graph <- graph_from_adjacency_matrix(umap_dist, weighted = T)
+# phy <- umap_res$embedding %>% 
+#   `colnames<-`(paste("UMAP",1:ncol(umap_res$embedding))) %>%
+#   `row.names<-`(row.names(annot_mat)) %>%
+#   dist() %>%
+#   hclust()  %>%
+#   ape::as.phylo()
+
+# library(network)
+# graph_net<- ape::as.network.phylo(phy,nodes)
+# graph_net = graph.edgelist(phy$edge)
+# graph_net <- ape::as.igraph.phylo(phy)
+# igraph::vertex.attributes(graph_net) <- nodes
+ 
+#  
+# ggraph(net, layout = "dendrogram",circular=T) +
+#    geom_node_point(alpha=.8) +
+#    # geom_edge_link() 
+#    geom_edge_diagonal() +
+#     coord_fixed()
+# 
+# ggraph(net, layout = "treemap") + 
+#   geom_node_tile(aes(fill = depth), size = 0.25)
+#   
+# ggraph(net, layout = 'circlepack') + 
+#   geom_node_circle(aes(fill = depth), size = 0.25, n = 50) + 
+#   coord_fixed()
+
+#### Simple graph ####
+ggg <- ggraph(graph, layout = "kk") + 
+    geom_edge_link(aes(alpha=weight)) +
+   geom_node_point(aes(color=Type, shape=Type, size=Zscore), alpha=.8)+
+  geom_node_label(data=hubs, aes(label=Name, color=Type, size=Zscore),
+                   alpha=.8, repel = T) + 
+  theme_graph()
+print(ggg)  
+```
+
+### [Edge bundling](https://www.r-graph-gallery.com/310-custom-hierarchical-edge-bundling.html) 
+
+```{r Edge bundling, eval=FALSE}
+# Create a graph of the flare class system
+library(tidygraph)
+# vertices <- umap_df %>% dplyr::select(name=Type_ID, size=Zscore, shortName=Type)
+# edges <- reshape2::melt(miM) %>% `colnames<-`(c("from","to","weight"))
+# edges <- edges[!is.na(edges$weight),]
+# edges <- edges[edges$weight>0,]
+
+tgraph <- tidygraph::tbl_graph(edges, nodes=nodes, node_key="Type_ID")
+
+importFrom <- match(edges$from, nodes$Type_ID)
+importTo <- match(edges$to, nodes$Type_ID)
+
+# Use class inheritance for layout but plot class imports as bundles
+gg_bundle <- ggraph(tgraph, 'kk') +
+  geom_conn_bundle(aes(colour = stat(index)),
+    data = get_con(importFrom, importTo),
+    edge_alpha = 0.25, tension = 1
+  ) +
+  geom_node_point() +
+  scale_edge_colour_distiller('', direction = 1, guide = 'edge_direction') +
+  geom_node_point(aes(color=Type, shape=Type, size=Zscore), alpha=.8)+
+  geom_node_label(data=hubs, aes(label=Name, color=Type, size=Zscore),
+                   alpha=.8, repel = T) + 
+  # coord_fixed() +
+  ggforce::theme_no_axes()
+
+```
+
+
+# [Animated UMAP](https://rpubs.com/sbet/notebook_parliamentelections_municipalities) 
+ 
+# Session info 
+ 
+<details>
+
+```{r}
+utils::sessionInfo()
+```
+
+</details> 
+
+

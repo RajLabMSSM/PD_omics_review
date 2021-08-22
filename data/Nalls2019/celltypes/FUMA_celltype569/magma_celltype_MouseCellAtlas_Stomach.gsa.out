@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                          TYPE  NGENES         BETA     BETA_STD           SE            P
+Antral_mucous_cell_              COVAR   14594     -0.23564    -0.041453      0.15266      0.93864
+Dendritic_cell                   COVAR   14594        0.126      0.02704      0.12102      0.14891
+Dividing_cell                    COVAR   14594   -0.0089866   -0.0020899      0.15028      0.52384
+Epithelial_cell_Gkn3_high        COVAR   14594    -0.069443     -0.01329      0.11897      0.72028
+Epithelial_cell_Krt20_high       COVAR   14594     0.094501     0.020762      0.15047      0.26499
+Epithelial_cell_Pla2g1b_high     COVAR   14594    -0.022247   -0.0038897     0.078994      0.61089
+G_cell                           COVAR   14594     -0.13595    -0.015996      0.13373      0.84533
+Gastric_mucosal_cell             COVAR   14594     -0.12872    -0.023602      0.14355      0.81506
+Macrophage                       COVAR   14594      0.05903    0.0073766     0.089542      0.25487
+Muscle_cell                      COVAR   14594    -0.060978   -0.0078882      0.10528      0.71876
+Parietal_cell_                   COVAR   14594      0.10001     0.026964     0.069247      0.07435
+Pit_cell_Gm26917_high            COVAR   14594       0.1965     0.033528      0.12958     0.064714
+Pit_cell_Ifrd1_high              COVAR   14594    -0.076168    -0.016626      0.18183      0.66235
+Stomach_cell_Gkn2_high           COVAR   14594     0.046102    0.0074113      0.23772      0.42312
+Stomach_cell_Mt2_high            COVAR   14594    -0.069124    -0.014841      0.22359      0.62139
+Stomach_cell_Muc5ac_high         COVAR   14594      0.16786     0.032508      0.17494      0.16865
+Tuft_cell                        COVAR   14594     -0.14113    -0.030341       0.1031      0.91447

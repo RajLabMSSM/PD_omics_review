@@ -1,0 +1,12 @@
+# TOTAL_GENES = 17136
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE         TYPE  NGENES         BETA     BETA_STD           SE            P
+acinar          COVAR   17136    -0.019836     -0.02945     0.011824      0.95328
+alpha           COVAR   17136     0.047916     0.076466     0.017072    0.0025055
+beta            COVAR   17136     0.035211     0.053695     0.016879     0.018495
+delta           COVAR   17136     0.017203      0.02394     0.016741      0.15208
+ductal          COVAR   17136   -0.0053547   -0.0095532     0.010948      0.68762
+mesenchymal     COVAR   17136    -0.034526    -0.051982    0.0093575      0.99989
+PP              COVAR   17136     0.062801      0.10703     0.015547   2.6925e-05

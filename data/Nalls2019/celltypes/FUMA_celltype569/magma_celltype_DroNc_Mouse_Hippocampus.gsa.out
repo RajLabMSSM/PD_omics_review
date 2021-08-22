@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 102779
+# TOTAL_GENES = 12528
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE      TYPE  NGENES         BETA     BETA_STD           SE            P
+ASC1         COVAR   12528    -0.017917   -0.0014341      0.19798      0.53605
+ASC2         COVAR   12528     0.065776    0.0058503      0.17383      0.35257
+END          COVAR   12528    -0.076151    -0.008063      0.11929      0.73838
+exCA1        COVAR   12528      0.13963     0.013599      0.27458      0.30554
+exCA3        COVAR   12528    -0.053029   -0.0053179      0.27442      0.57661
+exDG         COVAR   12528    -0.063367   -0.0058779      0.27261       0.5919
+exPFC1       COVAR   12528     0.038764    0.0034996      0.36528      0.45774
+exPFC2       COVAR   12528      0.30075     0.026553      0.39594      0.22376
+exPFC3       COVAR   12528     -0.81289    -0.072109      0.43533      0.96906
+exPFC4       COVAR   12528    -0.084879   -0.0078384      0.35882      0.59349
+exPFC5       COVAR   12528     0.062929    0.0060466      0.32263      0.42268
+exPFC6       COVAR   12528      -0.2415    -0.023144      0.30834      0.78325
+exPFC7       COVAR   12528      0.42444     0.045405      0.25999     0.051297
+exPFC8       COVAR   12528      0.31514     0.034353      0.25204      0.10559
+exPFC9       COVAR   12528    -0.099557   -0.0086949      0.40066      0.59812
+GABA1        COVAR   12528      0.13376     0.012393      0.29937      0.32751
+GABA2        COVAR   12528      0.39822     0.036557      0.32943      0.11338
+MG           COVAR   12528      0.39314      0.03218      0.30241     0.096808
+ODC          COVAR   12528      0.29767     0.022208      0.20398     0.072253
+OPC          COVAR   12528       0.2833     0.022091      0.26113      0.13899
+SMC          COVAR   12528     -0.78926    -0.062973      0.31093      0.99443

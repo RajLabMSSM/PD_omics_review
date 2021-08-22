@@ -1,0 +1,9 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+fibroblast                          COVAR   14058   0.00053372   0.00091346     0.015269      0.48606 fibroblast
+professional_antigen_present...     COVAR   14058    0.0087201     0.013867     0.014293       0.2709 professional_antigen_presenting_cell
+endothelial_cell                    COVAR   14058    -0.012833    -0.017798     0.015882      0.79046 endothelial_cell
+erythrocyte                         COVAR   14058   -0.0058375   -0.0022823     0.038445      0.56034 erythrocyte

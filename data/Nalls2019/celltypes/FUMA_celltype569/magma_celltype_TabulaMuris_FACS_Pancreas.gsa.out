@@ -1,0 +1,14 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                      TYPE  NGENES         BETA     BETA_STD           SE            P
+pancreatic_A_cell            COVAR   14058     0.015715     0.029603     0.014102      0.13257
+type_B_pancreatic_cell       COVAR   14058      0.02736      0.05856      0.01045    0.0044244
+leukocyte                    COVAR   14058    0.0032964    0.0055341    0.0092531      0.36083
+pancreatic_acinar_cell       COVAR   14058     0.013857     0.010792     0.016009      0.19337
+pancreatic_PP_cell           COVAR   14058     0.015918     0.031496     0.013366      0.11686
+pancreatic_ductal_cell       COVAR   14058    -0.006967    -0.012989     0.010198      0.75275
+endothelial_cell             COVAR   14058    -0.014502     -0.02527    0.0088646      0.94907
+pancreatic_D_cell            COVAR   14058     0.014088     0.027378     0.013119      0.14145
+pancreatic_stellate_cell     COVAR   14058    -0.024044    -0.042234    0.0093906      0.99477

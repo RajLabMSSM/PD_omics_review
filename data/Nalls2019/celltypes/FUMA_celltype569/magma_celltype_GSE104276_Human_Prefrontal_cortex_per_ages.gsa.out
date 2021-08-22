@@ -1,0 +1,48 @@
+# MEAN_SAMPLE_SIZE = 10319
+# TOTAL_GENES = 17605
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                    TYPE  NGENES         BETA     BETA_STD           SE            P
+GW08_Neurons               COVAR   17605     -0.01808    -0.035904     0.010979      0.95019
+GW08_Stem_cells            COVAR   17605   -0.0062103      -0.0139    0.0060336      0.84832
+GW08_GABAergic_neurons     COVAR   17605   -0.0031963   -0.0066622    0.0062295      0.69605
+GW08_Microglia             COVAR   17605   -0.0083811    -0.021652    0.0044635      0.96978
+GW09_Stem_cells            COVAR   17605    -0.039205    -0.072004     0.012011      0.99945
+GW09_Neurons               COVAR   17605    0.0015681    0.0030793     0.012665      0.45073
+GW09_GABAergic_neurons     COVAR   17605    -0.010341    -0.018892    0.0065656      0.94237
+GW10_Neurons               COVAR   17605     0.017792     0.033567     0.015179      0.12058
+GW10_Stem_cells            COVAR   17605    4.894e-05   9.5063e-05     0.014251      0.49863
+GW10_GABAergic_neurons     COVAR   17605     0.011831     0.019429     0.009099     0.096773
+GW10_Microglia             COVAR   17605     0.017348     0.045992    0.0048692   0.00018402
+GW12_Neurons               COVAR   17605    -0.019477    -0.034069      0.01418       0.9152
+GW12_Stem_cells            COVAR   17605    -0.030402    -0.062112     0.010721      0.99771
+GW12_GABAergic_neurons     COVAR   17605    0.0087422     0.014499    0.0096204      0.18176
+GW12_OPC                   COVAR   17605   -0.0011629   -0.0026705    0.0056243       0.5819
+GW12_Microglia             COVAR   17605    0.0033056    0.0084932    0.0038913      0.19782
+GW13_Neurons               COVAR   17605    -0.011746    -0.021725     0.011564      0.84511
+GW13_Stem_cells            COVAR   17605    -0.015224    -0.030769    0.0084086      0.96488
+GW13_Microglia             COVAR   17605   -0.0075955    -0.019839    0.0037518      0.97853
+GW16_Neurons               COVAR   17605     0.034505      0.06539     0.017044     0.021472
+GW16_Stem_cells            COVAR   17605    -0.002394   -0.0048195     0.016002      0.55946
+GW16_GABAergic_neurons     COVAR   17605     0.030946     0.051698     0.017301     0.036843
+GW16_Microglia             COVAR   17605        0.008     0.016089    0.0087505       0.1803
+GW16_OPC                   COVAR   17605     0.020169     0.040318     0.011072     0.034259
+GW19_Neurons               COVAR   17605  -0.00074081   -0.0012634     0.015235      0.51939
+GW19_GABAergic_neurons     COVAR   17605     -0.01914    -0.027485     0.014134      0.91216
+GW19_Astrocytes            COVAR   17605    -0.007769    -0.016506    0.0070471      0.86486
+GW19_OPC                   COVAR   17605   -0.0094925    -0.019504     0.006768      0.91962
+GW19_Stem_cells            COVAR   17605    -0.018828    -0.039505    0.0074314      0.99435
+GW19_Microglia             COVAR   17605    0.0022535    0.0057763    0.0039114      0.28226
+GW23_Neurons               COVAR   17605      0.01962     0.031221     0.015591      0.10413
+GW23_GABAergic_neurons     COVAR   17605     0.036071     0.054041     0.016374     0.013806
+GW23_OPC                   COVAR   17605  -0.00055164  -0.00097757     0.012849      0.51712
+GW23_Astrocytes            COVAR   17605   -0.0050984    -0.010655     0.007291       0.7578
+GW23_Stem_cells            COVAR   17605   -0.0099439    -0.022681    0.0051614      0.97298
+GW23_Microglia             COVAR   17605     0.012395     0.021781    0.0075814     0.051042
+GW26_GABAergic_neurons     COVAR   17605      0.05651     0.092575     0.013922   2.4757e-05
+GW26_Astrocytes            COVAR   17605     0.027426     0.053593     0.010752    0.0053776
+GW26_Neurons               COVAR   17605     0.030269     0.047389     0.016826     0.036024
+GW26_Microglia             COVAR   17605     0.027488     0.049798     0.010164     0.003424
+GW26_OPC                   COVAR   17605     0.025233     0.045365     0.015779     0.054907
+GW26_Stem_cells            COVAR   17605     0.011451     0.025224    0.0070685     0.052627

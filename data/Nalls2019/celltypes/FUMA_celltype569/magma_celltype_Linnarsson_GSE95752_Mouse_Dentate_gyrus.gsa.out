@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 113423
+# TOTAL_GENES = 12626
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE              TYPE  NGENES         BETA     BETA_STD           SE            P
+Astrocytes           COVAR   12626    -0.040126    -0.010817     0.053521      0.77329
+Cajal_Retzius        COVAR   12626    -0.019731   -0.0077349     0.073708      0.60553
+Endothelial          COVAR   12626     -0.20195    -0.034865     0.087423      0.98955
+GABA_Cnr1            COVAR   12626     0.042004     0.023205     0.060101      0.24232
+GABA_Lhx6            COVAR   12626     0.059872     0.035513     0.048084      0.10655
+Granule_immature     COVAR   12626     -0.10425    -0.053256     0.070305      0.93092
+Granule_mature       COVAR   12626    -0.041189    -0.017152      0.06518      0.73628
+Microglia            COVAR   12626   -0.0011752  -0.00024222     0.072218      0.50649
+Mossy_Calb2          COVAR   12626      0.01031    0.0069693     0.043358      0.40603
+Mossy_Sv2b           COVAR   12626     0.047115     0.035313     0.033629     0.080618
+Neuroblast           COVAR   12626      -0.2497    -0.048413      0.12324      0.97862
+nIPC                 COVAR   12626    -0.065849    -0.024687     0.053838      0.88934
+OL                   COVAR   12626     0.075429     0.025374     0.047321     0.055482
+OPC                  COVAR   12626      0.21124     0.063191     0.096666     0.014444
+PVM                  COVAR   12626    -0.018311   -0.0038141     0.073415      0.59848
+Radial_Glia_like     COVAR   12626    -0.036038   -0.0068642     0.080878      0.67205
+VLMC                 COVAR   12626     -0.16018    -0.051296     0.062794      0.99462

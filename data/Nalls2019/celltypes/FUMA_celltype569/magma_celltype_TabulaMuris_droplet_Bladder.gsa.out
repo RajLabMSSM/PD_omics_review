@@ -1,0 +1,10 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                      TYPE  NGENES         BETA     BETA_STD           SE            P
+mesenchymal_cell             COVAR   14058     -0.13823    -0.059112     0.046615      0.99849
+bladder_cell                 COVAR   14058     0.067464     0.041034     0.048968     0.084159
+endothelial_cell             COVAR   14058    0.0069012    0.0026791     0.049877      0.44498
+basal_cell_of_urothelium     COVAR   14058     0.043124     0.026654     0.049115      0.18997
+leukocyte                    COVAR   14058      0.02416    0.0094755     0.049986      0.31443

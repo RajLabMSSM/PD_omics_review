@@ -1,0 +1,10 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+natural_killer_cell                 COVAR   14058    -0.011657    -0.019012     0.011545      0.84367 natural_killer_cell
+hepatocyte                          COVAR   14058   -0.0035721   -0.0066981    0.0077494      0.67758 hepatocyte
+endothelial_cell_of_hepatic_...     COVAR   14058     0.010341     0.015864     0.010528        0.163 endothelial_cell_of_hepatic_sinusoid
+Kupffer_cell                        COVAR   14058     0.022296      0.02825     0.015298     0.072509 Kupffer_cell
+B_cell                              COVAR   14058   -0.0090066    -0.011939      0.01485      0.72791 B_cell

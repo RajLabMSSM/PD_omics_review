@@ -1,0 +1,17 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+stromal_cell                        COVAR   14058   0.00059414   0.00091973    0.0098213      0.47588 stromal_cell
+lung_endothelial_cell               COVAR   14058    0.0075443     0.010569     0.011799      0.26128 lung_endothelial_cell
+myeloid_cell                        COVAR   14058     0.012909     0.022408     0.014448       0.1858 myeloid_cell
+unknown                             COVAR   14058     0.029003     0.020652     0.025028      0.12327 unknown
+monocyte                            COVAR   14058      0.01052      0.01611     0.012891      0.20724 monocyte
+classical_monocyte                  COVAR   14058   -0.0029989   -0.0054931     0.012709      0.59327 classical_monocyte
+B_cell                              COVAR   14058   -0.0034354   -0.0043692     0.014594      0.59305 B_cell
+T_cell                              COVAR   14058    -0.049809    -0.069719     0.013278      0.99991 T_cell
+natural_killer_cell                 COVAR   14058    -0.034419    -0.049714     0.013755      0.99382 natural_killer_cell
+epithelial_cell_of_lung             COVAR   14058     0.027054     0.046049     0.010133    0.0037972 epithelial_cell_of_lung
+ciliated_columnar_cell_of_tr...     COVAR   14058    0.0078817     0.015985    0.0065289      0.11369 ciliated_columnar_cell_of_tracheobronchial_tree
+leukocyte                           COVAR   14058    -0.036511    -0.039483     0.012856      0.99774 leukocyte

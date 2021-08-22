@@ -1,0 +1,29 @@
+# MEAN_SAMPLE_SIZE = 36692
+# TOTAL_GENES = 14940
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE        TYPE  NGENES         BETA     BETA_STD           SE            P
+Astro          COVAR   14940    0.0062561     0.012216    0.0065741      0.17065
+CR             COVAR   14940   -0.0076192    -0.015727    0.0078537        0.834
+Endo           COVAR   14940   -0.0091117    -0.016692    0.0065151      0.91902
+L2.3_IT        COVAR   14940     0.005627     0.015774     0.009774      0.28241
+L4             COVAR   14940    0.0026032    0.0073117    0.0066615      0.34798
+L5_IT          COVAR   14940     0.016105     0.044876     0.010445     0.061569
+L5_PT          COVAR   14940     0.017883     0.049564       0.0103     0.041276
+L6_CT          COVAR   14940    -0.010917    -0.030265     0.010981      0.83993
+L6_IT          COVAR   14940   -0.0014744   -0.0041448    0.0099693      0.55879
+L6b            COVAR   14940   0.00091171    0.0025329     0.010629      0.46582
+Lamp5          COVAR   14940    0.0072626     0.019678       0.0116      0.26564
+Macrophage     COVAR   14940    0.0024818    0.0042368    0.0066668      0.35485
+Meis2          COVAR   14940    0.0011565    0.0023837    0.0087103      0.44719
+NP             COVAR   14940    0.0022021    0.0059972     0.010999      0.42066
+Oligo          COVAR   14940     0.010941      0.02146    0.0078299     0.081167
+Peri           COVAR   14940   -0.0011592   -0.0022784    0.0052703      0.58704
+Pvalb          COVAR   14940     0.008607     0.023546     0.010317      0.20208
+Serpinf1       COVAR   14940    0.0055918     0.015006     0.011136      0.30779
+SMC            COVAR   14940    -0.016086    -0.029939    0.0065299      0.99311
+Sncg           COVAR   14940    0.0099737     0.027399     0.010418      0.16921
+Sst            COVAR   14940    0.0058881     0.015918     0.011577      0.30551
+Vip            COVAR   14940     0.010421     0.026395     0.012811      0.20798
+VLMC           COVAR   14940    -0.018207    -0.031202    0.0071332      0.99465

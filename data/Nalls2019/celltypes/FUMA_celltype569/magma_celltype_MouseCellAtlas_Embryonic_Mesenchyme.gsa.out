@@ -1,0 +1,31 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                          TYPE  NGENES         BETA     BETA_STD           SE            P
+Dendritic_Cell                   COVAR   14594     0.099975     0.013314      0.14935      0.25162
+Endothelial_Cell                 COVAR   14594    -0.068343   -0.0091193      0.10493      0.74257
+Erythroblast_Hbb.bs_high         COVAR   14594     0.087197     0.012864      0.11855      0.23101
+Erythroblast_Mt2_high            COVAR   14594    -0.096001    -0.020235     0.083944       0.8736
+Erythroid_Cell                   COVAR   14594     -0.16459    -0.019981      0.13279       0.8924
+Ganglion_cell_Cartpt_high        COVAR   14594      0.15155     0.017782      0.16014      0.17199
+Ganglion_cell_Gal_high           COVAR   14594      0.23375     0.029586      0.12948      0.03553
+Ganglion_cell_Mapt_high          COVAR   14594     0.094689    0.0091263      0.18416      0.30357
+Lymphoid_progenitor_cell         COVAR   14594     -0.20263    -0.029238      0.13264      0.93669
+Macrophage                       COVAR   14594      0.29954     0.036207      0.15421     0.026054
+Muscle                           COVAR   14594     -0.34386    -0.043594      0.21867      0.94207
+Neuron_Igfbpl1_high              COVAR   14594    -0.028403   -0.0024875      0.23378      0.54835
+Neuron_Isl1_high                 COVAR   14594      0.14168       0.0157      0.17168      0.20462
+Neuron_Npy_high                  COVAR   14594    0.0076602   0.00079689      0.17511      0.48255
+Neuronal_Progenitors             COVAR   14594    -0.047487   -0.0048187      0.13255      0.63992
+Neutrophil                       COVAR   14594    0.0055385    0.0011449     0.057297       0.4615
+Progenitor_cell_Ptprcap_high     COVAR   14594    -0.012448   -0.0018736      0.10703      0.54629
+Reproductive_tissues             COVAR   14594    0.0057061   0.00063555       0.1457      0.48438
+Skeletal_Muscle                  COVAR   14594      0.16749     0.019709      0.14375        0.122
+Stromal_Cell_Cldn11_high         COVAR   14594     -0.19974    -0.021198      0.12941      0.93863
+Stromal_Cell_Agtr2_high          COVAR   14594     -0.39873    -0.038226      0.23411      0.95572
+Stromal_Cell_Cnmd_high           COVAR   14594     -0.41689     -0.04696      0.18502      0.98787
+Stromal_cell_Cxcl12_high         COVAR   14594     -0.31856    -0.028862      0.31315      0.84548
+Stromal_Cell_Cxcl14_high         COVAR   14594     -0.35883    -0.039334      0.22835      0.94194
+Stromal_Cell_fabp7_high          COVAR   14594     -0.28082    -0.031819      0.20973       0.9097

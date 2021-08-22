@@ -1,0 +1,39 @@
+Welcome to MAGMA v1.07 (linux/s)
+Using flags:
+	--gene-results /data/fuma/celltype/569/magma.genes.raw
+	--gene-covar /data/MAGMA/celltype/MouseCellAtlas_Trophoblast_Stem_Cell.txt
+	--model condition-hide=Average direction=greater
+	--out /data/fuma/celltype/569/magma_celltype_MouseCellAtlas_Trophoblast_Stem_Cell
+
+Start time is 21:41:46, Thursday 28 Feb 2019
+
+Reading file /data/fuma/celltype/569/magma.genes.raw... 
+	18147 genes read from file
+Loading gene-level covariates...
+Reading file /data/MAGMA/celltype/MouseCellAtlas_Trophoblast_Stem_Cell.txt... 
+	detected 5 variables in file (using all)
+	found 5 valid gene covariates, for 14594 genes defined in genotype data
+Processing missing values...
+	found 3553 genes not present in all input files: removing these from analysis
+	14594 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 5 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	conditioning on input variables (no output):
+		Average (covar)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 4)
+	writing results to file /data/fuma/celltype/569/magma_celltype_MouseCellAtlas_Trophoblast_Stem_Cell.gsa.out
+
+End time is 21:41:58, Thursday 28 Feb 2019 (elapsed: 00:00:12)

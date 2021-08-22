@@ -1,0 +1,20 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Cumulus_cell_Car14_high             COVAR   14594     -0.18215    -0.026263      0.17657      0.84886 Cumulus_cell_Car14_high
+Cumulus_cell_Nupr1_high             COVAR   14594     -0.56655     -0.06534       0.2334      0.99239 Cumulus_cell_Nupr1_high
+Cumulus_cell_Ube2c_high             COVAR   14594    -0.045871   -0.0077314      0.14405      0.62492 Cumulus_cell_Ube2c_high
+Granulosa_cell_Inhba_high           COVAR   14594    -0.071388   -0.0090389      0.19467      0.64308 Granulosa_cell_Inhba_high
+Granulosa_cell_Kctd14_high          COVAR   14594     -0.40409    -0.047244      0.20484      0.97573 Granulosa_cell_Kctd14_high
+Large_luteal_cell                   COVAR   14594     -0.05468    -0.010494      0.16012      0.63363 Large_luteal_cell
+luteal_cells                        COVAR   14594     0.047261     0.013601      0.10246      0.32232 luteal_cells
+Macrophage_Lyz2_high                COVAR   14594      0.18548     0.029337      0.10136     0.033645 Macrophage_Lyz2_high
+Marcrophage_Cd74_high               COVAR   14594      0.17972     0.022754     0.084993     0.017245 Marcrophage_Cd74_high
+Ovarian_surface_epithelium_c...     COVAR   14594     -0.13291    -0.021705      0.11196       0.8824 Ovarian_surface_epithelium_cell
+Ovarian_vascular_surface_end...     COVAR   14594     -0.13045    -0.026081      0.10035      0.90318 Ovarian_vascular_surface_endothelium_cell
+Small_luteal_cell                   COVAR   14594     0.083594    0.0089616      0.24416      0.36604 Small_luteal_cell
+Stroma_cell_                        COVAR   14594     -0.40599    -0.056075      0.18075      0.98764 Stroma_cell_
+Thecal_cell                         COVAR   14594      0.13597     0.019399      0.16616       0.2066 Thecal_cell

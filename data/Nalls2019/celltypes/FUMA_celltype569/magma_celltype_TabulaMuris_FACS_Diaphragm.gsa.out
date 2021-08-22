@@ -1,0 +1,10 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+skeletal_muscle_satellite_st...     COVAR   14058    -0.041548     -0.05534     0.016877      0.99308 skeletal_muscle_satellite_stem_cell
+mesenchymal_stem_cell               COVAR   14058     -0.01874    -0.032337     0.012798      0.92843 mesenchymal_stem_cell
+endothelial_cell                    COVAR   14058    0.0055786    0.0065485     0.015177       0.3566 endothelial_cell
+lymphocyte                          COVAR   14058    0.0044947    0.0063472     0.012872      0.36348 lymphocyte
+macrophage                          COVAR   14058     0.036598     0.056663      0.01362    0.0036079 macrophage

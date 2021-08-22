@@ -1,0 +1,30 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Adipocyte                           COVAR   14594      0.10044     0.014142      0.14029      0.23702 Adipocyte
+Brown_adipose_tissue_Cidea_h...     COVAR   14594     0.069067     0.013612     0.082155      0.20027 Brown_adipose_tissue_Cidea_high
+Brown_adipose_tissue_Cox8b_h...     COVAR   14594    -0.019208   -0.0031262      0.11288      0.56756 Brown_adipose_tissue_Cox8b_high
+Brown_adipose_tissue_mt.Nd5_...     COVAR   14594      0.11183      0.01791     0.087922      0.10172 Brown_adipose_tissue_mt.Nd5_high
+Dividing_cell                       COVAR   14594     0.036891    0.0041118      0.16959       0.4139 Dividing_cell
+Endothelial_cell                    COVAR   14594     -0.15547    -0.019693      0.13854      0.86909 Endothelial_cell
+Epithelial_cell                     COVAR   14594      -0.1667    -0.017269      0.18116      0.82125 Epithelial_cell
+Erythroblast                        COVAR   14594    -0.015281   -0.0017114      0.19073      0.53193 Erythroblast
+Keratinocyte                        COVAR   14594     0.014274     0.001781      0.13361      0.45746 Keratinocyte
+Lymphatic_vessel_endothelial...     COVAR   14594   -0.0081329   -0.0013443     0.090648      0.53574 Lymphatic_vessel_endothelial_cell
+Macrophage_Cd74_high                COVAR   14594     0.068095      0.01166      0.07547      0.18346 Macrophage_Cd74_high
+Macrophage_Lyz2_high                COVAR   14594     0.091795     0.011726     0.097497      0.17323 Macrophage_Lyz2_high
+Macrophage_Pf4_high                 COVAR   14594     0.079192     0.010818      0.11133      0.23844 Macrophage_Pf4_high
+Mast_cell                           COVAR   14594    -0.027055   -0.0032741      0.13039      0.58218 Mast_cell
+Melanocyte                          COVAR   14594      0.11284     0.013016      0.12399       0.1814 Melanocyte
+Muscle_cell_Actc1_high              COVAR   14594     -0.12579     -0.01351      0.14654      0.80467 Muscle_cell_Actc1_high
+Muscle_cell_Lrrc15_high             COVAR   14594     -0.17419    -0.019243      0.18269      0.82982 Muscle_cell_Lrrc15_high
+Neuron                              COVAR   14594    -0.076822    -0.008201      0.15232      0.69299 Neuron
+Neutrophil                          COVAR   14594     -0.15684    -0.022268     0.081285      0.97315 Neutrophil
+Osteoblast_Dlk1_high                COVAR   14594     -0.50362    -0.051827      0.21718      0.98979 Osteoblast_Dlk1_high
+Osteoblast_Ppic_high                COVAR   14594     -0.41782    -0.041605      0.26916       0.9397 Osteoblast_Ppic_high
+Smooth_muscle_cell_Acta2_high       COVAR   14594    -0.042401   -0.0045905        0.166       0.6008 Smooth_muscle_cell_Acta2_high
+Stromal_cell_Akr1c18_high           COVAR   14594     -0.14537    -0.016805       0.1462      0.83996 Stromal_cell_Akr1c18_high
+Stromal_cell_Gas6_high              COVAR   14594     -0.59563    -0.064458      0.23004      0.99519 Stromal_cell_Gas6_high

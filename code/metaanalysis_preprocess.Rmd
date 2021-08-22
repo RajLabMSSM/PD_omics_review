@@ -1,0 +1,367 @@
+---
+title: "metaanalysis_preprocess" 
+author: "<h3>Author</h3>Brian M. Schilder"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document: 
+    theme: spacelab
+    highlight: zenburn 
+    code_folding: show 
+    toc: true 
+    toc_float: true
+    smooth_scroll: true
+    number_sections: false 
+    self_contained: true 
+---
+
+```{r setup, include=T, warning=F, message=F}
+knitr::opts_chunk$set(echo = T, root.dir = here::here())
+# knitr::opts_knit$set(echo = T, root.dir = here::here())
+
+library(dplyr)
+library(ggplot2)
+library(googledrive)
+set.seed(2019)
+```
+
+# Preprocess 
+
+## Schilder2020
+
+```{r, eval=FALSE}
+# https://github.com/RajLabMSSM/catalogueR
+library(catalogueR) # remotes::install_github("RajLabMSSM/catalogueR")
+colocs <- data.table::fread(here::here("data/Schilder2020/Schilder2020_topColoc.csv"))
+
+tidyr::separate(colocs, col = "qtl.id",sep = "[.]", into = c("Study","Sample"), remove = F) %>%
+  dplyr::rename(qtl_id=qtl.id) %>%
+  catalogueR::eQTL_Catalogue.annotate_tissues() %>%
+  data.table::fwrite("data/Schilder2020/Schilder2020_topColoc_annot.csv")
+```
+
+## Nalls2019
+
+### Cell-types 
+
+```{r, eval=FALSE}
+gsa.out_files <- list.files(here::here("data/Nalls2019/celltypes/FUMA_celltype569"),"*.gsa.out", full.names = T)
+
+DAT <- lapply(gsa.out_files, function(x){
+  name <-gsub("magma_celltype_|.gsa.out","",basename(x))
+  print(x) 
+  dat <- read.table(x, comment.char = "#", header = T)  %>% 
+    dplyr::rename(Cell_Type=VARIABLE)
+  dat$Dataset <- name
+  dat$Source <- basename(x)
+  return(dat)
+}) %>% data.table::rbindlist(fill = T)
+ 
+sig_dat <- data.table::fread(here::here("data/Nalls2019/celltypes/step1_2_summary.txt")) %>% 
+  dplyr::rename(Cell_Type=Cell_type) %>% 
+  dplyr::mutate(Source="step1_2_summary.txt")
+
+merged_DAT <- rbind(sig_dat, DAT, fill=T) %>% dplyr::relocate(Dataset, Source, .after = "FULL_NAME")
+data.table::fwrite(merged_DAT, here::here("data/Nalls2019/celltypes/Nalls2019_merged_celltype_results.csv"))
+```
+
+### Tissues
+
+```{r, eval=FALSE}
+tissues <- lapply(list.files("data/Nalls2019/tissues", ".gcov.out", full.names = T), function(x){  
+  dat <- read.table(x, comment.char = "#", header = T)  
+  dat$Source <- basename(x)
+  dat$Dataset <- "GTEx V7"
+  return(dat)
+}) %>% data.table::rbindlist(fill = T)
+
+data.table::fwrite(tissues, "data/Nalls2019/tissues/Nalls2019_merged_tissues_results.csv")
+```
+
+
+## Nott2019 
+
+### Cell-types
+
+Infer p-values from FD.
+
+```{r, eval=FALSE}
+celltypes <- readxl::read_excel("data/metaanalysis/TableS1.xlsx", sheet = "Nott2019_celltypes")
+
+### Use the internal code of p.adjust to reconstruct p-values from FDR
+n <- 9*16
+p <- celltypes$q
+nm <- names(p)
+p <- as.numeric(p)
+p0 <- setNames(p, nm)
+if (all(nna <- !is.na(p))){
+   nna <- TRUE
+} else p <- p[nna]
+lp <- length(p)
+i <- lp:1L
+o <- order(p, decreasing = TRUE)
+ro <- order(o)
+q <- pmin(1, cummin(n/i * p[o]))[ro]
+
+
+# p_recon <- cummin(q[o] / (n/i))
+q <- celltypes$q
+celltypes$P_reconstructed <- pmin(1, cummin(q[o] / (n/i)))[ro]
+
+dplyr::mutate(celltypes, FDR_reconstructed=p.adjust(P_reconstructed, method = "fdr", n = 144)) %>% data.table::fwrite("data/Nott2019/Nott2019_celltypes.csv")
+```
+
+
+## Agarwal2020
+
+### Cell-types
+
+```{r, eval=FALSE}
+celltypes <- lapply(c("Table S5","Table S7"), function(sheet){
+  dat <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = sheet, skip = 1) %>%
+    dplyr::rename(Cell_Type=Cell)
+  id_vars <- grep("LDSC|MAGMA",colnames(dat), value = T, invert = T)  
+  rbind(dat %>% 
+          dplyr::select(all_of(id_vars), P=Pvalue_LDSC, Q=Qvalue_LDSC) %>%
+          dplyr::mutate(Method="LDSC"),
+        dat %>% 
+          dplyr::select(all_of(id_vars), P=Pvalue_MAGMA, Q=Qvalue_MAGMA) %>%
+          dplyr::mutate(Method="MAGMA")
+        ) %>%
+    dplyr::mutate(Sig=P, Source=paste0("Supplementary Materials (",sheet,")"))
+}) %>% data.table::rbindlist() %>%
+  subset(Trait=="Parkinson disease")
+
+
+cond_sn <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = "Table S6", skip = 1) %>%
+  subset(!is.na(Trait)) %>% subset(Trait=="Parkinson's disease") %>% 
+  dplyr::rename(Cell_Type=Cell1, Conditioned_Cell_Type=Cell2, P=Coefficient_P_value) %>%
+  dplyr::mutate(Region="SN", Method="conditional LDSC", Sig=P, Source=paste0("Supplementary Materials (","Table S6",")"))
+
+tmp <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = "Table S8", skip = 1) %>%
+  dplyr::rename(Trait=GWA) %>%
+  subset(!is.na(Trait)) %>% subset(Trait=="Parkinson's disease") %>% 
+  dplyr::rename(Region=Atlas1, Conditioned_Region=Atlas2, Cell_Type=Cell1, Conditioned_Cell_Type=Cell2) 
+id_vars <- grep("LDSC|MAGMA",colnames(tmp), value = T, invert = T)  
+cond_ctx <- rbind(tmp %>% dplyr::rename() %>%
+                    dplyr::select(all_of(id_vars), P="P-value (LDSC) (Original Cellular Atlas))") %>%
+                    dplyr::mutate(Method="conditional LDSC (Original Cellular Atlas)"),
+                  tmp %>% dplyr::rename() %>%
+                    dplyr::select(all_of(id_vars), P="P-value (LDSC) (Matched Cellular Atlas)") %>%
+                    dplyr::mutate(Method="conditional LDSC (Matched Cellular Atlas)")
+                  ) %>%
+  dplyr::mutate(Sig=P, Source=paste0("Supplementary Materials (","Table S8",")"))
+
+## Merge 
+keys <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = "Abbreviations")
+keys_dict <- setNames(keys$`Full Name`, keys$Abbreviation)
+keys_dict["Substantia nigra"] = "Substantia nigra"
+keys_dict["Cortex"] = "Cortex"
+
+celltypes_all <- data.table::rbindlist(list(celltypes, cond_sn, cond_ctx), fill = T) %>% 
+  relocate(Sig, Source, .after = Conditioned_Region)
+## Not all celltypes included in Abbreviations...
+# celltypes_all$Cell_Type <- keys_dict[celltypes_all$Cell_Type]
+celltypes_all$Region <- keys_dict[celltypes_all$Region]
+celltypes_all$Conditioned_Region <- keys_dict[celltypes_all$Conditioned_Region]
+
+data.table::fwrite(celltypes_all, "data/Agarwal2020/Agarwal2020_celltypes.csv")
+celltypes_all
+```
+
+### Tissues
+
+```{r, eval=FALSE}
+dat <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = "Table S9", skip = 2)  
+id_vars <- grep("LDSC|MAGMA",colnames(dat), value = T, invert = T)  
+tissues <- rbind(dat %>% 
+      dplyr::select(all_of(id_vars), P=Pvalue_LDSC, Q=Qvalue_LDSC) %>%
+      dplyr::mutate(Method="LDSC"),
+    dat %>% 
+      dplyr::select(all_of(id_vars), P=Pvalue_MAGMA, Q=Qvalue_MAGMA) %>%
+      dplyr::mutate(Method="MAGMA")
+    ) %>%
+dplyr::mutate(Sig=P, Source=paste0("Supplementary Materials (","Table S9",")")) %>%
+subset(Trait=="Parkinson disease")
+ 
+data.table::fwrite(tissues, "data/Agarwal2020/Agarwal2020_tissues.csv")
+```
+
+### Phenotype correlations 
+
+- Reconstructed [Figure 3 ](https://www.nature.com/articles/s41467-020-17876-0/figures/3) based on best guesses of methodology. 
+- Only available for SN.
+
+> **Fig. 3: Evaluation of the shared cell-type associations between pairs of neuropsychiatric disorders.**  Evaluation of alike cell-type associations between any two neuropsychiatric disorders to identify any shared cell-type-specific component of risk, for the SN cell types (top) and the cortex (bottom). Each heatmap represents the results from LDSC of the associations (p value associated with an LDSC coefficient) of a specific cell-type expression profile with the genetic risk of a given neuropsychiatric disorder (disease1—X-axis) after conditioning on the genetic risk of another neuropsychiatric disorder (disease2—Y-axis). This analysis was only performed where two neuropsychiatric disorders showed a significant (or suggestive) association with the same cell type (Fig. 2). The blue heatmap colours are proportional to −log10 q value (FDR-adjusted p value) of the enrichment of genetic variants associated with a disorder adjusted for another disorder. The cell associations that were not evaluated (no overlap in Fig. 2) are coloured in dark grey.
+
+```{r, eval=FALSE}
+cond <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = "Table S6", skip = 1)%>%
+  subset(!is.na(Trait)) %>% 
+  dplyr::mutate(Q = p.adjust(Coefficient_P_value, method = "fdr")) %>%
+  dplyr::mutate(neg_logQ = -log10(Q)) %>%
+  data.table::data.table() #%>%
+  # data.table::dcast(formula = Trait ~ + Cell1 + Cell2, fun.aggregate = mean, value.var = "Q")
+
+ggplot(cond, aes(y=Trait, x=Trait, fill=neg_logQ)) +
+  geom_tile() +
+  facet_grid(facets = .~Cell1, switch = "x") +
+  theme_bw() +
+    theme(axis.text.x = element_text(angle=45, hjust=1))
+```
+
+Try running my own variation of phenotype correlations.
+
+```{r, eval=FALSE} 
+celltypes <- lapply(c("Table S5","Table S7"), function(sheet){
+  dat <- readxl::read_excel("data/Agarwal2020/SN_Paper_STables.xlsx", sheet = sheet, skip = 1) %>%
+    dplyr::rename(Cell_Type=Cell)
+  id_vars <- grep("LDSC|MAGMA",colnames(dat), value = T, invert = T)  
+  rbind(dat %>% 
+          dplyr::select(all_of(id_vars), P=Pvalue_LDSC, Q=Qvalue_LDSC) %>%
+          dplyr::mutate(Method="LDSC"),
+        dat %>% 
+          dplyr::select(all_of(id_vars), P=Pvalue_MAGMA, Q=Qvalue_MAGMA) %>%
+          dplyr::mutate(Method="MAGMA")
+        ) %>%
+    dplyr::mutate(Sig=P, Source=paste0("Supplementary Materials (",sheet,")"))
+}) %>% data.table::rbindlist() %>%
+  subset(Method=="LDSC")
+
+
+correlate_phenos <- function(celltypes, type=NULL){
+  if(!is.null(type)) celltypes <- subset(celltypes, Cell_Type==type)
+  p_mat <- data.table::dcast.data.table(celltypes, 
+                                      formula = Trait ~ Cell_Type + Method, 
+                                      value.var = "P", 
+                                      fun.aggregate = mean, na.rm=T) %>%
+  tibble::column_to_rownames("Trait") %>% as.matrix()    
+  cor_pheno <- cor(t(p_mat[complete.cases(p_mat),]))
+  return(cor_pheno)
+}
+ 
+## Correlate across all celltypes
+cor_all <- correlate_phenos(celltypes)   
+heatmap(cor_all)
+corrplot::corrplot(cor_pheno, tl.col = "black", tl.cex = .8)
+
+reshape2::melt(cor_all) %>% 
+  `colnames<-`(c("Trait1", "Trait2","corr")) %>%
+  dplyr::arrange(Trait1, desc(corr)) %>%
+  data.table::fwrite("data/Agarwal2020/Agarwal2020_correlations.csv")
+```
+
+
+
+## Coetzee2016
+
+```{r, eval=FALSE}
+key <- readxl::read_excel("data/Coetzee2016/41598_2016_BFsrep30509_MOESM3_ESM.xls", 
+                          col_names = c("id","group","abbrev","name"))
+snps <- readxl::read_excel("data/Coetzee2016/41598_2016_BFsrep30509_MOESM2_ESM.xls")
+colnames(snps)[1] <- "abbrev"
+
+snps_annot <- merge(key, snps, by="abbrev") %>% data.table::data.table() %>%
+                data.table::melt.data.table(id.vars = c("name","id","group","abbrev"), 
+                                            variable.name = "snp", value.name = "neg_nat_log") %>%
+  dplyr::mutate(p=exp(-neg_nat_log)) %>%
+  dplyr::arrange(p)
+```
+
+### Cell-types
+
+```{r, eval=FALSE}
+celltypes <- subset(snps_annot, grepl("cell|cyte|nuclei",name, ignore.case = T)) 
+unique(celltypes$name)
+data.table::fwrite(celltypes, "data/Coetzee2016/Coetze2016_celltypes.csv")
+
+celltypes_agg <-celltypes %>%  
+  dplyr::group_by(group, name) %>%
+  dplyr::summarise_at(.vars = c("p"), 
+                      .funs = list(mean_p=mean, max_p=max, min_p=min)) %>%
+  dplyr::arrange(min_p)
+celltypes_agg    
+```
+
+```{r, eval=FALSE}
+tissues <- subset(snps_annot, !name %in% c(celltypes$name)) 
+unique(tissues$name)
+data.table::fwrite(tissues, "data/Coetzee2016/Coetze2016_tissues.csv")
+
+tissues_agg <- tissues %>%  
+ dplyr::group_by(group, name) %>%
+  dplyr::summarise_at(.vars = c("p"), 
+                      .funs = list(mean_p=mean, max_p=max, min_p=min)) %>%
+  dplyr::arrange(min_p)
+tissues_agg
+```
+
+# Li2019
+
+From [Garfield documentation](https://bioconductor.org/packages/release/bioc/manuals/garfield/man/garfield.pdf):  
+
+> **out.file.perm**: contains enrichment analysis results for each annotation, where PThresh is the GWAS p-value threshold used for analysis, FE denotes the fold enrichment statistic (equals -1 if no sufficient data was available for the FE calculation), EmpPval shows the empirical p-value of enrichment (equals -1 if FE is calculated but significance of enrichment analysis is not run at that threshold), NAnnotThresh - the number of variants at the threshold which are annotated with the given feature, NAnnot - the total number of annotated variants, NThresh - the total number of variants at that threshold and N - the total number of pruned variants. The remaining columns show additional information on the annotations used for analysis.
+
+```{r, eval=FALSE}
+dat <- lapply(list.files("data/Li2019/", "*garfield.perm.*",recursive = T, full.names = T), function(x){
+  d <- data.table::fread(x)
+  d$Trait <- gsub("garfield.perm.|.out","",basename(x))
+  return(d)
+}) %>% data.table::rbindlist()  %>%
+  dplyr::rename(Datatype=Tissue, Tissue_Celltype=Celltype) %>% 
+  dplyr::mutate(Tissue_Celltype=gsub("*_.*","", Tissue_Celltype)) %>%
+  dplyr::mutate(Tissue_Celltype=gsub("mono","monocytes",Tissue_Celltype)) %>%
+  dplyr::mutate(Tissue_Celltype=gsub("tcel","T-cells",Tissue_Celltype)) %>%
+  dplyr::mutate(Tissue_Celltype=gsub("neut","neutrocytes",Tissue_Celltype)) %>%
+  dplyr::mutate(Tissue_Celltype=gsub("dlpfc","DLPFC",Tissue_Celltype)) %>%
+  # Mod
+  dplyr::mutate(Category=gsub("blueprint","BLUEPRINT",Category)) %>%
+  dplyr::mutate(Category=gsub("CMC","CommonMindConsortium",Category)) %>%
+  dplyr::mutate(Category=gsub("fairfax","Fairfax2014",Category)) %>%
+  dplyr::mutate(Category=gsub("immvar","ImmVar",Category)) %>%
+  dplyr::mutate(Category=gsub("rosmap","ROSMAP",Category)) %>%
+  # Mod
+  dplyr::mutate(Datatype=gsub("blueprint","BLUEPRINT",Datatype)) %>%
+  dplyr::mutate(Datatype=gsub("CMC","CommonMindConsortium",Datatype)) %>%
+  dplyr::mutate(Datatype=gsub("fairfax","Fairfax2014",Datatype)) %>%
+  dplyr::mutate(Datatype=gsub("immvar","ImmVar",Datatype)) %>%
+  dplyr::mutate(Datatype=gsub("rosmap","ROSMAP",Datatype)) %>%
+  dplyr::mutate(Dataset=paste(Category,Datatype,sep="_"),
+                Sig = ifelse(EmpPval==-1, NA, EmpPval))
+
+unique(dat$Tissue_Celltype)
+unique(dat$Dataset)
+unique(dat$Datatype)
+summary(dat$Sig)
+hist(dat$Sig, 50)
+```
+
+
+## Cell-types 
+
+```{r, eval=FALSE}
+celltypes <- subset(dat, grepl("monocytes|neutrocytes|T-cells",Tissue_Celltype)) %>%
+  dplyr::relocate(Tissue_Celltype, 1) %>%
+  dplyr::rename(Cell_Type=Tissue_Celltype)
+celltypes
+data.table::fwrite(celltypes,"data/Li2019/Li2019_celltypes.csv")
+```
+
+## Tissues
+
+```{r, eval=FALSE}
+tissues <- subset(dat, !grepl("monocytes|neutrocytes|T-cells",Tissue_Celltype)) %>%
+  dplyr::relocate(Tissue_Celltype, 1) %>%
+  dplyr::rename(Tissue=Tissue_Celltype)
+tissues
+data.table::fwrite(tissues,"data/Li2019/Li2019_tissues.csv")
+```
+
+
+# Session info 
+ 
+<details>
+
+```{r}
+utils::sessionInfo()
+```
+
+</details> 

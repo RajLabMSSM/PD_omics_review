@@ -1,0 +1,12 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+luminal_cell_of_lactiferous_...     COVAR   14058      0.12481     0.067507     0.050164    0.0064271 luminal_cell_of_lactiferous_duct
+B_cell                              COVAR   14058    -0.028225   -0.0066248     0.086341      0.62813 B_cell
+stromal_cell                        COVAR   14058     -0.16049    -0.058263     0.060835      0.99583 stromal_cell
+T_cell                              COVAR   14058     -0.17732    -0.042617     0.077352      0.98905 T_cell
+endothelial_cell                    COVAR   14058    -0.011849   -0.0049332     0.050602      0.59257 endothelial_cell
+basal_cell                          COVAR   14058    -0.045135    -0.022178     0.047797      0.82749 basal_cell
+macrophage                          COVAR   14058      0.13875     0.055106     0.065003     0.016408 macrophage

@@ -1,0 +1,7 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE             TYPE  NGENES         BETA     BETA_STD           SE            P
+microglial_cell     COVAR   14058    -0.019889    -0.027401     0.029535      0.74966
+macrophage          COVAR   14058     0.028791     0.042398     0.028626      0.15728

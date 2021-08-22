@@ -1,0 +1,13 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                       TYPE  NGENES         BETA     BETA_STD           SE            P
+monocyte                      COVAR   14058     0.039424     0.015723     0.065933      0.27495
+T_cell                        COVAR   14058     -0.16675    -0.047385     0.078024       0.9837
+hematopoietic_stem_cell       COVAR   14058   -0.0035365   -0.0018463     0.064857      0.52174
+granulocyte                   COVAR   14058    -0.090916    -0.023484     0.069131      0.90575
+erythrocyte                   COVAR   14058      0.10601     0.016665     0.086081      0.10908
+B_cell                        COVAR   14058    0.0084204    0.0038259     0.053096        0.437
+macrophage                    COVAR   14058     0.032376     0.011587     0.067957      0.31689
+Fraction_A_pre.pro_B_cell     COVAR   14058    -0.080882    -0.026114     0.068133       0.8824

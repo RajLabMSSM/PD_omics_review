@@ -1,0 +1,58 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                              TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Bone_Marrow_c_kit.B_cell             COVAR   14594   -0.0029214  -0.00038275      0.14918      0.50781 Bone_Marrow_c_kit.B_cell
+Bone_Marrow_c_kit.Basophil           COVAR   14594     -0.12897     -0.01929      0.15911       0.7912 Bone_Marrow_c_kit.Basophil
+Bone_Marrow_c_kit.Eosinophil...      COVAR   14594    -0.075796    -0.010171      0.11976       0.7366 Bone_Marrow_c_kit.Eosinophil_progenitor_cell
+Bone_Marrow_c_kit.Erythrocyt...1     COVAR   14594    -0.017342   -0.0034362      0.10198      0.56751 Bone_Marrow_c_kit.Erythrocyte_progenitor_Car1_high
+Bone_Marrow_c_kit.Erythrocyt...2     COVAR   14594     0.057278     0.012195     0.078498       0.2328 Bone_Marrow_c_kit.Erythrocyte_progenitor_Hba.a1_high
+Bone_Marrow_c_kit.Macrophage...1     COVAR   14594    -0.017374   -0.0021737      0.11395      0.56059 Bone_Marrow_c_kit.Macrophage_C1qc_high
+Bone_Marrow_c_kit.Macrophage...2     COVAR   14594    0.0019711   0.00028037      0.11903      0.49339 Bone_Marrow_c_kit.Macrophage_Cd74_high
+Bone_Marrow_c_kit.Macrophage...3     COVAR   14594     0.050907     0.008257     0.092396      0.29083 Bone_Marrow_c_kit.Macrophage_S100a4_high
+Bone_Marrow_c_kit.Megakaryoc...      COVAR   14594    -0.021135   -0.0033002      0.12692      0.56613 Bone_Marrow_c_kit.Megakaryocyte_progenitor_cell
+Bone_Marrow_c_kit.Monocyte_p...1     COVAR   14594     -0.03095   -0.0054346      0.17028      0.57211 Bone_Marrow_c_kit.Monocyte_progenitor
+Bone_Marrow_c_kit.Monocyte_p...2     COVAR   14594     -0.06448    -0.013806      0.13168      0.68781 Bone_Marrow_c_kit.Monocyte_progenitor_cell_Ctsg_high
+Bone_Marrow_c_kit.Monocyte_p...3     COVAR   14594      -0.2665    -0.039583      0.17997      0.93066 Bone_Marrow_c_kit.Monocyte_progenitor_cell_Prtn3_high
+Bone_Marrow_c_kit.Multipoten...      COVAR   14594     -0.23178    -0.035687      0.18955      0.88929 Bone_Marrow_c_kit.Multipotent_progenitor_Ctla2a_high
+Bone_Marrow_c_kit.Neutrophil...1     COVAR   14594     0.051967    0.0070015      0.15757      0.37078 Bone_Marrow_c_kit.Neutrophil_Fcnb_high
+Bone_Marrow_c_kit.Neutrophil...2     COVAR   14594     0.095858     0.010199      0.18004      0.29722 Bone_Marrow_c_kit.Neutrophil_Ighg1_high
+Bone_Marrow_c_kit.Neutrophil...3     COVAR   14594    -0.048518   -0.0049577      0.22188      0.58655 Bone_Marrow_c_kit.Neutrophil_Lcn2_high
+Bone_Marrow_c_kit.Neutrophil...4     COVAR   14594     0.073782    0.0093035      0.12876      0.28332 Bone_Marrow_c_kit.Neutrophil_Ltf_high
+Bone_Marrow_c_kit.Neutrophil...5     COVAR   14594     0.054297    0.0053863      0.13063      0.33884 Bone_Marrow_c_kit.Neutrophil_Ngp_high
+Bone_Marrow_c_kit.Neutrophil...6     COVAR   14594     0.053054    0.0062338      0.11054      0.31564 Bone_Marrow_c_kit.Neutrophil_Retnlg_high
+Bone_Marrow_Mesenchyme.B_cell        COVAR   14594    -0.020352   -0.0027468      0.15955      0.55075 Bone_Marrow_Mesenchyme.B_cell
+Bone_Marrow_Mesenchyme.Basop...      COVAR   14594     -0.31206    -0.043833      0.18177      0.95698 Bone_Marrow_Mesenchyme.Basophils
+Bone_Marrow_Mesenchyme.CXCL1...      COVAR   14594      0.05897    0.0093671     0.093479      0.26408 Bone_Marrow_Mesenchyme.CXCL12.abundant_reticular_cell
+Bone_Marrow_Mesenchyme.Endot...1     COVAR   14594    -0.063184   -0.0098174      0.11255      0.71273 Bone_Marrow_Mesenchyme.Endothelial_cells
+Bone_Marrow_Mesenchyme.Endot...2     COVAR   14594    -0.068172   -0.0079337      0.14464      0.68129 Bone_Marrow_Mesenchyme.Endothelial_cells_Ly6c1_high
+Bone_Marrow_Mesenchyme.Eosin...      COVAR   14594     -0.33742    -0.044214      0.12515      0.99649 Bone_Marrow_Mesenchyme.Eosinophils
+Bone_Marrow_Mesenchyme.Eryth...1     COVAR   14594     0.055628    0.0077723      0.12691      0.33058 Bone_Marrow_Mesenchyme.Erythroblast
+Bone_Marrow_Mesenchyme.Eryth...2     COVAR   14594      0.01367    0.0023087      0.10399      0.44771 Bone_Marrow_Mesenchyme.Erythrocytes
+Bone_Marrow_Mesenchyme.Fibro...      COVAR   14594    -0.021681   -0.0030949      0.10117      0.58484 Bone_Marrow_Mesenchyme.Fibroblasts
+Bone_Marrow_Mesenchyme.Granu...      COVAR   14594     -0.13574    -0.022796     0.095889      0.92154 Bone_Marrow_Mesenchyme.Granulocyte_monocyte_progenitors
+Bone_Marrow_Mesenchyme.Megak...      COVAR   14594   -0.0078591   -0.0016386     0.071388      0.54383 Bone_Marrow_Mesenchyme.Megakaryocyte
+Bone_Marrow_Mesenchyme.MSC           COVAR   14594    -0.040026   -0.0052117      0.11307      0.63832 Bone_Marrow_Mesenchyme.MSC
+Bone_Marrow_Mesenchyme.Myobl...      COVAR   14594     -0.11059    -0.016253     0.099743      0.86622 Bone_Marrow_Mesenchyme.Myoblast
+Bone_Marrow_Mesenchyme.Neutr...      COVAR   14594     -0.17137    -0.024842      0.16949        0.844 Bone_Marrow_Mesenchyme.Neutrophil_
+Bone_Marrow_Mesenchyme.Osteo...      COVAR   14594    -0.055649   -0.0075229      0.11238      0.68976 Bone_Marrow_Mesenchyme.Osteoblasts
+Bone_Marrow_Mesenchyme.Proer...      COVAR   14594    -0.027413   -0.0053223     0.099663      0.60836 Bone_Marrow_Mesenchyme.Proerythrocytes
+Bone_Marrow_Mesenchyme.Strom...1     COVAR   14594    -0.066352    -0.011082     0.088551      0.77316 Bone_Marrow_Mesenchyme.Stromal_cell_Cnmd_high
+Bone_Marrow_Mesenchyme.Strom...2     COVAR   14594    -0.049365   -0.0085277     0.079506      0.73266 Bone_Marrow_Mesenchyme.Stromal_cell_Col10a1_high
+Bone_Marrow_Mesenchyme.Strom...3     COVAR   14594    -0.056211   -0.0080205      0.10755      0.69938 Bone_Marrow_Mesenchyme.Stromal_cell_Col1a2_high
+Bone_Marrow.B_cell_Igkc_high         COVAR   14594    0.0012333   0.00016917     0.085971      0.49428 Bone_Marrow.B_cell_Igkc_high
+Bone_Marrow.Dendritic_cell_S...      COVAR   14594      0.10152     0.016051     0.072395      0.08043 Bone_Marrow.Dendritic_cell_Siglech_high
+Bone_Marrow.Erythroblast             COVAR   14594   -0.0025733  -0.00074443     0.047719       0.5215 Bone_Marrow.Erythroblast
+Bone_Marrow.Hematopoietic_st...      COVAR   14594    -0.034469   -0.0070376     0.074801      0.67753 Bone_Marrow.Hematopoietic_stem_progenitor_cell
+Bone_Marrow.Macrophage_Ms4a6...      COVAR   14594     0.097926      0.02265     0.070814     0.083366 Bone_Marrow.Macrophage_Ms4a6c_high
+Bone_Marrow.Macrophage_S100a...      COVAR   14594      0.10779     0.017261     0.062773     0.042986 Bone_Marrow.Macrophage_S100a4_high
+Bone_Marrow.Monocyte_Prtn3_h...      COVAR   14594     0.038904     0.015292     0.038383       0.1554 Bone_Marrow.Monocyte_Prtn3_high
+Bone_Marrow.Neutrophil_Cebpe...      COVAR   14594     0.018313     0.003696     0.061399      0.38275 Bone_Marrow.Neutrophil_Cebpe_high
+Bone_Marrow.Neutrophil_Fcnb_...      COVAR   14594   -0.0022054  -0.00041166     0.067964      0.51294 Bone_Marrow.Neutrophil_Fcnb_high
+Bone_Marrow.Neutrophil_Mmp8_...      COVAR   14594       0.0776     0.009978     0.092319       0.2003 Bone_Marrow.Neutrophil_Mmp8_high
+Bone_Marrow.Neutrophil_Ngp_h...      COVAR   14594      0.01055    0.0014501     0.091191      0.45395 Bone_Marrow.Neutrophil_Ngp_high
+Bone_Marrow.Neutrophil_proge...      COVAR   14594    -0.005475  -0.00059338      0.10424      0.52094 Bone_Marrow.Neutrophil_progenitor
+Bone_Marrow.Pre.pro_B_cell           COVAR   14594     0.027815    0.0036315      0.11702      0.40606 Bone_Marrow.Pre.pro_B_cell
+Bone_Marrow.T_cell_Ms4a4b_hi...      COVAR   14594     0.053425    0.0053595      0.13345      0.34446 Bone_Marrow.T_cell_Ms4a4b_high

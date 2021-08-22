@@ -1,0 +1,26 @@
+# TOTAL_GENES = 14035
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE          TYPE  NGENES         BETA     BETA_STD           SE            P
+GABA_Igtp        COVAR   14035   -0.0054576    -0.010951     0.013634      0.65553
+GABA_Ndnf        COVAR   14035    0.0087464     0.016638     0.020684       0.3362
+GABA_Pvalb       COVAR   14035    0.0083929     0.017207     0.015228      0.29077
+GABA_Smad3       COVAR   14035     0.020668     0.041723     0.013523     0.063232
+GABA_Sncg        COVAR   14035      0.03472      0.07181     0.013216    0.0043105
+GABA_Sst         COVAR   14035    -0.013017    -0.025916     0.018641       0.7575
+GABA_Vip         COVAR   14035   -0.0095046    -0.016961     0.019976      0.68289
+Gluta_L2         COVAR   14035    0.0058542      0.01172     0.015641       0.3541
+Gluta_L2_3       COVAR   14035     0.014503     0.029391     0.016745      0.19322
+Gluta_L4         COVAR   14035      0.02285     0.043625     0.017656     0.097812
+Gluta_L5         COVAR   14035   -0.0075929    -0.015387     0.015255      0.69066
+Gluta_L5a        COVAR   14035     0.010142     0.020588     0.018955       0.2963
+Gluta_L5b        COVAR   14035     0.022796     0.048001     0.016013     0.077292
+Gluta_L6a        COVAR   14035   -0.0064242    -0.012883     0.019536      0.62886
+Gluta_L6b        COVAR   14035     0.012169     0.025758     0.014987      0.20841
+NonNeu_Astro     COVAR   14035   -0.0074188   -0.0097961     0.010295      0.76442
+NonNeu_Endo      COVAR   14035    -0.015225    -0.018808    0.0097271      0.94122
+NonNeu_Micro     COVAR   14035   -0.0062896   -0.0075287    0.0094488      0.74718
+NonNeu_Oligo     COVAR   14035    0.0049554    0.0071746     0.010241      0.31423
+NonNeu_OPC       COVAR   14035   -0.0070936   -0.0097681     0.011151      0.73764
+NonNeu_SMC       COVAR   14035     -0.02789    -0.036967     0.010578      0.99581

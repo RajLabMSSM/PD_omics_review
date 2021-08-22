@@ -1,0 +1,12 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+stromal_cell                        COVAR   14058      -0.1621    -0.039137     0.089687      0.96464 stromal_cell
+epithelial_cell                     COVAR   14058     0.057118     0.019574     0.092028      0.26742 epithelial_cell
+leukocyte                           COVAR   14058     0.042284     0.011021     0.073953      0.28374 leukocyte
+neuroendocrine_cell                 COVAR   14058     -0.22727    -0.041409      0.12956      0.96029 neuroendocrine_cell
+endothelial_cell                    COVAR   14058    -0.096349    -0.020492      0.09315       0.8495 endothelial_cell
+basal_cell_of_epithelium_of_...     COVAR   14058     0.025868    0.0090995       0.1017      0.39961 basal_cell_of_epithelium_of_trachea
+ciliated_epithelial_cell            COVAR   14058     0.037066     0.012915     0.050749      0.23259 ciliated_epithelial_cell

@@ -1,0 +1,22 @@
+# MEAN_SAMPLE_SIZE = 71796
+# TOTAL_GENES = 15314
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Astroependymal_cells                COVAR   15314    -0.060326   -0.0095669     0.081294      0.77097 Astroependymal_cells
+Cerebellum_neurons                  COVAR   15314     -0.27449    -0.030324      0.15888      0.95796 Cerebellum_neurons
+Cholinergic_monoaminergic_an...     COVAR   15314      0.23813     0.087653     0.068528    0.0002563 Cholinergic_monoaminergic_and_peptidergic_neurons
+Di_and_mesencephalon_neurons        COVAR   15314      0.14067     0.051785     0.064588     0.014712 Di_and_mesencephalon_neurons
+Enteric_neurons                     COVAR   15314     0.087634     0.044842     0.042474     0.019554 Enteric_neurons
+Hindbrain_neurons                   COVAR   15314      0.16041     0.074572     0.038339   1.4397e-05 Hindbrain_neurons
+Immature_neural                     COVAR   15314     -0.34872    -0.073116     0.086702      0.99997 Immature_neural
+Immune_cells                        COVAR   15314      -0.1124     -0.01794     0.071739      0.94141 Immune_cells
+Neural_crestlike_glia               COVAR   15314     -0.11233    -0.028009     0.054475      0.98039 Neural_crestlike_glia
+Oligodendrocytes                    COVAR   15314     0.048948      0.01417     0.045202      0.13944 Oligodendrocytes
+Peripheral_sensory_neurons          COVAR   15314    -0.028444    -0.018633       0.0297      0.83089 Peripheral_sensory_neurons
+Spinal_cord_neurons                 COVAR   15314     -0.22799    -0.066454     0.083447      0.99685 Spinal_cord_neurons
+Sympathetic_neurons                 COVAR   15314    -0.012781    -0.010114     0.025932      0.68894 Sympathetic_neurons
+Telencephalon_interneurons          COVAR   15314     -0.03472     -0.01107     0.075495       0.6772 Telencephalon_interneurons
+Telencephalon_projecting_neu...     COVAR   15314     0.011949    0.0043021     0.055996      0.41551 Telencephalon_projecting_neurons
+Vascular_cells                      COVAR   15314     -0.13113    -0.033784     0.050315      0.99542 Vascular_cells

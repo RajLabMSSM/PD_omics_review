@@ -1,0 +1,12 @@
+# MEAN_SAMPLE_SIZE = 71796
+# TOTAL_GENES = 15314
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                    TYPE  NGENES         BETA     BETA_STD           SE            P
+CNS_glia                   COVAR   15314      0.07935     0.018898     0.063789      0.10677
+CNS_neurons                COVAR   15314     0.093055      0.03034     0.052906     0.039311
+Immune_cells               COVAR   15314     -0.11962    -0.019093     0.080582      0.93115
+Neural_crest_like_glia     COVAR   15314     -0.14418    -0.035951     0.067815      0.98325
+PNS_neurons                COVAR   15314     0.043639     0.028473     0.035981      0.11261
+Vascular_cells             COVAR   15314      -0.1681    -0.043309     0.060746      0.99717

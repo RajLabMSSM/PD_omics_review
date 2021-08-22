@@ -1,0 +1,14 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+astrocyte_of_the_cerebral_co...     COVAR   14058   -0.0029984   -0.0042766     0.012408      0.59547 astrocyte_of_the_cerebral_cortex
+oligodendrocyte                     COVAR   14058     0.021851     0.037956    0.0097301     0.012369 oligodendrocyte
+endothelial_cell                    COVAR   14058     -0.01881    -0.031352    0.0095039      0.97609 endothelial_cell
+neuron                              COVAR   14058     0.020561     0.038234    0.0090856     0.011825 neuron
+oligodendrocyte_precursor_ce...     COVAR   14058      0.02341     0.045469     0.010145     0.010518 oligodendrocyte_precursor_cell
+Bergmann_glial_cell                 COVAR   14058     -0.01045    -0.017074     0.010937      0.83033 Bergmann_glial_cell
+brain_pericyte                      COVAR   14058    -0.016848    -0.031486    0.0085221      0.97597 brain_pericyte
+microglial_cell                     COVAR   14058    -0.010157    -0.013992     0.010175       0.8409 microglial_cell
+macrophage                          COVAR   14058   -0.0095863    -0.014117     0.010371      0.82235 macrophage

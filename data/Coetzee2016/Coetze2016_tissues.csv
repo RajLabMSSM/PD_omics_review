@@ -1,0 +1,526 @@
+name,id,group,abbrev,snp,neg_nat_log,p
+Liver,E066,Other,LIV.ADLT,rs6812193,23.0258509299405,9.99999999999957e-11
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs1555399,16.9929385501148,4.16927514197918e-08
+Placenta,E091,Other,PLCNT.FET,rs14235,12.4382160440903,3.96416212063344e-06
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs1555399,11.1789890343924,1.39645436895554e-05
+Liver,E066,Other,LIV.ADLT,rs14235,9.34716812676701,8.72120431761831e-05
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs55785911,8.71779486844705,0.000163647657951245
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs1555399,7.67399207702457,0.000464758762636262
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs14235,7.54067340413828,0.000531039896900893
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs14235,7.06060844149726,0.000858255736673069
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs1555399,6.15409737244488,0.00212475798512437
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs14235,5.73133004203329,0.00324276135519064
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs14235,5.61682799616547,0.00363615673861742
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs1555399,5.58523576555788,0.00375286486918029
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs76904798,5.12100825462254,0.0059700005788219
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs55785911,5.02679148791231,0.00655982411638462
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs14235,4.99860783584814,0.00674733385986419
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs1555399,4.77105942412591,0.00847140059803706
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs14235,4.65461637285341,0.00951756373752338
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs55785911,4.44522392922494,0.0117344780441384
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs14235,4.39229768294873,0.0123722689851814
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs14235,4.35954243644922,0.0127842359118357
+Left Ventricle,E095,Heart,HRT.VENT.L,rs14235,4.3302266387236,0.0131645635520744
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs14235,4.26764683118256,0.014014723391237
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs76904798,4.1176218725353,0.0162831919396765
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs1555399,3.93633121303917,0.0195196971487299
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs55785911,3.89286524163879,0.0203868490252084
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs14235,3.43513344396834,0.032221110232205
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs823118,3.35369040704061,0.0349551171685726
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs823118,2.89438202851028,0.0553332088768227
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs1555399,2.50440082193864,0.0817245508760392
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs76904798,2.49530454855792,0.0824713310418175
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs14235,2.31931292956868,0.0983411296803217
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs1555399,2.27886246414493,0.102400624870443
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs76904798,2.22149827188793,0.10844650469345
+Aorta,E065,Heart,VAS.AOR,rs1955337,2.209463198674,0.109759551777358
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs76904798,2.19444801943689,0.111420046234026
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs55785911,2.14556311143544,0.117002133251074
+Aorta,E065,Heart,VAS.AOR,rs76904798,2.12837977755418,0.11902999276871
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs14235,2.00006935628379,0.135325897209795
+Left Ventricle,E095,Heart,HRT.VENT.L,rs10797576,1.66008111045452,0.190123558467859
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs199347,1.61237811013083,0.199412824090282
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs14235,1.6067295720116,0.200542402257932
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs14235,1.5229605177583,0.218065344050041
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs14235,1.47475378957157,0.228835061688428
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs14235,1.45869092604823,0.232540488263226
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs591323,1.4140254308052,0.243162476669289
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs55785911,1.35536630868097,0.257852823422471
+Ovary,E097,Other,OVRY,rs14235,1.34988071508612,0.259271185942481
+Left Ventricle,E095,Heart,HRT.VENT.L,rs199347,1.33482811857243,0.263203411346396
+Liver,E066,Other,LIV.ADLT,rs6430538,1.30513453421531,0.271136055515311
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs1555399,1.15988565053203,0.313522029910225
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs76904798,1.01254535419477,0.3632930921197
+Aorta,E065,Heart,VAS.AOR,rs14235,0.695039074054599,0.49905494750389
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs1955337,0.679392349612188,0.506924931927795
+Ovary,E097,Other,OVRY,rs1955337,0.679392349612188,0.506924931927795
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs14235,0.627776473394264,0.53377735060852
+Thymus,E112,Thymus,THYM,rs14235,0.621932689993471,0.536905761805557
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs76904798,0.558317746559835,0.572170790969101
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs76904798,0.525645263025371,0.591173778687534
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs1955337,0.366103070307844,0.693431325346127
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs76904798,0.331586698963674,0.717783922396757
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs76904798,0.322420701685744,0.724393372702716
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs76904798,0.322420701685744,0.724393372702716
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs14235,0.251572248535905,0.777577276760501
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs76904798,0.232289191317452,0.792716843327104
+Placenta,E091,Other,PLCNT.FET,rs823118,0.219643721707817,0.80280476892886
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs55785911,0.209157051708476,0.811267814641509
+Thymus,E112,Thymus,THYM,rs1955337,0.179256308262404,0.835891626007969
+Ovary,E097,Other,OVRY,rs1555399,0.178194670644434,0.836779511225466
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs6430538,0.157783787785292,0.854034414680074
+Thymus,E112,Thymus,THYM,rs823118,0.131234623045147,0.877011983028201
+Liver,E066,Other,LIV.ADLT,rs76904798,0.0954232915347568,0.908988086060417
+Thymus,E112,Thymus,THYM,rs1555399,0.0623263355023856,0.939576219677949
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs1555399,0.0552369066521962,0.946260945884258
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs76904798,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs76904798,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs76904798,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs76904798,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs76904798,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs76904798,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs76904798,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs76904798,0,1
+Ovary,E097,Other,OVRY,rs76904798,0,1
+Placenta,E091,Other,PLCNT.FET,rs76904798,0,1
+Thymus,E112,Thymus,THYM,rs76904798,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs14235,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs1555399,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs1555399,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs1555399,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs1555399,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs1555399,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs1555399,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs1555399,0,1
+Liver,E066,Other,LIV.ADLT,rs1555399,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs1555399,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs1555399,0,1
+Placenta,E091,Other,PLCNT.FET,rs1555399,0,1
+Aorta,E065,Heart,VAS.AOR,rs1555399,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs6812193,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs6812193,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs6812193,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs6812193,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs6812193,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs6812193,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs6812193,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs6812193,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs6812193,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs6812193,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs6812193,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs6812193,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs6812193,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs6812193,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs6812193,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs6812193,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs6812193,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs6812193,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs6812193,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs6812193,0,1
+Ovary,E097,Other,OVRY,rs6812193,0,1
+Placenta,E091,Other,PLCNT.FET,rs6812193,0,1
+Thymus,E112,Thymus,THYM,rs6812193,0,1
+Aorta,E065,Heart,VAS.AOR,rs6812193,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs55785911,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs55785911,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs55785911,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs55785911,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs55785911,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs55785911,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs55785911,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs55785911,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs55785911,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs55785911,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs55785911,0,1
+Liver,E066,Other,LIV.ADLT,rs55785911,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs55785911,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs55785911,0,1
+Ovary,E097,Other,OVRY,rs55785911,0,1
+Placenta,E091,Other,PLCNT.FET,rs55785911,0,1
+Thymus,E112,Thymus,THYM,rs55785911,0,1
+Aorta,E065,Heart,VAS.AOR,rs55785911,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs591323,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs591323,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs591323,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs591323,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs591323,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs591323,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs591323,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs591323,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs591323,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs591323,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs591323,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs591323,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs591323,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs591323,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs591323,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs591323,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs591323,0,1
+Liver,E066,Other,LIV.ADLT,rs591323,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs591323,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs591323,0,1
+Ovary,E097,Other,OVRY,rs591323,0,1
+Placenta,E091,Other,PLCNT.FET,rs591323,0,1
+Thymus,E112,Thymus,THYM,rs591323,0,1
+Aorta,E065,Heart,VAS.AOR,rs591323,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs3793947,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs3793947,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs3793947,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs3793947,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs3793947,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs3793947,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs3793947,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs3793947,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs3793947,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs3793947,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs3793947,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs3793947,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs3793947,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs3793947,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs3793947,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs3793947,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs3793947,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs3793947,0,1
+Liver,E066,Other,LIV.ADLT,rs3793947,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs3793947,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs3793947,0,1
+Ovary,E097,Other,OVRY,rs3793947,0,1
+Placenta,E091,Other,PLCNT.FET,rs3793947,0,1
+Thymus,E112,Thymus,THYM,rs3793947,0,1
+Aorta,E065,Heart,VAS.AOR,rs3793947,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs329648,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs329648,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs329648,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs329648,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs329648,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs329648,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs329648,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs329648,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs329648,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs329648,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs329648,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs329648,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs329648,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs329648,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs329648,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs329648,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs329648,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs329648,0,1
+Liver,E066,Other,LIV.ADLT,rs329648,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs329648,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs329648,0,1
+Ovary,E097,Other,OVRY,rs329648,0,1
+Placenta,E091,Other,PLCNT.FET,rs329648,0,1
+Thymus,E112,Thymus,THYM,rs329648,0,1
+Aorta,E065,Heart,VAS.AOR,rs329648,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs823118,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs823118,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs823118,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs823118,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs823118,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs823118,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs823118,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs823118,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs823118,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs823118,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs823118,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs823118,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs823118,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs823118,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs823118,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs823118,0,1
+Liver,E066,Other,LIV.ADLT,rs823118,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs823118,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs823118,0,1
+Ovary,E097,Other,OVRY,rs823118,0,1
+Aorta,E065,Heart,VAS.AOR,rs823118,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs1955337,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs1955337,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs1955337,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs1955337,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs1955337,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs1955337,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs1955337,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs1955337,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs1955337,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs1955337,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs1955337,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs1955337,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs1955337,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs1955337,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs1955337,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs1955337,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs1955337,0,1
+Liver,E066,Other,LIV.ADLT,rs1955337,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs1955337,0,1
+Placenta,E091,Other,PLCNT.FET,rs1955337,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs11724635,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs11724635,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs11724635,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs11724635,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs11724635,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs11724635,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs11724635,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs11724635,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs11724635,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs11724635,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs11724635,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs11724635,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs11724635,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs11724635,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs11724635,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs11724635,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs11724635,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs11724635,0,1
+Liver,E066,Other,LIV.ADLT,rs11724635,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs11724635,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs11724635,0,1
+Ovary,E097,Other,OVRY,rs11724635,0,1
+Placenta,E091,Other,PLCNT.FET,rs11724635,0,1
+Thymus,E112,Thymus,THYM,rs11724635,0,1
+Aorta,E065,Heart,VAS.AOR,rs11724635,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs12456492,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs12456492,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs12456492,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs12456492,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs12456492,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs12456492,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs12456492,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs12456492,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs12456492,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs12456492,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs12456492,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs12456492,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs12456492,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs12456492,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs12456492,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs12456492,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs12456492,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs12456492,0,1
+Liver,E066,Other,LIV.ADLT,rs12456492,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs12456492,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs12456492,0,1
+Ovary,E097,Other,OVRY,rs12456492,0,1
+Placenta,E091,Other,PLCNT.FET,rs12456492,0,1
+Thymus,E112,Thymus,THYM,rs12456492,0,1
+Aorta,E065,Heart,VAS.AOR,rs12456492,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs6430538,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs6430538,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs6430538,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs6430538,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs6430538,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs6430538,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs6430538,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs6430538,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs6430538,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs6430538,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs6430538,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs6430538,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs6430538,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs6430538,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs6430538,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs6430538,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs6430538,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs6430538,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs6430538,0,1
+Ovary,E097,Other,OVRY,rs6430538,0,1
+Placenta,E091,Other,PLCNT.FET,rs6430538,0,1
+Thymus,E112,Thymus,THYM,rs6430538,0,1
+Aorta,E065,Heart,VAS.AOR,rs6430538,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs9275326,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs9275326,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs9275326,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs9275326,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs9275326,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs9275326,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs9275326,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs9275326,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs9275326,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs9275326,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs9275326,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs9275326,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs9275326,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs9275326,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs9275326,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs9275326,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs9275326,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs9275326,0,1
+Liver,E066,Other,LIV.ADLT,rs9275326,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs9275326,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs9275326,0,1
+Ovary,E097,Other,OVRY,rs9275326,0,1
+Placenta,E091,Other,PLCNT.FET,rs9275326,0,1
+Thymus,E112,Thymus,THYM,rs9275326,0,1
+Aorta,E065,Heart,VAS.AOR,rs9275326,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs7155501,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs7155501,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs7155501,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs7155501,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs7155501,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs7155501,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs7155501,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs7155501,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs7155501,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs7155501,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs7155501,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs7155501,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs7155501,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs7155501,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs7155501,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs7155501,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs7155501,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs7155501,0,1
+Liver,E066,Other,LIV.ADLT,rs7155501,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs7155501,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs7155501,0,1
+Ovary,E097,Other,OVRY,rs7155501,0,1
+Placenta,E091,Other,PLCNT.FET,rs7155501,0,1
+Thymus,E112,Thymus,THYM,rs7155501,0,1
+Aorta,E065,Heart,VAS.AOR,rs7155501,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs71628662,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs71628662,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs71628662,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs71628662,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs71628662,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs71628662,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs71628662,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs71628662,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs71628662,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs71628662,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs71628662,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs71628662,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs71628662,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs71628662,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs71628662,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs71628662,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs71628662,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs71628662,0,1
+Liver,E066,Other,LIV.ADLT,rs71628662,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs71628662,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs71628662,0,1
+Ovary,E097,Other,OVRY,rs71628662,0,1
+Placenta,E091,Other,PLCNT.FET,rs71628662,0,1
+Thymus,E112,Thymus,THYM,rs71628662,0,1
+Aorta,E065,Heart,VAS.AOR,rs71628662,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs2414739,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs2414739,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs2414739,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs2414739,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs2414739,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs2414739,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs2414739,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs2414739,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs2414739,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs2414739,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs2414739,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs2414739,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs2414739,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs2414739,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs2414739,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs2414739,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs2414739,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs2414739,0,1
+Liver,E066,Other,LIV.ADLT,rs2414739,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs2414739,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs2414739,0,1
+Ovary,E097,Other,OVRY,rs2414739,0,1
+Placenta,E091,Other,PLCNT.FET,rs2414739,0,1
+Thymus,E112,Thymus,THYM,rs2414739,0,1
+Aorta,E065,Heart,VAS.AOR,rs2414739,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs117896735,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs117896735,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs117896735,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs117896735,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs117896735,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs117896735,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs117896735,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs117896735,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs117896735,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs117896735,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs117896735,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs117896735,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs117896735,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs117896735,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs117896735,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs117896735,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs117896735,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs117896735,0,1
+Liver,E066,Other,LIV.ADLT,rs117896735,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs117896735,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs117896735,0,1
+Ovary,E097,Other,OVRY,rs117896735,0,1
+Placenta,E091,Other,PLCNT.FET,rs117896735,0,1
+Thymus,E112,Thymus,THYM,rs117896735,0,1
+Aorta,E065,Heart,VAS.AOR,rs117896735,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs12637471,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs12637471,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs12637471,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs12637471,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs12637471,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs12637471,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs12637471,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs12637471,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs12637471,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs12637471,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs12637471,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs12637471,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs12637471,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs12637471,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs12637471,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs12637471,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs12637471,0,1
+Left Ventricle,E095,Heart,HRT.VENT.L,rs12637471,0,1
+Liver,E066,Other,LIV.ADLT,rs12637471,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs12637471,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs12637471,0,1
+Ovary,E097,Other,OVRY,rs12637471,0,1
+Placenta,E091,Other,PLCNT.FET,rs12637471,0,1
+Thymus,E112,Thymus,THYM,rs12637471,0,1
+Aorta,E065,Heart,VAS.AOR,rs12637471,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs10797576,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs10797576,0,1
+Brain Anterior Caudate,E068,Brain,BRN.ANT.CAUD,rs10797576,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs10797576,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs10797576,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs10797576,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs10797576,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs10797576,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs10797576,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs10797576,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs10797576,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs10797576,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs10797576,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs10797576,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs10797576,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs10797576,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs10797576,0,1
+Liver,E066,Other,LIV.ADLT,rs10797576,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs10797576,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs10797576,0,1
+Ovary,E097,Other,OVRY,rs10797576,0,1
+Placenta,E091,Other,PLCNT.FET,rs10797576,0,1
+Thymus,E112,Thymus,THYM,rs10797576,0,1
+Aorta,E065,Heart,VAS.AOR,rs10797576,0,1
+Fetal Adrenal Gland,E080,Other,ADRL.GLND.FET,rs199347,0,1
+Brain Angular Gyrus,E067,Brain,BRN.ANG.GYR,rs199347,0,1
+Brain Cingulate Gyrus,E069,Brain,BRN.CING.GYR,rs199347,0,1
+Brain_Dorsolateral_Prefrontal_Cortex,E073,Brain,BRN.DL.PRFRNTL.CRTX,rs199347,0,1
+Brain Hippocampus Middle,E071,Brain,BRN.HIPP.MID,rs199347,0,1
+Brain Inferior Temporal Lobe,E072,Brain,BRN.INF.TMP,rs199347,0,1
+Brain Substantia Nigra,E074,Brain,BRN.SUB.NIG,rs199347,0,1
+Sigmoid Colon,E106,Digestive,GI.CLN.SIG,rs199347,0,1
+Duodenum Smooth Muscle,E078,Sm. Muscle,GI.DUO.SM.MUS,rs199347,0,1
+Fetal Intestine Large,E084,Digestive,GI.L.INT.FET,rs199347,0,1
+Rectal Mucosa Donor 29,E101,Digestive,GI.RECT.MUC.29,rs199347,0,1
+Rectal Mucosa Donor 31,E102,Digestive,GI.RECT.MUC.31,rs199347,0,1
+Rectal Smooth Muscle,E103,Sm. Muscle,GI.RECT.SM.MUS,rs199347,0,1
+Fetal Intestine Small,E085,Digestive,GI.S.INT.FET,rs199347,0,1
+Fetal Stomach,E092,Digestive,GI.STMC.FET,rs199347,0,1
+Stomach Smooth Muscle,E111,Sm. Muscle,GI.STMC.MUS,rs199347,0,1
+Liver,E066,Other,LIV.ADLT,rs199347,0,1
+Fetal Muscle Leg,E090,Muscle,MUS.LEG.FET,rs199347,0,1
+Skeletal Muscle Female,E108,Muscle,MUS.SKLT.F,rs199347,0,1
+Ovary,E097,Other,OVRY,rs199347,0,1
+Placenta,E091,Other,PLCNT.FET,rs199347,0,1
+Thymus,E112,Thymus,THYM,rs199347,0,1
+Aorta,E065,Heart,VAS.AOR,rs199347,0,1

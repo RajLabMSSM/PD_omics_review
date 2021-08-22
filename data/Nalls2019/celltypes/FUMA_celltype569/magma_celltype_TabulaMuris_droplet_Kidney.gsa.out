@@ -1,0 +1,13 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                         TYPE  NGENES         BETA     BETA_STD           SE            P
+leukocyte                       COVAR   14058    -0.083399    -0.020185     0.077212      0.85995
+fenestrated_cell                COVAR   14058     -0.14954    -0.046088     0.071653      0.98154
+smooth_muscle_cell              COVAR   14058   -0.0033922   -0.0013117     0.051162      0.52643
+kidney_tubule_cell              COVAR   14058     0.034416      0.01119     0.052021      0.25413
+kidney_collecting_duct_cell     COVAR   14058     0.038739      0.01643      0.04813      0.21045
+macrophage                      COVAR   14058    0.0094924    0.0030662      0.05293      0.42884
+fibroblast                      COVAR   14058     0.066355     0.032645     0.061843      0.14166
+endothelial_cell                COVAR   14058    -0.020769   -0.0088901     0.050064      0.66087

@@ -1,0 +1,26 @@
+# TOTAL_GENES = 14058
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+granulocyte                         COVAR   14058   -0.0038718   -0.0051924    0.0097884      0.65378 granulocyte
+basophil                            COVAR   14058    -0.013829    -0.029125     0.010906      0.89758 basophil
+Slamf1.positive_multipotent_...     COVAR   14058   -0.0034324   -0.0084114    0.0093068      0.64386 Slamf1.positive_multipotent_progenitor_cell
+megakaryocyte.erythroid_prog...     COVAR   14058    0.0020395    0.0047469    0.0096887      0.41664 megakaryocyte.erythroid_progenitor_cell
+immature_B_cell                     COVAR   14058      0.01946     0.030729     0.015179     0.099926 immature_B_cell
+hematopoietic_precursor_cell        COVAR   14058    -0.022211    -0.044411     0.016661      0.90874 hematopoietic_precursor_cell
+monocyte                            COVAR   14058     0.027813     0.051793     0.011813    0.0092809 monocyte
+late_pro.B_cell                     COVAR   14058    0.0063223     0.013651     0.010418      0.27197 late_pro.B_cell
+naive_B_cell                        COVAR   14058     0.012136     0.015707     0.015481      0.21655 naive_B_cell
+immature_T_cell                     COVAR   14058    -0.028274    -0.044618     0.013985      0.97839 immature_T_cell
+common_lymphoid_progenitor          COVAR   14058   -0.0028833   -0.0069109    0.0099331      0.61419 common_lymphoid_progenitor
+macrophage                          COVAR   14058     0.025444     0.045251     0.010825    0.0093842 macrophage
+B_cell                              COVAR   14058  -7.9725e-05  -0.00015643     0.015552      0.50205 B_cell
+Slamf1.negative_multipotent_...     COVAR   14058   -0.0085035    -0.017308     0.013796      0.73117 Slamf1.negative_multipotent_progenitor_cell
+pre.natural_killer_cell             COVAR   14058     0.010123     0.025016    0.0098864      0.15294 pre.natural_killer_cell
+pro.B_cell                          COVAR   14058     0.013698     0.019088     0.013059       0.1471 pro.B_cell
+granulocyte_monocyte_progeni...     COVAR   14058     0.019258     0.046847      0.01048     0.033076 granulocyte_monocyte_progenitor_cell
+mature_natural_killer_cell          COVAR   14058    -0.018503    -0.035013     0.013039      0.92204 mature_natural_killer_cell
+immature_natural_killer_cell        COVAR   14058    -0.021019    -0.033757      0.01288      0.94864 immature_natural_killer_cell
+regulatory_T_cell                   COVAR   14058    -0.020851    -0.031113     0.013419      0.93988 regulatory_T_cell
+immature_NK_T_cell                  COVAR   14058    -0.017787    -0.032772     0.012813      0.91745 immature_NK_T_cell

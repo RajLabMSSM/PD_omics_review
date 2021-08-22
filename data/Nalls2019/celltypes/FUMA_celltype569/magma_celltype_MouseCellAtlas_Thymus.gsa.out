@@ -1,0 +1,14 @@
+# MEAN_SAMPLE_SIZE = 2613
+# TOTAL_GENES = 14594
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                     TYPE  NGENES         BETA     BETA_STD           SE            P
+abT_cell                    COVAR   14594     -0.17504    -0.016302      0.29453      0.72383
+B_cell                      COVAR   14594       0.2583     0.026805      0.33861      0.22279
+DPT_cell                    COVAR   14594     0.056961    0.0050881       0.3325      0.43199
+gdT_cell_                   COVAR   14594     -0.24746    -0.029954      0.18896      0.90483
+Pre_T_cell                  COVAR   14594     0.014989    0.0031166     0.077467      0.42329
+Proliferating_thymocyte     COVAR   14594      0.21466     0.028463       0.1859      0.12412
+T_cell_Id2_high             COVAR   14594    -0.059765   -0.0089173      0.12525      0.68338
+T_cell_Ms4a4b_high          COVAR   14594      0.10573      0.01132      0.27465      0.35014
