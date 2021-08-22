@@ -19,8 +19,138 @@ knitr::opts_chunk$set(echo = TRUE, root.dir = here::here())
 
 library(dplyr)
 library(ggplot2)
+library(googledrive)
+library(data.table)
 set.seed(2019)
 ```
+
+
+Meta-analysis of genetic correlation studies between Parkinson's Disease and other phenotypes.
+
+# Prepare data
+
+
+```{r}
+library(phenomix)
+data("DEGAS_seurat")
+
+pd_traits <- DEGAS_seurat@meta.data[grepl("parkinson",DEGAS_seurat@meta.data$label_phe, ignore.case = TRUE),]
+
+trait_key <- setNames(DEGAS_seurat@meta.data$label_phe,
+                      DEGAS_seurat@meta.data$label_phe_code)
+
+degas_corr <- cor(Matrix::t(DEGAS_seurat@reductions$contributionGene@cell.embeddings))[,rownames(pd_traits)] %>%
+  data.table::data.table(keep.rownames = "Trait2_code")
+degas_corr[,Trait2:=trait_key[Trait2_code],] 
+ 
+degas_corr <- melt(degas_corr, 
+                   id.vars=c("Trait2_code","Trait2"), 
+                   variable.name = "Trait1_code", 
+                   value.name = "corr",
+                   #### Important! otherwise will screw up dict #@##
+                   variable.factor = FALSE)
+degas_corr[,Trait1:=trait_key[Trait1_code],]
+
+
+data.table::setorder(degas_corr, -corr)
+data.table::setcolorder(degas_corr,
+                        c("Trait1","Trait2",
+                          "Trait1_code","Trait2_code","corr"))
+
+# data.table::fwrite(degas_corr,
+                # here::here("data/DEGAS/DEGAS_contributionGene_corr.csv"))
+```
+
+
+## Download
+
+```{r}
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit?usp=sharing#gid=1366974120", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = T)
+
+sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS2.xlsx")) 
+```
+
+## Merge datasets
+
+```{r}
+corr_sheets <- sheets[endsWith(sheets,"_corr")]
+ 
+corr_data <- lapply(corr_sheets, function(sheet){
+  print(sheet)
+  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS2.xlsx"), sheet = sheet) 
+  dat$Sheet <- gsub("_corr","",sheet) 
+  cols <- c("Trait1","Trait2","corr",
+            "Reference","Source","Dataset")  
+  cols <- cols[cols %in% colnames(dat)]
+  return(dplyr::relocate(dat, all_of(cols), .before = 1))
+}) %>% `names<-`(corr_sheets) %>%
+  data.table::rbindlist(fill = TRUE)
+
+```
+
+## Harmonise names
+
+Attempt to somewhat harmonise phenotype names across studies.
+
+```{r}
+corr_data <- corr_data %>% 
+  dplyr::mutate(Phenotype = stringr::str_trunc(stringr::str_wrap(tolower(Trait2), 50),50)
+) 
+```
+
+
+
+# Top traits
+
+Get the top N traits per study that are most highly correlated with Parkinson's Disease.
+
+## Gather 
+
+```{r}
+max_traits <- 10
+  
+top_corr <- corr_data %>% 
+  subset(Trait1!=Trait2) %>%
+  dplyr::group_by(Sheet, Trait1) %>%
+  dplyr::mutate(Phenotype = paste0(Phenotype,"@",group_indices())) %>%
+  dplyr::slice_max(order_by = corr, n = max_traits) %>%
+  dplyr::select(Sheet, Trait1, Trait2, Phenotype, corr, Source) %>% 
+  dplyr::ungroup() %>%
+  dplyr::arrange(corr)
+top_corr$Phenotype <- factor(top_corr$Phenotype, 
+                          unique(top_corr$Phenotype),
+                          ordered = TRUE)
+knitr::kable(top_corr)
+```
+
+## Plot
+
+```{r, fig.height=12}
+corr_plot <- ggplot(top_corr, 
+                    aes(x=corr, y=Phenotype, fill=Sheet)) +
+  facet_grid(facets = Sheet ~., 
+             scales = "free_y") + 
+  geom_bar(stat="identity", aes(alpha=corr), show.legend = F) +
+  labs(title = "Genetic correlations with PD",
+       x="Correlation", y="Phenotype") +
+  scale_fill_manual(values=pals::gnuplot(dplyr::n_distinct(top_corr$Sheet)+1 ) ) +
+  scale_x_continuous(limits = c(0,1)) +
+  # Create a dictionary mapping the new labels
+  scale_y_discrete(labels = setNames(gsub("@.*","",levels(top_corr$Phenotype)),
+                                     levels(top_corr$Phenotype) ) ) + 
+  theme_bw() +
+  theme(strip.background = element_rect(fill = "black"), 
+        strip.text = element_text(color = "white", angle = 0),
+        strip.text.y = element_text(color = "white", angle = 0),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.minor.y = element_blank())
+print(corr_plot)
+
+
+ggsave(here::here("plots/metaanalysis/correlation_metaanalysis.pdf"),corr_plot, dpi = 300, height = 15)
+```
+
+ 
 
 
 # [Bryois 2020](https://www.nature.com/articles/s41588-020-0610-9)

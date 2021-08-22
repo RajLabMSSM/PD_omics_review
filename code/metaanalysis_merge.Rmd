@@ -46,7 +46,7 @@ sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS1.xlsx"))
 
  
 ```{r}
-celltype_sheets <- sheets[endsWith(sheets,"celltypes")]
+celltype_sheets <- sheets[endsWith(sheets,"_celltypes")]
  
 celltype_data <- lapply(celltype_sheets, function(sheet){
   print(sheet)
