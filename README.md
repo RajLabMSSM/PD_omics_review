@@ -8,7 +8,7 @@ Brian M. Schilder
 2021-08-22
 
 Data and code associated with the Parkinson’s Disease review paper by
-Schilder et al. (2021).
+Schilder, Navarro & Raj (2021).
 
 If you use the data in this repository please cite both the original
 authors of the data, as well as:
