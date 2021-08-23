@@ -356,6 +356,56 @@ data.table::fwrite(tissues,"data/Li2019/Li2019_tissues.csv")
 ```
 
 
+# Corces2020
+
+Data shared from [Corces2020](https://www.nature.com/articles/s41588-020-00721-x) via **Supplementary Data 7** of the PD omics review was simply copy and pasted into Google Sheets with minor editing (thanks to their excellent data organization!). 
+
+Still, I'd like to provide a compressed version of Corces2020's **Supplementary Data 7** since it's 100Mb as an excel sheet, which is above GitHub's file size limit. Reprocessing here to allow this.
+
+We also used data from **Supplementary Data 8**, which is small enough that we can just provide it in its original excel format. 
+
+*Note*: There's a typo in the header of **Supplementary Data 7** excel sheet which mislabels it as *Supplementary Table 8*.
+
+Code used to produce these datasets in the original publication can be found [here](https://github.com/kundajelab/alzheimers_parkinsons).
+
+## Download links: 
+
+- [Corces2020 Supplementary Data 7](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM10_ESM.xlsx)
+
+- [Corces2020 Supplementary Data 8](https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM11_ESM.xlsx)
+
+```{r, eval=FALSE}
+data7_path <- here::here("data/Corces2020/41588_2020_721_MOESM10_ESM.xlsx")
+data8_path <- here::here("data/Corces2020/41588_2020_721_MOESM11_ESM.xlsx")
+
+if(!file.exists(here::here(data7_path))){
+  download.file("https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM10_ESM.xlsx",data7_path)
+}
+if(!file.exists(here::here(data8_path))){
+  download.file("https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM11_ESM.xlsx",data8_path)
+}
+
+sheets <- readxl::excel_sheets(data7_path)
+skip14 <- c("NeuronClusterDefinitions","markerGenes_log2(FoldChange)","markerGenes_FDR")
+
+split_files <- lapply(sheets, function(x){ 
+  print(x)
+  skip <- if(x %in% skip14) 14 else 12
+  dat <- readxl::read_excel(data7_path, sheet = x, skip = skip)
+  colnames(dat) <- gsub(" |[.]","_",colnames(dat))
+  colnames(dat) <- gsub("[(]|[)]","",colnames(dat))
+  dat$Sheet <- x
+  sheet_name <- gsub(" |-|[.]","_",gsub("[(]|[)]","",x))
+  new_file <- file.path(dirname(data7_path),paste0("Corces2020.SuppData7.",sheet_name,".csv.gz"))
+  data.table::fwrite(dat,new_file)
+  return(new_file)
+}) %>% `names<-`(sheets)
+
+```
+
+
+
+
 # Session info 
  
 <details>

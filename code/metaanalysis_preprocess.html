@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2021-08-22" />
+<meta name="date" content="2021-08-23" />
 
 <title>metaanalysis_preprocess</title>
 
@@ -348,7 +348,7 @@ div.tocify {
 Author
 </h3>
 Brian M. Schilder</h4>
-<h4 class="date">2021-08-22</h4>
+<h4 class="date">2021-08-23</h4>
 
 </div>
 
@@ -660,10 +660,50 @@ Brian M. Schilder</h4>
 <span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>data.table<span class="sc">::</span><span class="fu">fwrite</span>(tissues,<span class="st">&quot;data/Li2019/Li2019_tissues.csv&quot;</span>)</span></code></pre></div>
 </div>
 </div>
+<div id="corces2020" class="section level1">
+<h1>Corces2020</h1>
+<p>Data shared from <a href="https://www.nature.com/articles/s41588-020-00721-x">Corces2020</a> via <strong>Supplementary Data 7</strong> of the PD omics review was simply copy and pasted into Google Sheets with minor editing (thanks to their excellent data organization!).</p>
+<p>Still, I’d like to provide a compressed version of Corces2020’s <strong>Supplementary Data 7</strong> since it’s 100Mb as an excel sheet, which is above GitHub’s file size limit. Reprocessing here to allow this.</p>
+<p>We also used data from <strong>Supplementary Data 8</strong>, which is small enough that we can just provide it in its original excel format.</p>
+<p><em>Note</em>: There’s a typo in the header of <strong>Supplementary Data 7</strong> excel sheet which mislabels it as <em>Supplementary Table 8</em>.</p>
+<p>Code used to produce these datasets in the original publication can be found <a href="https://github.com/kundajelab/alzheimers_parkinsons">here</a>.</p>
+<div id="download-links" class="section level2">
+<h2>Download links:</h2>
+<ul>
+<li><p><a href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM10_ESM.xlsx">Corces2020 Supplementary Data 7</a></p></li>
+<li><p><a href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM11_ESM.xlsx">Corces2020 Supplementary Data 8</a></p></li>
+</ul>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>data7_path <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">&quot;data/Corces2020/41588_2020_721_MOESM10_ESM.xlsx&quot;</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>data8_path <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">&quot;data/Corces2020/41588_2020_721_MOESM11_ESM.xlsx&quot;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">file.exists</span>(here<span class="sc">::</span><span class="fu">here</span>(data7_path))){</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(<span class="st">&quot;https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM10_ESM.xlsx&quot;</span>,data7_path)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(<span class="sc">!</span><span class="fu">file.exists</span>(here<span class="sc">::</span><span class="fu">here</span>(data8_path))){</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">download.file</span>(<span class="st">&quot;https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-020-00721-x/MediaObjects/41588_2020_721_MOESM11_ESM.xlsx&quot;</span>,data8_path)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>sheets <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">excel_sheets</span>(data7_path)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>skip14 <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;NeuronClusterDefinitions&quot;</span>,<span class="st">&quot;markerGenes_log2(FoldChange)&quot;</span>,<span class="st">&quot;markerGenes_FDR&quot;</span>)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>split_files <span class="ot">&lt;-</span> <span class="fu">lapply</span>(sheets, <span class="cf">function</span>(x){ </span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(x)</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>  skip <span class="ot">&lt;-</span> <span class="cf">if</span>(x <span class="sc">%in%</span> skip14) <span class="dv">14</span> <span class="cf">else</span> <span class="dv">12</span></span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>  dat <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">read_excel</span>(data7_path, <span class="at">sheet =</span> x, <span class="at">skip =</span> skip)</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(dat) <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">&quot; |[.]&quot;</span>,<span class="st">&quot;_&quot;</span>,<span class="fu">colnames</span>(dat))</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(dat) <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">&quot;[(]|[)]&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="fu">colnames</span>(dat))</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>  dat<span class="sc">$</span>Sheet <span class="ot">&lt;-</span> x</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>  sheet_name <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">&quot; |-|[.]&quot;</span>,<span class="st">&quot;_&quot;</span>,<span class="fu">gsub</span>(<span class="st">&quot;[(]|[)]&quot;</span>,<span class="st">&quot;&quot;</span>,x))</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>  new_file <span class="ot">&lt;-</span> <span class="fu">file.path</span>(<span class="fu">dirname</span>(data7_path),<span class="fu">paste0</span>(<span class="st">&quot;Corces2020.SuppData7.&quot;</span>,sheet_name,<span class="st">&quot;.csv.gz&quot;</span>))</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>  data.table<span class="sc">::</span><span class="fu">fwrite</span>(dat,new_file)</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(new_file)</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>}) <span class="sc">%&gt;%</span> <span class="st">`</span><span class="at">names&lt;-</span><span class="st">`</span>(sheets)</span></code></pre></div>
+</div>
+</div>
 <div id="session-info" class="section level1">
 <h1>Session info</h1>
 <details>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>utils<span class="sc">::</span><span class="fu">sessionInfo</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>utils<span class="sc">::</span><span class="fu">sessionInfo</span>()</span></code></pre></div>
 <pre><code>## R version 4.1.0 (2021-05-18)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Ubuntu 20.04.2 LTS
