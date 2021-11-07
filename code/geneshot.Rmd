@@ -2,16 +2,12 @@
 title: "geneshot"
 author: "<h3>Author</h3>Brian M. Schilder"
 date: "`r Sys.Date()`"
-output: 
-  rmarkdown::html_document: 
-    theme: spacelab
-    highlight: zenburn 
-    code_folding: show 
-    toc: true 
-    toc_float: true
-    smooth_scroll: true
-    number_sections: false 
-    self_contained: true 
+output:
+  BiocStyle::html_document:
+vignette: >
+    %\VignetteIndexEntry{phenomix} 
+    %\usepackage[utf8]{inputenc}
+    %\VignetteEngine{knitr::rmarkdown}
 ---
 
 ```{r setup, include=T, warning=F, message=F}
@@ -175,12 +171,15 @@ gg_umap <- ggplot(umap_dat, aes(x=UMAP1, y=UMAP2, color=Zscore,
   ggrepel::geom_label_repel(data = label_genes, max.overlaps = 20,na.rm = T,
                             aes(x=UMAP1, y=UMAP2, label=Name),
                             fill = alpha(c("white"),0.9),
+                            seed = 2019,
                             show.legend = F) +
   theme_void() + 
    theme(plot.background = element_rect(fill = "black"),
          panel.background = element_rect(fill = "black"),
          legend.text = element_text(color="white"),
-         legend.title = element_text(color="white"))  
+         legend.title = element_text(color="white"))  +
+  guides(size=guide_legend(override.aes=list(fill="white")))
+
 print(gg_umap)
  
 #### Save ####

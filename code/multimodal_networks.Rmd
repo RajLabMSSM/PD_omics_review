@@ -2,16 +2,12 @@
 title: "multimodal_networks"
 author: "<h3>Author</h3>Brian M. Schilder"
 date: "`r Sys.Date()`"
-output: 
-  rmarkdown::html_document: 
-    theme: spacelab
-    highlight: zenburn 
-    code_folding: show 
-    toc: true 
-    toc_float: true
-    smooth_scroll: true
-    number_sections: false 
-    self_contained: true 
+output:
+  BiocStyle::html_document:
+vignette: >
+    %\VignetteIndexEntry{phenomix} 
+    %\usepackage[utf8]{inputenc}
+    %\VignetteEngine{knitr::rmarkdown}
 ---
 
 ```{r setup, include=T, warning=F, message=F}

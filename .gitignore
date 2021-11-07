@@ -1,3 +1,7 @@
+# Find largest files: du -ah . | sort -n -r | head -n 5
+
+data/Li2019/**/garfield.prep.*
+
 .Rproj.user
 .Rhistory
 .RData

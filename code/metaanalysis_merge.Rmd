@@ -2,20 +2,16 @@
 title: "metaanalysis_merge" 
 author: "<h3>Author</h3>Brian M. Schilder"
 date: "`r Sys.Date()`"
-output: 
-  rmarkdown::html_document: 
-    theme: spacelab
-    highlight: zenburn 
-    code_folding: show 
-    toc: true 
-    toc_float: true
-    smooth_scroll: true
-    number_sections: false 
-    self_contained: true 
+output:
+  BiocStyle::html_document:
+vignette: >
+    %\VignetteIndexEntry{phenomix} 
+    %\usepackage[utf8]{inputenc}
+    %\VignetteEngine{knitr::rmarkdown}
 ---
 
 ```{r setup, include=TRUE, warning=FALSE, message=FALSE}
-knitr::opts_chunk$set(echo = T, root.dir = here::here())
+knitr::opts_chunk$set(echo = TRUE, root.dir = here::here())
 # knitr::opts_knit$set(echo = T, root.dir = here::here())
 
 library(dplyr)
@@ -36,28 +32,29 @@ Merge all cell-type and tissue enrichment datasets for meta-analysis.
 
 ```{r} 
 # Table 1
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = T)
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = TRUE)
 # Table 2
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=314686952", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = T)
-
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=314686952", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = TRUE)
 
 sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS1.xlsx")) 
+
+system(paste("chmod -R u=rwx,go=rwx",here::here()))
 ```
 
  
 ```{r}
 celltype_sheets <- sheets[endsWith(sheets,"_celltypes")]
- 
+
 celltype_data <- lapply(celltype_sheets, function(sheet){
   print(sheet)
-  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
+  dat <- readxl::read_xlsx(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
   if(sheet=="Nalls2019_celltypes") dat <- subset(dat, Source!="step1_2_summary.txt" ) # & step3==1
   dat$Sheet <- gsub("_celltypes","",sheet)
   cols <- c("Cell_Type","Sig","Reference","Source","Dataset")  
   cols <- cols[cols %in% colnames(dat)]
   return(dplyr::relocate(dat, all_of(cols), .before = 1))
 }) %>% `names<-`(celltype_sheets) %>%
-  data.table::rbindlist(fill = T)
+  data.table::rbindlist(fill = TRUE)
 ```
 
 ## Preprocess  
@@ -138,12 +135,13 @@ max_celltypes <- 25
 
 celltype_plot <- ggplot(plot_celltypes %>% 
                           dplyr::group_by(Reference) %>% 
-                          dplyr::slice_max(order_by = median_Score, n = max_celltypes),
+                          dplyr::slice_max(order_by = median_Score,
+                                           n = max_celltypes),
        aes(x=Score, y=Cell_Type, fill=Reference)) + 
   # geom_bar(show.legend = F, stat="identity") +
-  geom_boxplot(show.legend = F) +
+  geom_boxplot(show.legend = FALSE) +
   # geom_violin(show.legend = F) +
-  geom_point(show.legend = F, alpha=.2) + 
+  geom_point(show.legend = FALSE, alpha=.2) + 
   # Create a dicionary mapping the new labels
   scale_y_discrete(labels = setNames(gsub("@.*","",levels(plot_celltypes$Cell_Type )),
                                      levels(plot_celltypes$Cell_Type) ) ) + 
@@ -193,7 +191,7 @@ plot_tissues <- tissue_data %>%
   subset(!(Tissue %in% c(NA,"NA")) & (!is.na(Sig))) %>%
   dplyr::mutate( Sig_neglog =  -log1p(Sig)) %>% 
   ##  Calculate zscore for fine-mapping overlap  
-  dplyr::group_by(Reference, .drop = F) %>%
+  dplyr::group_by(Reference, .drop = FALSE) %>%
   dplyr::mutate(Tissue= paste0(Tissue,"@",group_indices())) %>%
   dplyr::summarise(Tissue,Source,Sheet,Dataset,Sig,PP.H4,  
                    FDR = p.adjust(p = Sig, method = "fdr"),  
@@ -244,13 +242,13 @@ plot_tissues %>% dplyr::group_by(Reference) %>%
 tissue_plot <- ggplot(plot_tissues, 
        aes(x=Score, y=Tissue, fill=Reference)) + 
   # geom_bar(show.legend = F, stat="identity") +
-  geom_boxplot(show.legend = F) +
+  geom_boxplot(show.legend = FALSE) +
   # geom_violin(show.legend = F) +
-  geom_point(show.legend = F, alpha=.2) +
+  geom_point(show.legend = FALSE, alpha=.2) +
   # facet_wrap(facets = .~paste(gsub("[(]","\n(",Reference),"\n\n n tests =",n_tests),
   #          scales = "free", drop = F, nrow = 1) +  
   facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),"\n (tests = ",n_tests,")")~.,
-           scales = "free", space="free", drop = F) + 
+           scales = "free", space="free", drop = FALSE) + 
   scale_x_continuous(limits = c(0,1)) +
   # Create a dicionary mapping the new labels
   scale_y_discrete(labels = setNames(gsub("@.*","",levels(plot_tissues$Tissue)),
@@ -274,8 +272,8 @@ fused_plot <- (celltype_plot + labs(title="Cell-types") +
   patchwork::plot_annotation(tag_levels = letters)
 print(fused_plot)
 
-# ggsave(here::here("plots/metaanalysis/metaanalysis.pdf"),fused_plot, height = 14, width = 15, dpi = 300)
-# ggsave(here::here("plots/metaanalysis/metaanalysis.jpg"),fused_plot, height = 14, width = 15, dpi = 300)
+# ggsave(here::here("plots/metaanalysis/metaanalysis.pdf"),fused_plot, height = 14, width = 15, dpi = 400)
+# ggsave(here::here("plots/metaanalysis/metaanalysis.jpg"),fused_plot, height = 14, width = 15, dpi = 400)
 ```
 
 
