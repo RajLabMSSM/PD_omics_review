@@ -19,6 +19,9 @@ library(ggplot2)
 library(googledrive)
 library(patchwork)
 set.seed(2019)
+
+#### Import utility functions ####
+source(here::here("code/utils.R"))
 ```
 
 
@@ -30,66 +33,31 @@ Merge all cell-type and tissue enrichment datasets for meta-analysis.
 
 ## Download 
 
-```{r}
-overwrite <- TRUE
+You can download the meta-analysis tables from Google Drive and process them however you like.
+
+```{r, eval=FALSE} 
 # Table 1
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = overwrite)
-# Table 2
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=314686952", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = overwrite)
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = TRUE)
 
 sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS1.xlsx")) 
-
-# if(overwrite) system(paste("chmod -R u=rwx,go=rwx",here::here()))
 ```
 
+## Automated merging 
  
-```{r}
-celltype_sheets <- sheets[endsWith(sheets,"_celltypes")]
-
-celltype_data <- lapply(celltype_sheets, function(sheet){
-  print(sheet)
-  dat <- readxl::read_xlsx(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
-  if(sheet=="Nalls2019_celltypes") dat <- subset(dat, Source!="step1_2_summary.txt" ) # & step3==1
-  dat$Sheet <- gsub("_celltypes","",sheet)
-  cols <- c("Cell_Type","Sig","Reference","Source","Dataset")
-  cols <- cols[cols %in% colnames(dat)]
-  return(dplyr::relocate(dat, all_of(cols), .before = 1))
-}) %>% `names<-`(celltype_sheets) %>%
-  data.table::rbindlist(fill = TRUE)
-
-```
-
-### Save merged data
+Alternatively, you can use the function `merge_data` we've provided in 
+*code/utils.R* to automatically download, merge and harmonise the data.
 
 ```{r}
-data.table::fwrite(x = celltype_data[,c("Sheet","Cell_Type","Sig","Reference","Source","Dataset")], 
-                   file = here::here("data/metaanalysis","merged_celltypes.csv") )
+celltype_data <- merge_data(googledrive_url = "https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199",
+                            file_name = "TableS1.xlsx",
+                            sheet_search = "celltypes")
 ```
 
 
 ## Preprocess  
 
 ### FDR plots
-
-```{r}
-plot_fdr <- function(dat,
-                     x="Score",
-                     y="-log10(FDR)",
-                     color="Sheet",
-                     size=y,
-                     label=NULL,
-                     show_plot=FALSE){
-  gg <- ggplot(dat, 
-              aes_string(x=x, y=y, color=color, size=size, 
-                  label=label)) + 
-  geom_point(alpha=.5) + 
-  theme_bw()
-  if(show_plot) print(gg)
-  return(gg)
-}
-```
-
-
+ 
 ```{r}
 plot_celltypes <- celltype_data %>%    
   subset(!is.na(Sig) & !is.na(Cell_Type) & !( Cell_Type %in% c("brain"))) %>%
@@ -125,7 +93,14 @@ gg_FDR2 <- plot_fdr(dat = plot_celltypes, label = "Cell_Type")
 plotly::ggplotly(gg_FDR2)
 ```
 
-### Celltype counts
+### Cell-types plot data
+
+```{r}
+createDT(plot_celltypes)
+```
+
+
+### Cell-types counts
 
 ```{r}
 celltype_counts <- plot_celltypes %>% dplyr::group_by(Reference) %>% 
@@ -179,29 +154,13 @@ print(celltype_plot)
 
 # Merge tissues 
 
-## Download 
+## Automated merging 
 
 ```{r}
-tissue_sheets <- sheets[endsWith(sheets,"tissues")]
- 
-tissue_data <- lapply(tissue_sheets, function(sheet){
-  print(sheet)
-  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
-  dat$Sheet <- gsub("_tissues","",sheet)
-  cols <- c("Tissue","Sig","Reference","Source","Dataset")  
-  cols <- cols[cols %in% colnames(dat)]
-  return(dplyr::relocate(dat, all_of(cols), .before = 1))
-}) %>% `names<-`(tissue_sheets) %>%
-  data.table::rbindlist(fill = T)
+tissue_data <- merge_data(googledrive_url = "https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199",
+                            file_name = "TableS1.xlsx",
+                            sheet_search = "tissues")
 ```
-
-### Save merged data
-
-```{r}
-data.table::fwrite(x = tissue_data[,c("Sheet","Tissue","Sig","Reference","Source","Dataset")], 
-                   file= here::here("data/metaanalysis","merged_tissues.csv"))
-```
-
 
 ## Preprocess  
 
@@ -247,13 +206,19 @@ gg_FDR2 <- plot_fdr(dat = plot_tissues, label = "Tissue")
 plotly::ggplotly(gg_FDR2) 
 ```
 
-
-### Tissue counts
+### Tissues plot data
 
 ```{r}
-plot_tissues %>% dplyr::group_by(Reference) %>% 
+createDT(plot_tissues)
+```
+
+### Tissues counts
+
+```{r}
+tissue_counts <- plot_tissues %>% dplyr::group_by(Reference) %>% 
   dplyr::summarise(n_tissues=dplyr::n_distinct(Tissue)) %>%
   dplyr::arrange(desc(n_tissues))
+createDT(tissue_counts)
 ```
 
 

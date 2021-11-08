@@ -18,6 +18,9 @@ library(ggplot2)
 library(googledrive)
 library(data.table)
 set.seed(2019)
+
+#### Import utility functions ####
+source(here::here("code/utils.R"))
 ```
 
 
@@ -58,63 +61,34 @@ row.names(rp) <- gsub("[.]","-",row.names(rp))
 rp[rp=="/"] <- NA 
 rp <- Matrix::as.matrix(rp, sparse = T)
 
-```
-
-Check for Parkinson's
-
-```{r, eval=FALSE}
+#### Check for Parkinson's ####
 grep("Parkinson",colnames(rp), ignore.case = T, value = T)
 ```
 
 
 
-## Meta-analysis data
+# Merge correlations
 
-```{r}
+## Download 
+
+You can download the meta-analysis tables from Google Drive and process them however you like.
+
+```{r, eval = FALSE}
 googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit?usp=sharing#gid=1366974120", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = TRUE)
 
 sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS2.xlsx")) 
 ```
 
-## Merge datasets
-
-```{r}
-corr_sheets <- sheets[endsWith(sheets,"_corr")]
+## Automated merging 
  
-corr_data <- lapply(corr_sheets, function(sheet){
-  print(sheet)
-  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS2.xlsx"), sheet = sheet) 
-  dat$Sheet <- gsub("_corr","",sheet) 
-  cols <- c("Trait1","Trait2","corr",
-            "Reference","Source","Dataset")  
-  cols <- cols[cols %in% colnames(dat)]
-  return(dplyr::relocate(dat, all_of(cols), .before = 1))
-}) %>% `names<-`(corr_sheets) %>%
-  data.table::rbindlist(fill = TRUE)
-
-```
-
-## Harmonise names
-
-Attempt to somewhat harmonise phenotype names across studies.
+Alternatively, you can use the function `merge_data` we've provided in 
+*code/utils.R* to automatically download, merge and harmonise the data.
 
 ```{r}
-fix_str <- function(vec){
-  vec %>% 
-    tolower() %>%
-    gsub(pattern = "[ ]|-|[.]|[:]|[\\]|[\\/]",replacement = "_") %>%
-    gsub(pattern = "\'|\"|[(]|[)]",replacement = "") %>%
-    gsub(pattern = "_+",replacement = "_") %>%
-    # stringr::str_wrap(width = 50) %>%
-    stringr::str_trunc(width = 50) 
-}
-
-corr_data <- corr_data %>% 
-  dplyr::mutate(Trait1 = fix_str(Trait1),
-                Trait2 = fix_str(Trait2))
+corr_data <- merge_data(googledrive_url = "https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=1366974120",
+                            file_name = "TableS2.xlsx",
+                            sheet_search = "corr")
 ```
-
-
 
 # Top traits
 
@@ -135,8 +109,8 @@ top_corr <- corr_data %>%
                 n_tests = n()) %>%
   dplyr::ungroup() %>%
   dplyr::group_by(Sheet, Trait1) %>%
-  dplyr::mutate(id1 = paste0(Trait1,"@",dplyr::group_indices()),
-                id2 = paste0(Trait2,"@",dplyr::group_indices())) %>%
+  dplyr::mutate(id1 = paste0(Trait1,"@",dplyr::cur_group_id()),
+                id2 = paste0(Trait2,"@",dplyr::cur_group_id())) %>%
   dplyr::slice_max(order_by = corr_q,
                    n = max_traits, 
                    with_ties = TRUE) %>%
@@ -148,24 +122,29 @@ top_corr <- corr_data %>%
 top_corr$Trait2 <- factor(x = top_corr$Trait2,
                           levels = rev(unique(top_corr$Trait2)),
                           ordered = TRUE)
-knitr::kable(top_corr)
-
 ```
 
-### Save merged data
+
+### Correlations plot data
+
+```{r}
+createDT(top_corr)
+```
+
+
+### Save plot data
 
 ```{r}
 data.table::fwrite(x = corr_data[,c("Sheet","Trait1","Trait2","corr","Reference","Source")],
-                   file = here::here("data/metaanalysis","merged_correlations.csv"))
+                   file = here::here("data/metaanalysis","merged_top_corr.csv"))
 ```
 
 
+# Plot
 
-## Plot
+## Bar plot
 
-### Bar plot
-
-```{r}
+```{r, fig.height=8, fig.width=9}
 gg_cor <- ggplot(data = top_corr, aes(x=corr, y = Trait2, fill = corr)) +
   geom_col() +
   geom_point(show.legend = FALSE, alpha=.5) +
@@ -186,7 +165,11 @@ gg_cor <- ggplot(data = top_corr, aes(x=corr, y = Trait2, fill = corr)) +
         strip.text.y = element_text(color = "white", angle = 0), 
         panel.grid.minor.x = element_blank())
 print(gg_cor)
+```
 
+### Save plots
+
+```{r}
 ggplot2::ggsave(filename = here::here("plots/metaanalysis/correlation_metaanalysis.pdf"),
                 plot = gg_cor, dpi = 400, height = 8, width = 9)
 ggplot2::ggsave(filename = here::here("plots/metaanalysis/correlation_metaanalysis.png"),
