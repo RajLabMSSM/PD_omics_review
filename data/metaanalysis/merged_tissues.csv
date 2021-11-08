@@ -1,0 +1,1836 @@
+Sheet,Tissue,Sig,Reference,Source,Dataset
+Bryois2020,Brain - Substantia nigra,4.4752e-05,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Spinal cord (cervical c-1),0.0011351,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Frontal Cortex (BA9),0.0113275517,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Cerebellum,0.01780230164,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Cortex,0.01886105986,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Hippocampus,0.019117,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Spinal cord (cervical c-1),0.02531417661,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Cerebellar Hemisphere,0.02808939336,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Frontal Cortex (BA9),0.028206,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Hypothalamus,0.03124970995,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Anterior cingulate cortex (BA24),0.03136131869,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Amygdala,0.033746,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Hypothalamus,0.037878,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Caudate (basal ganglia),0.03806,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Substantia nigra,0.03900425493,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Cerebellar Hemisphere,0.042687,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Muscle,0.043209,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Putamen (basal ganglia),0.045554,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Cortex,0.059906,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Hippocampus,0.06228036684,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Pituitary,0.07283910891,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Anterior cingulate cortex (BA24),0.073701,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Cerebellum,0.08923,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Nucleus accumbens (basal ganglia),0.1089907379,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Amygdala,0.1110458105,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Blood,0.1207978506,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Esophagus,0.1221054332,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Pituitary,0.14247,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Small Intestine,0.1742495931,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Nucleus accumbens (basal ganglia),0.17844,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Salivary Gland,0.1863809352,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Nerve,0.2225933041,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Adipose Tissue,0.2229634288,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Lung,0.261030067,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Stomach,0.265,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Muscle,0.286785516,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Colon,0.288595714,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Vagina,0.3149623399,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Stomach,0.3656153981,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Nerve,0.37798,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Breast,0.4105128314,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Liver,0.41336,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Caudate (basal ganglia),0.4214635609,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Thyroid,0.4613743508,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Heart,0.4848,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Uterus,0.49069,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Spleen,0.4989639422,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Pancreas,0.51421,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Thyroid,0.52535,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Uterus,0.5365179497,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Adrenal Gland,0.58907,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Brain - Putamen (basal ganglia),0.6083785968,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Ovary,0.62623,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Heart,0.6319399421,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Blood Vessel,0.64702,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Breast,0.67017,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Pancreas,0.6996796218,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Adipose Tissue,0.72478,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Blood,0.77697,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Spleen,0.79123,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Blood Vessel,0.8014748176,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Adrenal Gland,0.8438283081,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Salivary Gland,0.85472,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Small Intestine,0.8803,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Liver,0.8820106976,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Esophagus,0.91891,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Prostate,0.93541,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Prostate,0.9518867981,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Skin,0.95453,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Vagina,0.95919,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Skin,0.9637277262,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Colon,0.98668,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Ovary,0.9915809,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Bryois2020,Lung,0.99613,"Bryois et al, 2020 (Nature Genetics)",Supplementary Table 1,
+Reynolds2019,Spinal cord (cervical c-1),3.8e-05,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Substantia nigra,4.08e-05,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Muscularis,8.23e-05,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellar Hemisphere,9.55e-05,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Gastroesophageal Junction,0.000108,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellar Hemisphere,0.000189,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Bladder,0.000305,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Amygdala,0.000313,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Putamen (basal ganglia),0.00041,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nucleus accumbens (basal ganglia),0.00045,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Anterior cingulate cortex (BA24),0.000466,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adrenal Gland,0.000509,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hippocampus,0.000576,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Caudate (basal ganglia),0.000766,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellum,0.000843,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Frontal Cortex (BA9),0.000891,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Lung,0.001597028,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hypothalamus,0.001734665,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Coronary,0.001777995,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Coronary,0.001789562,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cortex,0.001829979,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cortex,0.001944116,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cortex,0.002161527,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Prostate,0.002185195,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nerve Tibial,0.002383217,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Muscle Skeletal,0.002638792,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Heart Left Ventricle,0.002660238,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellum,0.002992279,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Muscle Skeletal,0.003186102,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spleen,0.003486436,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hippocampus,0.003682982,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Stomach,0.003737965,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spleen,0.004050205,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cervix Endocervix,0.004059497,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hippocampus,0.00410999,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spinal cord (cervical c-1),0.004203841,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Mucosa,0.00427126,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Thyroid,0.004651343,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spinal cord (cervical c-1),0.004694747,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Kidney Cortex,0.005224968,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Frontal Cortex (BA9),0.005381098,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Substantia nigra,0.005725708,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Frontal Cortex (BA9),0.005817437,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Bladder,0.006830179,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cells EBV-transformed lymphocytes,0.00724261,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Anterior cingulate cortex (BA24),0.007344617,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Pituitary,0.007508765,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cervix Ectocervix,0.007526509,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Bladder,0.007700448,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Anterior cingulate cortex (BA24),0.007717448,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Heart Left Ventricle,0.008059535,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Substantia nigra,0.008101591,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Caudate (basal ganglia),0.008439472,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellar Hemisphere,0.008751108,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Amygdala,0.008889837,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Heart Left Ventricle,0.009031093,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Substantia nigra,0.009062364,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellar Hemisphere,0.009180464,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Frontal Cortex (BA9),0.009274932,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Caudate (basal ganglia),0.009326759,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Amygdala,0.00935374,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cervix Ectocervix,0.009594918,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cervix Ectocervix,0.00964465,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spleen,0.010355891,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Skin Sun Exposed (Lower leg),0.011815648,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Uterus,0.012195557,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hypothalamus,0.012387332,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Minor Salivary Gland,0.012613429,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Skin Sun Exposed (Lower leg),0.012801869,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Colon Transverse,0.013341086,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hypothalamus,0.013402876,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Putamen (basal ganglia),0.013940466,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Minor Salivary Gland,0.014112159,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Frontal Cortex (BA9),0.014127231,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Frontal Cortex (BA9),0.014903892,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Putamen (basal ganglia),0.015045101,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adrenal Gland,0.016309635,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Muscularis,0.016602078,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Coronary,0.017318485,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spinal cord (cervical c-1),0.017330514,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Small Intestine Terminal Ileum,0.017464378,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellum,0.017583283,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellum,0.017974785,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Muscularis,0.018315522,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adipose Visceral (Omentum),0.01841917,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Aorta,0.018606291,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nucleus accumbens (basal ganglia),0.018864674,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adrenal Gland,0.019054129,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Anterior cingulate cortex (BA24),0.019436502,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Small Intestine Terminal Ileum,0.01980431,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cortex,0.019890169,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Stomach,0.020412343,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nucleus accumbens (basal ganglia),0.020612644,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Aorta,0.020670259,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellum,0.020961235,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellum,0.02131255,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nucleus accumbens (basal ganglia),0.021627897,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Heart Atrial Appendage,0.021660502,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Stomach,0.023065896,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cortex,0.023171209,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cortex,0.023252876,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cervix Endocervix,0.02471881,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adipose Subcutaneous,0.024854107,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nerve Tibial,0.024955943,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nerve Tibial,0.025609989,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cervix Endocervix,0.026168791,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Muscle Skeletal,0.027798121,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Lung,0.028362711,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Lung,0.029167354,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Vagina,0.029192553,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Uterus,0.031526473,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Colon Sigmoid,0.031896847,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Heart Atrial Appendage,0.032501688,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Uterus,0.034063817,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Pituitary,0.034178226,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Heart Atrial Appendage,0.035088016,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Vagina,0.035888283,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Vagina,0.036196266,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Pituitary,0.036643156,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Tibial,0.038150368,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Minor Salivary Gland,0.040509378,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Aorta,0.047617411,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Gastroesophageal Junction,0.048634504,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellar Hemisphere,0.0493948,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cerebellar Hemisphere,0.050262056,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Fallopian Tube,0.050535762,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cells Transformed fibroblasts,0.051566016,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Gastroesophageal Junction,0.054358806,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cells Transformed fibroblasts,0.057233849,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Putamen (basal ganglia),0.06379351,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Prostate,0.066518144,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Thyroid,0.070560278,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Skin Sun Exposed (Lower leg),0.070963324,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Whole Blood,0.072538013,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Whole Blood,0.073585954,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Thyroid,0.075934934,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Colon Transverse,0.076802525,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Prostate,0.076933523,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Amygdala,0.080091394,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Fallopian Tube,0.081878046,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Fallopian Tube,0.082613904,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Colon Transverse,0.086334247,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Breast Mammary Tissue,0.089281229,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Putamen (basal ganglia),0.089293538,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Anterior cingulate cortex (BA24),0.096331008,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Anterior cingulate cortex (BA24),0.097904786,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Putamen (basal ganglia),0.101904482,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Mucosa,0.118993669,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cells EBV-transformed lymphocytes,0.121777003,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Tibial,0.127779609,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Esophagus Mucosa,0.132237293,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cells EBV-transformed lymphocytes,0.132273153,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Small Intestine Terminal Ileum,0.133245075,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Ovary,0.13450854,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Ovary,0.138429976,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Caudate (basal ganglia),0.14003654,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Skin Not Sun Exposed (Suprapubic),0.140676182,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Artery Tibial,0.141790787,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Ovary,0.146983425,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Colon Sigmoid,0.171270493,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Colon Sigmoid,0.174304262,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nucleus accumbens (basal ganglia),0.177373015,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adipose Subcutaneous,0.180378722,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adipose Subcutaneous,0.184119199,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Nucleus accumbens (basal ganglia),0.1877974,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Testis,0.209601842,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Kidney Cortex,0.21669353,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Kidney Cortex,0.221692269,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Cells Transformed fibroblasts,0.227390257,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adipose Visceral (Omentum),0.255377475,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Adipose Visceral (Omentum),0.266822317,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spinal cord (cervical c-1),0.299385631,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Spinal cord (cervical c-1),0.31482236,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hypothalamus,0.320895045,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hippocampus,0.322567676,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Whole Blood,0.335014812,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Amygdala,0.357113097,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Amygdala,0.365757343,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Testis,0.392365243,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hypothalamus,0.398509504,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Pancreas,0.40020558,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Testis,0.400940499,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Skin Not Sun Exposed (Suprapubic),0.404618468,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Skin Not Sun Exposed (Suprapubic),0.420300078,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hypothalamus,0.42319661,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Liver,0.492202798,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Liver,0.519386335,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Substantia nigra,0.529420606,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Breast Mammary Tissue,0.53869996,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Breast Mammary Tissue,0.551622453,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Pancreas,0.557223822,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Substantia nigra,0.558673292,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Pancreas,0.573311508,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hippocampus,0.578646148,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Hippocampus,0.600651005,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Caudate (basal ganglia),0.624149031,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,Liver,0.640686415,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2A),GTEx V6P bulk-RNA-seq
+Reynolds2019,Caudate (basal ganglia),0.647248174,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 1 (Figure2B),GTEx V6P bulk-RNA-seq
+Reynolds2019,NA,0.028642898,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3A),GTEx V7 eQTL
+Reynolds2019,NA,0.023370493,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3A),GTEx V7 eQTL
+Reynolds2019,NA,0.028605924,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3A),GTEx V7 eQTL
+Reynolds2019,NA,0.021802964,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3A),GTEx V7 eQTL
+Reynolds2019,NA,0.001782418,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3A),GTEx V7 eQTL
+Reynolds2019,NA,0.000384323,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3A),GTEx V7 eQTL
+Reynolds2019,Amygdala,0.61595868,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Anterior cingulate cortex (BA24),0.612940118,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Caudate (basal ganglia),0.145053648,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Cerebellar Hemisphere,0.143323536,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Frontal Cortex (BA9),0.213111345,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Hippocampus,0.286724942,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Hypothalamus,0.088933221,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Nucleus accumbens (basal ganglia),0.294497364,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Putamen (basal ganglia),0.942837424,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Spinal cord (cervical c-1),0.289490015,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Substantia nigra,0.270829826,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Amygdala,0.605827022,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Anterior cingulate cortex (BA24),0.549325582,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Caudate (basal ganglia),0.145477842,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Cerebellar Hemisphere,0.141574449,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Frontal Cortex (BA9),0.208329914,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Hippocampus,0.286752814,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Hypothalamus,0.088619944,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Nucleus accumbens (basal ganglia),0.294875538,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Putamen (basal ganglia),0.929342325,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Spinal cord (cervical c-1),0.290380071,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Substantia nigra,0.270866764,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Amygdala,0.676645113,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Hippocampus,0.138342202,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Reynolds2019,Hypothalamus,0.109994055,Reynolds et al. 2019 (npj Parkinson's Disease),Supplementary Table 2 (Figure3B),GTEx V7 eQTL
+Corces2020,Hippocampus,0.425980869,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Caudate,0.051011258,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Caudate,0.19566957,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.299545371,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.258249825,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.171722299,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Hippocampus,0.624724793,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.115366462,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex / Hippocampus,0.172992467,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.370642798,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.166909502,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Caudate,0.403633909,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Caudate,0.760025603,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Caudate,0.690421115,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.370893993,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.703337117,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.676750995,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.201962424,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Hippocampus,0.813589751,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Hippocampus,0.728597176,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex / Hippocampus,0.818817725,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Substantia Nigra,0.679186069,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.19859533,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Corces2020,Isocortex,0.65533361,"Corces et al, 2020 (Nature Genetics)",Supplementary Table 8 (LDSC_NeuronClusters),
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,neutrophil,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,iPSC,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,macrophage,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,brain (DLPFC),,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,B cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,B cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,B cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,B cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,B cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD4+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD8+ T cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,NK cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,NK cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,NK cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Tfh cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Tfh cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Tfh cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th17 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th1 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th2 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Th2 cell,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg naive,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg naive,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg naive,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg naive,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg memory,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg memory,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,Treg memory,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD16+ monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD16+ monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD16+ monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD16+ monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,CD16+ monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,monocyte,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,LCL,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,blood,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,adipose,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Schilder2020,skin,,"Schilder et al, 2020 (bioRxiv)",,eQTL Catalogue
+Nalls2019,Adipose_Subcutaneous,0.99704,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Adipose_Visceral_Omentum,0.99981,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Adrenal_Gland,0.24728,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Artery_Aorta,0.99703,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Artery_Coronary,0.99892,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Artery_Tibial,0.99747,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Bladder,0.97376,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Amygdala,0.00016895,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Anterior_cingulate_cortex_BA24,2.03e-05,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Caudate_basal_ganglia,0.00017761,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Cerebellar_Hemisphere,2.39e-09,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Cerebellum,2.41e-09,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Cortex,4.32e-06,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Frontal_Cortex_BA9,1.98e-06,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Hippocampus,0.00010695,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Hypothalamus,1.12e-05,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Nucleus_accumbens_basal_ganglia,2.8e-05,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Putamen_basal_ganglia,0.00049854,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Spinal_cord_cervical_c-1,0.00099469,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain_Substantia_nigra,5.84e-05,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Breast_Mammary_Tissue,0.99794,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Cells_EBV-transformed_lymphocytes,0.28942,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Cells_Transformed_fibroblasts,0.92853,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Cervix_Ectocervix,0.96361,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Cervix_Endocervix,0.97008,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Colon_Sigmoid,0.99604,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Colon_Transverse,0.99864,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Esophagus_Gastroesophageal_Junction,0.99688,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Esophagus_Mucosa,0.8377,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Esophagus_Muscularis,0.99186,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Fallopian_Tube,0.99842,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Heart_Atrial_Appendage,0.99973,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Heart_Left_Ventricle,0.99414,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Kidney_Cortex,0.97757,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Liver,0.96377,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Lung,0.97078,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Minor_Salivary_Gland,0.9346,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Muscle_Skeletal,0.6951,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Nerve_Tibial,0.92036,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Ovary,0.90752,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Pancreas,0.96417,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Pituitary,0.00091599,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Prostate,0.99596,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Skin_Not_Sun_Exposed_Suprapubic,0.53974,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Skin_Sun_Exposed_Lower_leg,0.49081,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Small_Intestine_Terminal_Ileum,0.99967,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Spleen,0.91569,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Stomach,0.99464,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Testis,0.068134,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Thyroid,0.97297,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Uterus,0.99827,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Vagina,0.94712,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Whole_Blood,0.70248,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Adipose_Tissue,0.96718,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Adrenal_Gland,0.01189,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Bladder,0.69221,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Blood,0.29862,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Blood_Vessel,0.913,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Brain,4.85e-09,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Breast,0.93349,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Cervix_Uteri,0.61723,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Colon,0.93605,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Esophagus,0.67968,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Fallopian_Tube,0.95041,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Heart,0.94973,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Kidney,0.81291,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Liver,0.86076,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Lung,0.80211,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Muscle,0.27813,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Nerve,0.45005,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Ovary,0.45694,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Pancreas,0.78867,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Pituitary,5.74e-06,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Prostate,0.89796,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Salivary_Gland,0.62914,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Skin,0.21477,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Small_Intestine,0.99442,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Spleen,0.66688,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Stomach,0.88029,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Testis,0.017443,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Thyroid,0.76563,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Uterus,0.9281,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Nalls2019,Vagina,0.58515,"Nalls et al, 2019 (Lancet Neurology)",magma_exp_gtex_v7_ts_general_avg_log2TPM.gcov.out,GTEx V7
+Agarwal2020,Amygdala,0.77213512,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Anterior_cingulate_cortex,0.16204316,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Caudate,0.93297949,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Cerebellar_Hemisphere,0.20132195,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Cerebellum,0.31484575,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Cortex,0.09271662,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Frontal_Cortex,0.03257016,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Hippocampus,0.57705493,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Hypothalamus,0.66697055,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Nucleus_accumbens,0.41750557,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Putamen,0.71941917,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Spinal_cord,0.5061094,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Substantia_nigra,0.57877734,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Amygdala,0.75569,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Anterior_cingulate_cortex,0.084374,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Caudate,0.74277,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Cerebellar_Hemisphere,0.0061884,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Cerebellum,0.0015232,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Cortex,0.023545,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Frontal_Cortex,0.0052058,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Hippocampus,0.81949,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Hypothalamus,0.90195,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Nucleus_accumbens,0.6477,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Putamen,0.67269,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Spinal_cord,0.61531,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Agarwal2020,Substantia_nigra,0.36872,"Agarwal et al, 2020 (Nature Communications)",Supplementary Materials (Table S9),"GTEx - Finucane et al, 2018 (Nature Genetics)"
+Nott2019,Brain (PsychENCODE),0.00275808,"Nott et al, 2019 (Science)",Reconstructed by review authors,PsychENCODE
+Coetzee2016,Liver,1e-10,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,4.17e-08,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,3.96e-06,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1.4e-05,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,8.72e-05,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,0.00016365,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,0.00046476,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,0.00053104,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,0.00085826,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,0.00212476,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,0.00324276,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,0.00363616,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,0.00375286,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,0.00597,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,0.00655982,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,0.00674733,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,0.0084714,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,0.00951756,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,0.01173448,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,0.01237227,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,0.01278424,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,0.01316456,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,0.01401472,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,0.01628319,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,0.0195197,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,0.02038685,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,0.03222111,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,0.03495512,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,0.05533321,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,0.08172455,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,0.08247133,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,0.09834113,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,0.10240062,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,0.1084465,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,0.10975955,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,0.11142005,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,0.11700213,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,0.11902999,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,0.1353259,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,0.19012356,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,0.19941282,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,0.2005424,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,0.21806534,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,0.22883506,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,0.23254049,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,0.24316248,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,0.25785282,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,0.25927119,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,0.26320341,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,0.27113606,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,0.31352203,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,0.36329309,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,0.49905495,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,0.50692493,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,0.50692493,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,0.53377735,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,0.53690576,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,0.57217079,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,0.59117378,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,0.69343133,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,0.71778392,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,0.72439337,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,0.72439337,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,0.77757728,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,0.79271684,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,0.80280477,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,0.81126781,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,0.83589163,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,0.83677951,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,0.85403441,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,0.87701198,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,0.90898809,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,0.93957622,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,0.94626095,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Left Ventricle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Anterior Caudate,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Adrenal Gland,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Angular Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Cingulate Gyrus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain_Dorsolateral_Prefrontal_Cortex,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Hippocampus Middle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Inferior Temporal Lobe,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Brain Substantia Nigra,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Sigmoid Colon,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Duodenum Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Large,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 29,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Mucosa Donor 31,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Rectal Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Intestine Small,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Stomach,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Stomach Smooth Muscle,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Liver,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Fetal Muscle Leg,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Skeletal Muscle Female,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Ovary,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Placenta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Thymus,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Coetzee2016,Aorta,1,"Coetzee et al, 2016 (Scientific Reports)",Supplementary Tables 1-2,
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,6e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.0070373,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.188119,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.00170474,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.00018112,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.00335345,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.0990099,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00036181,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,2e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,4e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.0671141,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.990099,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.90099,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,1,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,1,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00384468,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00206868,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00301932,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00057179,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,4e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.00615006,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.178218,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.00249875,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.00012893,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.0031736,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,0.0315457,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_cmc
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00021834,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,8e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.0793651,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.960396,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.831683,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,1,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,1,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00379219,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00291121,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00545554,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,0.00072537,"Li et al, 2019 (Nature Communications)",Requested from authors,all2_ROSMAP
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,0.00102208,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,0.0645161,"Li et al, 2019 (Nature Communications)",Requested from authors,CommonMindConsortium_isoQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,0.00015228,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,0.00999001,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,0.0287356,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_aceQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,1e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,0.00333222,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,0.138614,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,0.287129,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_eQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,0,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,0.00016497,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,0.00121242,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,0.00021178,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_mQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,3e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,8e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,6e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Li2019,DLPFC,1e-05,"Li et al, 2019 (Nature Communications)",Requested from authors,ROSMAP_sQTL
+Yao2021,Anterior cingulate cortex BA24,0.0119,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Amygdala,0.0035,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Caudate basal ganglia,0.0254,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0078,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.0158,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,0.0043,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Frontal cortex BA9,0.0063,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hippocampus,0.0577,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hypothalamus,0.0033,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Nucleus accumbens basal ganglia,0.0075,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Putamen basal ganglia,0.0025,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,0.0784,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Nucleus accumbens basal ganglia,0.0569,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,6e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Putamen basal ganglia,4e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Frontal cortex BA9,1e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0531,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0016,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,7e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.0262,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Anterior cingulate cortex BA24,0.0149,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Amygdala,0.0031,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Caudate basal ganglia,0.0036,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.0043,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,0.0146,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hypothalamus,0.0039,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Nucleus accumbens basal ganglia,0.0033,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Putamen basal ganglia,0.0095,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Amygdala,0.414,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.3158,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.0635,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Spinal cord cervical c-1,0.0407,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Substantia nigra,0.1188,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Anterior cingulate cortex BA24,0.0373,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Amygdala,0.0044,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Caudate basal ganglia,0.0241,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0429,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.003,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,0.0241,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Frontal cortex BA9,0.0432,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hippocampus,0.143,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hypothalamus,0.0256,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Nucleus accumbens basal ganglia,0.0061,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Putamen basal ganglia,0.0033,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Spinal cord cervical c-1,0.0027,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Substantia nigra,0.0015,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,1e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0415,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Frontal cortex BA9,0.0916,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hippocampus,0.0863,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Hypothalamus,0.1008,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Substantia nigra,0.5217,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0096,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.0146,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,1e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,3e-04,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.1936,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0541,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.096,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,0.0176,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Anterior cingulate cortex BA24,0.0225,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Caudate basal ganglia,0.0132,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellar hemisphere,0.0168,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cerebellum,0.0577,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Cortex,0.0945,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Frontal cortex BA9,0.0625,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Yao2021,Nucleus accumbens basal ganglia,0.08,"Yao et al., 2021 (npj Parkinson's Disease)",Supplementary Table 2,GTEx V8
+Kia2021,aveALL,0.026723,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,TCTX,0.037852,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,TCTX,0.058872,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,OCTX,0.062697,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,PUTM,0.067137,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,FCTX,0.067312,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,aveALL,0.067799,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,CRBL,0.086633,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,OCTX,0.125493,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,HIPP,0.136287,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,MEDU,0.137327,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,PUTM,0.138222,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,CRBL,0.165521,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,THAL,0.175804,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,aveALL,0.176647,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,aveALL,0.178233,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,THAL,0.183911,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,aveALL,0.195372,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,FCTX,0.195679,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,WHMT,0.198669,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,HIPP,0.200695,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,FCTX,0.224622,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,HIPP,0.240908,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,aveALL,0.244081,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,TCTX,0.244682,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),braineac
+Kia2021,Brain_Cerebellum,0.000158,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.002949,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.003152,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.00342,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.003977,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.00632,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.007675,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.008118,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.008318,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.008789,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.013275,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.013852,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.014153,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.015305,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.016281,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.016731,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.01922,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.020648,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.022276,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.02333,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.023566,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.024016,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.024172,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.025088,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.025772,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.02631,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.026311,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.026405,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.026798,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.027685,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.028854,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.031225,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.031523,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.032644,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.032774,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.03319,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.03405,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.034231,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.034708,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.035383,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.035668,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.03588,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.036408,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.036495,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.037298,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.037442,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.037572,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.039126,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.039162,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.039229,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.039878,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.041186,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.041605,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.041758,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.042692,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.042887,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.043552,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.044114,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.046167,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.047541,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.052211,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.052891,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.055549,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.056583,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.060474,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.060955,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.061916,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.062618,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.063583,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.064791,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.065748,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.066752,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.068548,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.069334,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.06955,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.071381,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.074442,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.076133,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.077368,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.077763,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.078079,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.078827,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.081494,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.081774,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.081838,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.083019,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.088478,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.090985,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.091135,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.091684,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.093735,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.093807,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.093839,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.094802,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.095167,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.096047,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.096949,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.101855,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.103436,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.105431,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.105719,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.110728,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.11091,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.111003,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.11125,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.11126,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.115175,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.115846,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.115902,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.116708,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.117491,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.119273,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.119495,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.120219,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.122029,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.122296,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.12264,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.128877,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.129816,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.130835,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.131566,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.132448,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.13556,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.135656,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.136865,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.138239,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.13871,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.140099,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.141646,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.141758,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.143164,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.143326,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.143427,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.144736,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.148378,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.14852,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.150266,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.150847,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.151211,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.152029,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.152047,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.152105,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.152214,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.153802,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.155631,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.156969,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.157756,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.158429,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.159076,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.159139,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.161101,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.161371,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.161694,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.166221,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.16635,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.167106,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.167177,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.167956,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.168927,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.16967,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.17006,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.170714,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.171263,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.172268,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.172683,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.17354,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.174425,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.174916,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.175299,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.177133,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.177771,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.1781,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.178109,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.180849,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.181252,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.182907,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.183524,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.184699,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.184868,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.185335,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.185799,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.186941,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.18741,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.188825,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.188911,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.189674,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.191239,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.193712,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.193815,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.194019,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.1959,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.196559,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.197824,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.200628,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.201081,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.201205,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.202285,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.202921,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.203522,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.203762,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.203879,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.204929,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.206188,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.206267,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.207734,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.207781,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.207861,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.208561,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.208652,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.209383,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.211316,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.212147,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.21278,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.214846,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.216014,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.217295,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.21769,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.217985,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.219033,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.21906,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.219075,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.220127,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.22107,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.221835,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.222242,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Spinal_cord_cervical_c-1,0.222704,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.223951,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hypothalamus,0.224155,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.226006,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.227033,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.227078,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.2276,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.228432,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.230844,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.231462,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.23271,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.233164,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.233483,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.233712,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.235604,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.237572,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.238062,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.238935,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.240198,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Frontal_Cortex_BA9,0.24092,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Hippocampus,0.241874,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.24297,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.243396,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Caudate_basal_ganglia,0.243465,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.243479,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.243746,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cortex,0.244345,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellar_Hemisphere,0.245112,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Cerebellum,0.246089,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Nucleus_accumbens_basal_ganglia,0.246311,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.246408,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Anterior_cingulate_cortex_BA24,0.246448,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Putamen_basal_ganglia,0.247356,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Amygdala,0.247959,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx
+Kia2021,Brain_Substantia_nigra,0.249986,"Kia et al., 2021 (JAMA Neurology)",Supplement 3 (eTable 2),GTEx

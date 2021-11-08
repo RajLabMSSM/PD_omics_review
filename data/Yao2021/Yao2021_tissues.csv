@@ -1,0 +1,72 @@
+Gene,Chr,"Gene
+ Start",Gene End,Tissue_abbrev,Tissue,Best eQTL,"TWAS
+ Z-score","TWAS
+ P-value","Permutation
+ P-value",Dataset,Sig,Reference,Source,Group
+ARL17A,chr17,46516702,46579682,ACC,Anterior cingulate cortex BA24,rs35937770,-7.84,4.55e-15,0.0119,GTEx V8,0.0119,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,AMY,Amygdala,rs17689471,-9.3,1.44e-20,0.0035,GTEx V8,0.0035,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,CBG,Caudate basal ganglia,rs17762769,-6.84,8.02e-12,0.0254,GTEx V8,0.0254,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,CEH,Cerebellar hemisphere,rs8072451,-8.38,5.18e-17,0.0078,GTEx V8,0.0078,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,CER,Cerebellum,rs17689471,-8.38,5.2e-17,0.0158,GTEx V8,0.0158,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,COR,Cortex,rs199456,-8.95,3.48e-19,0.0043,GTEx V8,0.0043,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,FRO,Frontal cortex BA9,rs17689918,-8.85,8.41e-19,0.0063,GTEx V8,0.0063,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,HIP,Hippocampus,rs17689918,-7.18,6.83e-13,0.0577,GTEx V8,0.0577,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,HYP,Hypothalamus,rs199536,-8.81,1.22e-18,0.0033,GTEx V8,0.0033,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,NAB,Nucleus accumbens basal ganglia,rs199533,-9.12,7.74e-20,0.0075,GTEx V8,0.0075,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ARL17A,chr17,46516702,46579682,PBG,Putamen basal ganglia,rs17762769,-9.31,1.33e-20,0.0025,GTEx V8,0.0025,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+CCDC189,chr16,30757423,30762710,COR,Cortex,rs4889490,5.91,3.35e-09,0.0784,GTEx V8,0.0784,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+CCDC189,chr16,30757423,30762710,NAB,Nucleus accumbens basal ganglia,rs1458201,5.59,2.23e-08,0.0569,GTEx V8,0.0569,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+CD38,chr4,15778275,15853230,COR,Cortex,rs1558451,-6.85,7.52e-12,6e-04,GTEx V8,6e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+CD38,chr4,15778275,15853230,PBG,Putamen basal ganglia,rs13124087,-4.97,6.67e-07,4e-04,GTEx V8,4e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+CENPV,chr17,16342534,16353656,FRO,Frontal cortex BA9,rs8076864,4.99,6.07e-07,1e-04,GTEx V8,1e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+CPLX1,chr4,784957,826198,CEH,Cerebellar hemisphere,rs1134921,-4.98,6.36e-07,0.0531,GTEx V8,0.0531,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+FMNL1,chr17,45221444,45247320,CEH,Cerebellar hemisphere,rs12449792,8.23,1.8e-16,0.0016,GTEx V8,0.0016,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+FMNL1,chr17,45221444,45247320,CER,Cerebellum,rs17689471,8.65,4.95e-18,7e-04,GTEx V8,7e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GAK,chr4,849276,932373,CER,Cerebellum,rs4974574,5.21,1.85e-07,0.0262,GTEx V8,0.0262,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,ACC,Anterior cingulate cortex BA24,rs199355,5.55,2.87e-08,0.0149,GTEx V8,0.0149,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,AMY,Amygdala,rs6461687,5.84,5.31e-09,0.0031,GTEx V8,0.0031,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,CBG,Caudate basal ganglia,rs2072369,5.61,2.02e-08,0.0036,GTEx V8,0.0036,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,CER,Cerebellum,rs199355,5.79,7e-09,0.0043,GTEx V8,0.0043,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,COR,Cortex,rs156429,5.73,1.02e-08,0.0146,GTEx V8,0.0146,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,HYP,Hypothalamus,rs7796541,5,5.66e-07,0.0039,GTEx V8,0.0039,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,NAB,Nucleus accumbens basal ganglia,rs7796541,5.45,4.9e-08,0.0033,GTEx V8,0.0033,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+GPNMB,chr7,23235967,23275108,PBG,Putamen basal ganglia,rs6461687,5.76,8.47e-09,0.0095,GTEx V8,0.0095,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A,chr17,46292733,46337794,AMY,Amygdala,rs35732828,-4.99,6.06e-07,0.414,GTEx V8,0.414,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A,chr17,46292733,46337794,CEH,Cerebellar hemisphere,rs199449,-7.7,1.4e-14,0.3158,GTEx V8,0.3158,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A,chr17,46292733,46337794,CER,Cerebellum,rs17762769,-9.36,7.85e-21,0.0635,GTEx V8,0.0635,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A,chr17,46292733,46337794,SCC,Spinal cord cervical c-1,rs17762769,-9.28,1.65e-20,0.0407,GTEx V8,0.0407,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A,chr17,46292733,46337794,SUB,Substantia nigra,rs4277389,-7.57,3.65e-14,0.1188,GTEx V8,0.1188,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,ACC,Anterior cingulate cortex BA24,rs17689471,-9.3,1.44e-20,0.0373,GTEx V8,0.0373,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,AMY,Amygdala,rs171440,-9.2,3.52e-20,0.0044,GTEx V8,0.0044,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,CBG,Caudate basal ganglia,rs171440,-9.2,3.46e-20,0.0241,GTEx V8,0.0241,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,CEH,Cerebellar hemisphere,rs8072451,-9.23,2.79e-20,0.0429,GTEx V8,0.0429,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,CER,Cerebellum,rs4566211,-9.02,1.82e-19,0.003,GTEx V8,0.003,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,COR,Cortex,rs17689824,-9.22,3.07e-20,0.0241,GTEx V8,0.0241,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,FRO,Frontal cortex BA9,rs4566211,-9,2.18e-19,0.0432,GTEx V8,0.0432,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,HIP,Hippocampus,rs17763086,-9.23,2.62e-20,0.143,GTEx V8,0.143,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,HYP,Hypothalamus,rs17689918,-9.63,6.12e-22,0.0256,GTEx V8,0.0256,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,NAB,Nucleus accumbens basal ganglia,rs17762769,-9.4,5.62e-21,0.0061,GTEx V8,0.0061,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,PBG,Putamen basal ganglia,rs1396862,-9.22,3.06e-20,0.0033,GTEx V8,0.0033,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,SCC,Spinal cord cervical c-1,rs1396862,-9.29,1.59e-20,0.0027,GTEx V8,0.0027,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+LRRC37A2,chr17,46511511,46555650,SUB,Substantia nigra,rs199443,-8.34,7.44e-17,0.0015,GTEx V8,0.0015,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+MAP3K14,chr17,45263121,45317040,CER,Cerebellum,rs9908905,5.51,3.52e-08,1e-04,GTEx V8,1e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+MMRN1,chr4,89879532,89954629,CEH,Cerebellar hemisphere,rs7683789,4.98,6.33e-07,0.0415,GTEx V8,0.0415,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+MMRN1,chr4,89879532,89954629,FRO,Frontal cortex BA9,rs3857059,9.34,9.49e-21,0.0916,GTEx V8,0.0916,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+MMRN1,chr4,89879532,89954629,HIP,Hippocampus,rs10021524,5.48,4.32e-08,0.0863,GTEx V8,0.0863,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+MMRN1,chr4,89879532,89954629,HYP,Hypothalamus,rs1442138,5.33,9.89e-08,0.1008,GTEx V8,0.1008,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+MMRN1,chr4,89879532,89954629,SUB,Substantia nigra,rs1398946,5.43,5.51e-08,0.5217,GTEx V8,0.5217,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+NUPL2,chr7,23181827,23201011,CEH,Cerebellar hemisphere,rs7808488,5.69,1.24e-08,0.0096,GTEx V8,0.0096,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+NUPL2,chr7,23181827,23201011,CER,Cerebellum,rs7808488,5.65,1.65e-08,0.0146,GTEx V8,0.0146,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+PLEKHM1,chr17,45435900,45490749,CEH,Cerebellar hemisphere,rs17689918,8.94,3.76e-19,1e-04,GTEx V8,1e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+PLEKHM1,chr17,45435900,45490749,CER,Cerebellum,rs171440,8.48,2.3e-17,3e-04,GTEx V8,3e-04,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+RNF40,chr16,30761745,30776307,CEH,Cerebellar hemisphere,rs7500719,-6.24,4.42e-10,0.1936,GTEx V8,0.1936,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+SPPL2C,chr17,45844835,45847072,CEH,Cerebellar hemisphere,rs199456,-6,1.98e-09,0.0541,GTEx V8,0.0541,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+SPPL2C,chr17,45844835,45847072,CER,Cerebellum,rs3744760,-4.89,1.01e-06,0.096,GTEx V8,0.096,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+VKORC1,chr16,31090842,31095980,COR,Cortex,rs8062719,5.95,2.66e-09,0.0176,GTEx V8,0.0176,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,ACC,Anterior cingulate cortex BA24,rs2157991,4.89,1.01e-06,0.0225,GTEx V8,0.0225,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,CBG,Caudate basal ganglia,rs758853,5.11,3.29e-07,0.0132,GTEx V8,0.0132,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,CEH,Cerebellar hemisphere,rs4792721,-5.38,7.25e-08,0.0168,GTEx V8,0.0168,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,CER,Cerebellum,rs1045599,-5.19,2.05e-07,0.0577,GTEx V8,0.0577,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,COR,Cortex,rs178797,4.93,8.22e-07,0.0945,GTEx V8,0.0945,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,FRO,Frontal cortex BA9,rs2157991,5.2,2.04e-07,0.0625,GTEx V8,0.0625,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain
+ZSWIM7,chr17,15976560,15999717,NAB,Nucleus accumbens basal ganglia,rs9891938,5.03,4.8e-07,0.08,GTEx V8,0.08,"(Yao et al. 2021, npj Parkinson's Disease)",Supplementary Table 2,brain

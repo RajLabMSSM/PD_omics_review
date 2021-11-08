@@ -23,148 +23,22 @@ set.seed(2019)
 
 Meta-analysis of genetic correlation studies between Parkinson's Disease and other phenotypes.
 
-# Prepare data
+# Preprocessing
 
+## DeGAs
 
-```{r}
+```{r, eval=FALSE} 
+### phenomix is currently under development (not yet released) ####
+# devtools::install_github("neurogenomics/phenomix")
 library(phenomix)
-data("DEGAS_seurat")
 
-pd_traits <- DEGAS_seurat@meta.data[grepl("parkinson",DEGAS_seurat@meta.data$label_phe, ignore.case = TRUE),]
-
-trait_key <- setNames(DEGAS_seurat@meta.data$label_phe,
-                      DEGAS_seurat@meta.data$label_phe_code)
-
-degas_corr <- cor(Matrix::t(DEGAS_seurat@reductions$contributionGene@cell.embeddings))[,rownames(pd_traits)] %>%
-  data.table::data.table(keep.rownames = "Trait2_code")
-degas_corr[,Trait2:=trait_key[Trait2_code],] 
+degas <- phenomix::get_DEGAS()
+knn <- phenomix::find_neighors()
  
-degas_corr <- melt(degas_corr, 
-                   id.vars=c("Trait2_code","Trait2"), 
-                   variable.name = "Trait1_code", 
-                   value.name = "corr",
-                   #### Important! otherwise will screw up dict #@##
-                   variable.factor = FALSE)
-degas_corr[,Trait1:=trait_key[Trait1_code],]
-
-
-data.table::setorder(degas_corr, -corr)
-data.table::setcolorder(degas_corr,
-                        c("Trait1","Trait2",
-                          "Trait1_code","Trait2_code","corr"))
-
-# data.table::fwrite(degas_corr,
-                # here::here("data/DEGAS/DEGAS_contributionGene_corr.csv"))
+# data.table::fwrite(knn, here::here("data/DEGAS/DEGAS_contributionGene_corr.csv"))
 ```
 
-
-## Download
-
-```{r}
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit?usp=sharing#gid=1366974120", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = T)
-
-sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS2.xlsx")) 
-```
-
-## Merge datasets
-
-```{r}
-corr_sheets <- sheets[endsWith(sheets,"_corr")]
- 
-corr_data <- lapply(corr_sheets, function(sheet){
-  print(sheet)
-  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS2.xlsx"), sheet = sheet) 
-  dat$Sheet <- gsub("_corr","",sheet) 
-  cols <- c("Trait1","Trait2","corr",
-            "Reference","Source","Dataset")  
-  cols <- cols[cols %in% colnames(dat)]
-  return(dplyr::relocate(dat, all_of(cols), .before = 1))
-}) %>% `names<-`(corr_sheets) %>%
-  data.table::rbindlist(fill = TRUE)
-
-```
-
-## Harmonise names
-
-Attempt to somewhat harmonise phenotype names across studies.
-
-```{r}
-corr_data <- corr_data %>% 
-  dplyr::mutate(Phenotype = stringr::str_trunc(stringr::str_wrap(tolower(Trait2), 50),50)
-) 
-```
-
-
-
-# Top traits
-
-Get the top N traits per study that are most highly correlated with Parkinson's Disease.
-
-## Gather 
-
-```{r}
-max_traits <- 10
-  
-top_corr <- corr_data %>% 
-  subset(Trait1!=Trait2) %>%
-  dplyr::group_by(Sheet, Trait1) %>%
-  dplyr::mutate(Phenotype = paste0(Phenotype,"@",group_indices())) %>%
-  dplyr::slice_max(order_by = corr, n = max_traits) %>%
-  dplyr::select(Sheet, Trait1, Trait2, Phenotype, corr, Source) %>% 
-  dplyr::ungroup() %>%
-  dplyr::arrange(corr)
-top_corr$Phenotype <- factor(top_corr$Phenotype, 
-                          unique(top_corr$Phenotype),
-                          ordered = TRUE)
-knitr::kable(top_corr)
-```
-
-## Plot
-
-```{r, fig.height=12}
-corr_plot <- ggplot(top_corr, 
-                    aes(x=corr, y=Phenotype, fill=Sheet)) +
-  facet_grid(facets = Sheet ~., 
-             scales = "free_y") + 
-  geom_bar(stat="identity", aes(alpha=corr), show.legend = F) +
-  labs(title = "Genetic correlations with PD",
-       x="Correlation", y="Phenotype") +
-  scale_fill_manual(values=pals::gnuplot(dplyr::n_distinct(top_corr$Sheet)+1 ) ) +
-  scale_x_continuous(limits = c(0,1)) +
-  # Create a dictionary mapping the new labels
-  scale_y_discrete(labels = setNames(gsub("@.*","",levels(top_corr$Phenotype)),
-                                     levels(top_corr$Phenotype) ) ) + 
-  theme_bw() +
-  theme(strip.background = element_rect(fill = "black"), 
-        strip.text = element_text(color = "white", angle = 0),
-        strip.text.y = element_text(color = "white", angle = 0),
-        panel.grid.minor.x = element_blank(),
-        panel.grid.minor.y = element_blank())
-print(corr_plot)
-
-
-ggsave(here::here("plots/metaanalysis/correlation_metaanalysis.pdf"),corr_plot, dpi = 300, height = 15)
-```
-
- 
-
-
-# [Bryois 2020](https://www.nature.com/articles/s41588-020-0610-9)
-
-```{r}
-bryois <- readxl::read_excel(here::here("data/metaanalysis/TableS2.xlsx"), sheet="Bryois2020_corr")
-
-mat_bryois <- as.matrix(bryois$rg) %>% `rownames<-`(bryois$Trait2) %>% `colnames<-`("rg")
-
-heat <- ggplot(bryois, aes(y=Trait2, x=1, fill=rg)) +
-  geom_tile() + 
-  theme_bw()
-plotly::ggplotly(heat)
-```
-
-
-
-# LD Hub 
+## LD Hub 
 
 I began to explore this dataset but then realized it does not contain any Parkinson's Disease GWAS.
 
@@ -192,6 +66,132 @@ Check for Parkinson's
 grep("Parkinson",colnames(rp), ignore.case = T, value = T)
 ```
 
+
+
+## Meta-analysis data
+
+```{r}
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit?usp=sharing#gid=1366974120", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = TRUE)
+
+sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS2.xlsx")) 
+```
+
+## Merge datasets
+
+```{r}
+corr_sheets <- sheets[endsWith(sheets,"_corr")]
+ 
+corr_data <- lapply(corr_sheets, function(sheet){
+  print(sheet)
+  dat <- readxl::read_excel(here::here("data/metaanalysis/TableS2.xlsx"), sheet = sheet) 
+  dat$Sheet <- gsub("_corr","",sheet) 
+  cols <- c("Trait1","Trait2","corr",
+            "Reference","Source","Dataset")  
+  cols <- cols[cols %in% colnames(dat)]
+  return(dplyr::relocate(dat, all_of(cols), .before = 1))
+}) %>% `names<-`(corr_sheets) %>%
+  data.table::rbindlist(fill = TRUE)
+
+```
+
+## Harmonise names
+
+Attempt to somewhat harmonise phenotype names across studies.
+
+```{r}
+fix_str <- function(vec){
+  vec %>% 
+    tolower() %>%
+    gsub(pattern = "[ ]|-|[.]|[:]|[\\]|[\\/]",replacement = "_") %>%
+    gsub(pattern = "\'|\"|[(]|[)]",replacement = "") %>%
+    gsub(pattern = "_+",replacement = "_") %>%
+    # stringr::str_wrap(width = 50) %>%
+    stringr::str_trunc(width = 50) 
+}
+
+corr_data <- corr_data %>% 
+  dplyr::mutate(Trait1 = fix_str(Trait1),
+                Trait2 = fix_str(Trait2))
+```
+
+
+
+# Top traits
+
+Get the top N traits per study that are most highly correlated with Parkinson's Disease.
+
+## Gather 
+
+```{r}
+max_traits <- 10
+  
+top_corr <- corr_data %>% 
+  dplyr::group_by(Sheet) %>%
+  subset(Trait1!=Trait2) %>%
+  #### Correct for the number of correlations ? ####
+  dplyr::mutate(corr_q = abs(corr)/n(),
+                corr_z = scale(abs(corr))[, 1],
+                valence = ifelse(corr>0,"+",ifelse(corr<0,"-",0)),
+                n_tests = n()) %>%
+  dplyr::ungroup() %>%
+  dplyr::group_by(Sheet, Trait1) %>%
+  dplyr::mutate(id1 = paste0(Trait1,"@",dplyr::group_indices()),
+                id2 = paste0(Trait2,"@",dplyr::group_indices())) %>%
+  dplyr::slice_max(order_by = corr_q,
+                   n = max_traits, 
+                   with_ties = TRUE) %>%
+  dplyr::select(Sheet, Trait1, Trait2, id1, id2, 
+                corr, corr_q, corr_z, valence, Reference, Source, n_tests) %>% 
+  dplyr::ungroup() %>%
+  # dplyr::arrange(dplyr::desc(abs(corr_q))) %>%
+  data.table::data.table()
+top_corr$Trait2 <- factor(x = top_corr$Trait2,
+                          levels = rev(unique(top_corr$Trait2)),
+                          ordered = TRUE)
+knitr::kable(top_corr)
+
+```
+
+### Save merged data
+
+```{r}
+data.table::fwrite(x = corr_data[,c("Sheet","Trait1","Trait2","corr","Reference","Source")],
+                   file = here::here("data/metaanalysis","merged_correlations.csv"))
+```
+
+
+
+## Plot
+
+### Bar plot
+
+```{r}
+gg_cor <- ggplot(data = top_corr, aes(x=corr, y = Trait2, fill = corr)) +
+  geom_col() +
+  geom_point(show.legend = FALSE, alpha=.5) +
+  facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),
+                             "\n (tests = ",formatC(n_tests,big.mark = ","),")") ~., 
+             space = "free",
+             scales = "free",
+             drop = FALSE) +
+  scale_x_continuous(limits = c(-1,1)) +
+  scale_y_discrete(labels = setNames(gsub("@.*","",levels(top_corr$Trait2)),
+                                     levels(top_corr$Trait2) ) ) +
+  scale_fill_gradient(low = "red", high = "blue", limits = c(-1,1)) +
+  labs(title = "Genetic correlations with Parkinson's Disease",
+       x = "Correlation") + 
+  theme_bw() +
+   theme(strip.background = element_rect(fill = "black"), 
+        strip.text = element_text(color = "white", angle = 0),
+        strip.text.y = element_text(color = "white", angle = 0), 
+        panel.grid.minor.x = element_blank())
+print(gg_cor)
+
+ggplot2::ggsave(filename = here::here("plots/metaanalysis/correlation_metaanalysis.pdf"),
+                plot = gg_cor, dpi = 400, height = 8, width = 9)
+ggplot2::ggsave(filename = here::here("plots/metaanalysis/correlation_metaanalysis.png"),
+                plot = gg_cor, dpi = 400, height = 8, width = 9)
+```
 
 # Session Info
 

@@ -399,7 +399,19 @@ split_files <- lapply(sheets, function(x){
 
 ```
 
+# [Yao2021](https://www.nature.com/articles/s41531-021-00221-7#Sec23)
 
+```{r, eval=FALSE}
+tissue_key <- readxl::read_excel(here::here("data/Yao2021/Table1.xlsx"))
+tissue_dict <- setNames(gsub("^Brain ","",tissue_key$Tissue),
+                        tissue_key$Abbreviation)
+yao2021 <- readxl::read_excel(here::here("data/metaanalysis/TableS1.xlsx"),
+                              sheet = "Yao2021_tissues")
+yao2021 <- dplyr::rename(yao2021, Tissue_abbrev=Tissue)
+yao2021$Tissue <- tissue_dict[yao2021$Tissue_abbrev]
+yao2021$Group <- "brain"
+data.table::fwrite(yao2021,here::here("data/Yao2021/Yao2021_tissues.csv"))
+```
 
 
 # Session info 

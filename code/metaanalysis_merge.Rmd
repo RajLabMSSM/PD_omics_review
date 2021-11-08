@@ -30,15 +30,16 @@ Merge all cell-type and tissue enrichment datasets for meta-analysis.
 
 ## Download 
 
-```{r} 
+```{r}
+overwrite <- TRUE
 # Table 1
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = TRUE)
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/18bKV3mUuyIv1yPN7gps9HPmhROb4jz0x7KxtA8mf0iM/edit#gid=743954199", path = here::here("data/metaanalysis/TableS1.xlsx"), overwrite = overwrite)
 # Table 2
-googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=314686952", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = TRUE)
+googledrive::drive_download("https://docs.google.com/spreadsheets/d/19jz9l2P7W2f1PWT9t3x0L8h6VQL021RdRI7D4FAOjX0/edit#gid=314686952", path = here::here("data/metaanalysis/TableS2.xlsx"), overwrite = overwrite)
 
 sheets <- readxl::excel_sheets(here::here("data/metaanalysis/TableS1.xlsx")) 
 
-system(paste("chmod -R u=rwx,go=rwx",here::here()))
+# if(overwrite) system(paste("chmod -R u=rwx,go=rwx",here::here()))
 ```
 
  
@@ -50,12 +51,21 @@ celltype_data <- lapply(celltype_sheets, function(sheet){
   dat <- readxl::read_xlsx(here::here("data/metaanalysis/TableS1.xlsx"), sheet = sheet)
   if(sheet=="Nalls2019_celltypes") dat <- subset(dat, Source!="step1_2_summary.txt" ) # & step3==1
   dat$Sheet <- gsub("_celltypes","",sheet)
-  cols <- c("Cell_Type","Sig","Reference","Source","Dataset")  
+  cols <- c("Cell_Type","Sig","Reference","Source","Dataset")
   cols <- cols[cols %in% colnames(dat)]
   return(dplyr::relocate(dat, all_of(cols), .before = 1))
 }) %>% `names<-`(celltype_sheets) %>%
   data.table::rbindlist(fill = TRUE)
+
 ```
+
+### Save merged data
+
+```{r}
+data.table::fwrite(x = celltype_data[,c("Sheet","Cell_Type","Sig","Reference","Source","Dataset")], 
+                   file = here::here("data/metaanalysis","merged_celltypes.csv") )
+```
+
 
 ## Preprocess  
 
@@ -147,7 +157,10 @@ celltype_plot <- ggplot(plot_celltypes %>%
                                      levels(plot_celltypes$Cell_Type) ) ) + 
   # facet_wrap(facets = .~paste(gsub("[(]","\n(",Reference),"\n\n n tests =",n_tests),
   #          scales = "free", drop = F, nrow = 1) +  
-  facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),"\n (tests = ",n_tests,")")~.,
+  facet_grid(facets = paste0(gsub("[(]",
+                                  "\n(",Sheet),
+                             "\n (tests = ",
+                             formatC(n_tests,big.mark = ","),")")~.,
            scales = "free", space="free", drop = F) + 
   theme_bw() +
   theme(strip.background = element_rect(fill = "black"), 
@@ -182,6 +195,14 @@ tissue_data <- lapply(tissue_sheets, function(sheet){
   data.table::rbindlist(fill = T)
 ```
 
+### Save merged data
+
+```{r}
+data.table::fwrite(x = tissue_data[,c("Sheet","Tissue","Sig","Reference","Source","Dataset")], 
+                   file= here::here("data/metaanalysis","merged_tissues.csv"))
+```
+
+
 ## Preprocess  
 
 ### FDR plots
@@ -189,7 +210,7 @@ tissue_data <- lapply(tissue_sheets, function(sheet){
 ```{r}
 plot_tissues <- tissue_data %>%   
   subset(!(Tissue %in% c(NA,"NA")) & (!is.na(Sig))) %>%
-  dplyr::mutate( Sig_neglog =  -log1p(Sig)) %>% 
+  dplyr::mutate(Sig_neglog =  -log1p(Sig)) %>% 
   ##  Calculate zscore for fine-mapping overlap  
   dplyr::group_by(Reference, .drop = FALSE) %>%
   dplyr::mutate(Tissue= paste0(Tissue,"@",group_indices())) %>%
@@ -214,8 +235,9 @@ plot_tissues <- plot_tissues %>%
                    .groups = "keep") %>%
   merge(plot_tissues, by=c("Reference","Tissue"), all.y = T)  %>%
   dplyr::arrange(Reference, desc(median_Score), bonf) 
-plot_tissues$Tissue <- factor(plot_tissues$Tissue, 
-                                   levels = rev(unique(plot_tissues$Tissue)), ordered = T)
+plot_tissues$Tissue <- factor(plot_tissues$Tissue,
+                              levels = rev(unique(plot_tissues$Tissue)),
+                              ordered = TRUE)
   
  
 gg_FDR1 <- plot_fdr(dat = plot_tissues, y="FDR", label = "Tissue")
@@ -239,7 +261,13 @@ plot_tissues %>% dplyr::group_by(Reference) %>%
 
 ```{r, fig.height=10, dpi=300, warning=FALSE}
 # plot_tissues[is.na(plot_tissues$Dataset),"Dataset"] <- plot_tissues[is.na(plot_tissues$Dataset),"Sheet"]
-tissue_plot <- ggplot(plot_tissues, 
+max_tissues <- 15
+                          
+
+tissue_plot <- ggplot(plot_tissues %>%
+                        dplyr::group_by(Reference) %>% 
+                          dplyr::slice_max(order_by = median_Score,
+                                           n = max_tissues), 
        aes(x=Score, y=Tissue, fill=Reference)) + 
   # geom_bar(show.legend = F, stat="identity") +
   geom_boxplot(show.legend = FALSE) +
@@ -247,7 +275,9 @@ tissue_plot <- ggplot(plot_tissues,
   geom_point(show.legend = FALSE, alpha=.2) +
   # facet_wrap(facets = .~paste(gsub("[(]","\n(",Reference),"\n\n n tests =",n_tests),
   #          scales = "free", drop = F, nrow = 1) +  
-  facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),"\n (tests = ",n_tests,")")~.,
+  facet_grid(facets = paste0(gsub("[(]","\n(",Sheet),
+                             "\n (tests = ",
+                             formatC(n_tests,big.mark = ","),")")~.,
            scales = "free", space="free", drop = FALSE) + 
   scale_x_continuous(limits = c(0,1)) +
   # Create a dicionary mapping the new labels
@@ -272,8 +302,8 @@ fused_plot <- (celltype_plot + labs(title="Cell-types") +
   patchwork::plot_annotation(tag_levels = letters)
 print(fused_plot)
 
-# ggsave(here::here("plots/metaanalysis/metaanalysis.pdf"),fused_plot, height = 14, width = 15, dpi = 400)
-# ggsave(here::here("plots/metaanalysis/metaanalysis.jpg"),fused_plot, height = 14, width = 15, dpi = 400)
+ggsave(here::here("plots/metaanalysis/metaanalysis.pdf"),fused_plot, height = 14, width = 15, dpi = 400)
+ggsave(here::here("plots/metaanalysis/metaanalysis.jpg"),fused_plot, height = 14, width = 15, dpi = 400)
 ```
 
 
